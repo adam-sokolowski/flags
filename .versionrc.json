@@ -1,0 +1,10 @@
+{
+  "types": [
+    {"type": "feat", "section": "New features"},
+    {"type": "fix", "section": "Bug fixes"},
+    {"type": "docs", "section": "Documentation"},
+    {"type": "refactor", "section": "Code refactor"},
+    {"type": "perf", "section": "Performance improvements"},
+    {"type": "test", "section": "Unit tests"}
+  ]
+}

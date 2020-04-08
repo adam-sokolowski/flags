@@ -1,10 +1,10 @@
 {
-  "name": "@adso/sass-skeleton",
+  "name": "@adso-sass/flags",
   "version": "1.0.0",
-  "description": "Skeleton for sass libraries",
+  "description": "SCSS flags collection",
   "repository": {
     "type": "git",
-    "url": "git@github.com:adam-sokolowski/sass-skeleton.git"
+    "url": "git@github.com:adam-sokolowski/flags.git"
   },
   "keywords": [
     "sass",

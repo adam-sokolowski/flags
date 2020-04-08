@@ -1,0 +1,58 @@
+// Denmark
+&-dk {
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 40%,
+      #fff 40%,
+      #fff 55%,
+      transparent 55%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to right,
+      transparent 30%,
+      #fff 30%,
+      #fff 40%,
+      transparent 40%,
+      transparent 100%
+    ),
+    #c60c30;
+}
+// Djibouti
+&-dj {
+  position: relative;
+  background:
+    linear-gradient(
+      146deg,
+      #fff 25%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95,
+    linear-gradient(
+      34deg,
+      #fff 25%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95,
+    linear-gradient(
+      to bottom,
+    #6ab2e7 50%,
+    #12ad2b 50%
+    );
+
+  &::before {
+    position: absolute;
+    content: "★";
+    color: #d7141a;
+    font-size: $motion-flag-size / 6;
+    top: 36%;
+    left: 8%;
+  }
+}
+// Dominica
+&-dm {
+  ///
+}
+// Dominican Republic
+&-do {
+  ///
+}

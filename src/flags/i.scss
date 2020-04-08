@@ -1,0 +1,90 @@
+// Iceland
+&-is {
+  background:
+  linear-gradient(
+    to bottom,
+    transparent 43%,
+    #d72828 43%,
+    #d72828 54%,
+    transparent 54%
+  ),
+  linear-gradient(
+    to right,
+    transparent 34%,
+    #d72828 34%,
+    #d72828 41%,
+    transparent 41%
+  ),
+  linear-gradient(
+    to right,
+    transparent 30%,
+    #fff 30%,
+    #fff 45%,
+    transparent 45%
+  ),
+  linear-gradient(
+    to bottom,
+    transparent 38%,
+    #fff 38%,
+    #fff 59%,
+    transparent 59%
+  ),
+  #003897;
+}
+// India
+&-in {
+  @include threePart(#f93, #fff, #138808);
+  
+  &::before {
+    @include flagSymbol("\e911", #0038b8, 40%, 35%, $motion-flag-height / 3);
+  }
+}
+// Indonesia
+&-id {
+  @include twoPart(#ce1126, #fff);
+}
+// Iran
+&-ir {
+  @include threePart(#239f40, #fff, #da0000);
+
+  &::before {
+    @include flagSymbol("\e913", #da0000, 40%, 35%, $motion-flag-height / 3);
+  }
+}
+// Iraq
+&-iq {
+  @include threePart(#ce1126, #fff, #000);
+
+  &::before {
+    @include flagSymbol("\e912", #239f40, 30%, 18%, $motion-flag-height / 1.6);
+  }
+}
+// Ireland
+&-ie {
+  @include threePart(#169b62, #fff, #ff883e, to right);
+}
+// Israel
+&-il {
+  position: relative;
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 15%,
+      #0038b8 15%,
+      #0038b8 30%,
+      transparent 30%,
+      transparent 70%,
+      #0038b8 70%,
+      #0038b8 85%,
+      transparent 85%
+    ),
+    #fff;
+
+    &::before {
+      @include flagSymbol("\e910", #0038b8, 40%, 33%, $motion-flag-height / 3);
+    }
+}
+// Italy
+&-it {
+  @include threePart(#009246, #fff, #ce2b37, to right);
+}

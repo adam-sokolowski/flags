@@ -1,0 +1,159 @@
+// Pakistan
+&-pk {
+  @include threePart(#fff, #115740, #115740, to right);
+}
+// Palau
+&-pw {
+  background:
+    radial-gradient(
+      $motion-flag-size / 2 at 40% 50%,
+      #ffd100,
+      #ffd100 35%,
+      transparent 35%,
+      transparent 100%
+    ),
+    #0085ca;
+}
+// Palestinian Territory, Occupied
+&-ps {
+  position: relative;
+  background:
+    linear-gradient(
+      135deg,
+      #f30007 20%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95,
+    linear-gradient(
+      45deg,
+      #f30007 20%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95,
+    linear-gradient(
+      to bottom,
+      #000,
+      #000 calc(100% / 3),
+      #fff calc(100% / 3),
+      #fff calc(100% / 3 * 2),
+      #0e692f	calc(100% / 3 * 2),
+      #0e692f	 100%,
+    );
+}
+// Panama
+&-pa {
+  position: relative;
+  background:
+    linear-gradient(
+      90deg,
+     #005293 50%,
+      transparent 50%
+    ), 
+    linear-gradient(
+      #d21034 50%,
+      transparent 50%
+    ), #fff;
+  
+  &::before, 
+  &::after {
+    position: absolute;
+    content: "★";
+    background: #fff;
+    font-size: $motion-flag-size / 6;
+    padding-left: 15%;
+    padding-top: 7%;
+    width: $motion-flag-size / 2.07;
+    height: $motion-flag-size / 3.1;
+  }
+  
+  &::before {
+    color: #005293;
+  }
+  
+  &::after {
+    right: 0;
+    bottom: 0;
+    color: #d21034;
+  }
+}
+// Papua New Guinea
+&-pg {
+  background: linear-gradient(
+    33deg,
+    #000 50%,
+    #c8102e 50%
+  );
+}
+// Paraguay
+&-py {
+  @include threePart(#ef3340, #fff, #0033a0);
+}
+// Peru
+&-pe {
+  @include threePart(#d91023, #fff, #d91023, to right);
+}
+// Philippines
+&-ph {
+  background:
+    linear-gradient(
+      146deg,
+      #fff 25%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95,
+    linear-gradient(
+      34deg,
+      #fff 25%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95,
+    linear-gradient(
+      to bottom,
+      #11457e 50%,
+      #d7141a 50%
+    );
+
+    &::before {
+      @include flagSymbol('\e929', #ffd100, 0, 20%, $motion-flag-size / 2.5);
+    }   
+}
+// Poland
+&-pl {
+  @include twoPart(#fff, #dc143c);
+}
+// Portugal
+&-pt {
+  @include threePart(#006600, #ff0000, #ff0000, to right);
+}
+// Puerto Rico
+&-pr {
+  position: relative;
+  background:
+    linear-gradient(
+      146deg,
+      #0333ec 25%,
+      transparent 15%
+    ) 0 $motion-flag-width / 3.15,
+    linear-gradient(
+      34deg,
+      #0333ec 25%,
+      transparent 15%
+    ) 0 $motion-flag-width / 3.15, 
+    linear-gradient(
+      to bottom,
+      #e40007 20%,
+      #fff 20%,
+      #fff 40%,
+      #e40007 40%,
+      #e40007 60%,
+      #fff 60%,
+      #fff 80%,
+      #e40007 80%,
+      #e40007 100%
+    );
+  
+  &::before {
+    position: absolute;
+    content: "★";
+    color: #fff;
+    font-size: $motion-flag-size / 6;
+    top: 35%;
+    left: 8%;
+  }
+}

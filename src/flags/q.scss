@@ -1,0 +1,32 @@
+// Qatar
+&-qa {
+  position: relative;
+  background:
+    linear-gradient(
+      90deg,
+      #fff,
+      #fff 26%,
+      #8d1b3d 25%,
+      #8d1b3d 100%
+    );
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: $motion-flag-height / 9;
+    height: 100%;
+    background: linear-gradient(
+      155deg,
+      #fff 32%,
+      transparent 31%
+    ) 0 $motion-flag-height / 18,
+    linear-gradient(
+      25deg,
+      #fff 32%,
+      transparent 31%
+    ) 0 $motion-flag-width / 9;
+    background-size: $motion-flag-height / 9 $motion-flag-height / 9;
+    left: 25%;
+    top: 0;
+  }
+}

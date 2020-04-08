@@ -1,0 +1,40 @@
+// Zambia
+&-zm {
+  background: #198a00;
+  
+  &::before {
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    top: 15px;
+    display: block;
+    content: '';
+    right: 0;
+    @include threePart(#de2010, #000, #ef7d00, to right);
+  }
+
+  &::after {
+    @include flagBase64Symbol($emblem-zw, 65%, 10%, 20px, 8px);
+  }
+}
+// Zimbabwe
+&-zw {
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      #006400,
+      #006400 calc(100% / 7),
+      #ffd200 calc(100% / 7),
+      #ffd200 calc(100% / 7 * 2),
+      #d40000 calc(100% / 7 * 2),
+      #d40000 calc(100% / 7 * 3),
+      #000 calc(100% / 7 * 3),
+      #000 calc(100% / 7 * 4),
+      #d40000 calc(100% / 7 * 4),
+      #d40000 calc(100% / 7 * 5),
+      #ffd200 calc(100% / 7 * 5),
+      #ffd200 calc(100% / 7 * 6),
+      #006400 calc(100% / 7 * 6),
+      #006400 100%
+    );
+}

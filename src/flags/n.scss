@@ -1,0 +1,122 @@
+@import "_mixins";
+
+// Namibia
+&-na {
+  background:
+    linear-gradient(
+      145deg,
+      #003580 40%,
+      #fff 40%,
+      #fff 43%,
+      #d21034 43%,
+      #d21034 57%,
+      #fff 57%,
+      #fff 60%,
+      #009543
+      60%
+    );
+}
+// Nauru
+&-nr {
+  position: relative;
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 45%, 
+      #ffc61e 45%,
+      #ffc61e 55%,
+      transparent 55%
+    ), #002b7f;
+
+  &::before {
+    position: absolute;
+    content: "✹";
+    color: #fff;
+    font-size: $motion-flag-size / 5;
+    left: 15%;
+    top: 60%;
+  }
+}
+// Nepal
+&-np {
+
+}
+// Netherlands
+&-nl {
+  @include threePart(#ae1c28, #fff, #21468b);
+}
+// New Caledonia
+&-nc {
+  @include threePart(#0035ad, #ed4135, #009543);
+}
+// New Zealand
+&-nz {
+  background: #0018a8;
+}
+// Nicaragua
+&-ni {
+  @include threePart(#0067c6, #fff, #0067c6);
+}
+// Niger
+&-ne {
+  background:
+    radial-gradient(
+      $motion-flag-size / 4 at 50% 50%, 
+      #e05206 0,
+      #e05206 35%,
+      transparent 35%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to bottom,
+    #e05206 calc(100% / 3),
+    #fff calc(100% / 3),
+    #fff calc(100% / 3 * 2),
+    #0db02b calc(100% / 3 * 2)
+    );
+}
+// Nigeria
+&-ng {
+  @include threePart(#008751, #fff, #008751, to right);
+}
+// Niue
+&-nu {
+  background: #fac914;
+}
+// Northern Mariana Islands
+&-mp {
+  background: #0071bc;
+}
+// Norway
+&-no {
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 43%,
+      #002868 43%,
+      #002868 54%,
+      transparent 54%
+    ),
+    linear-gradient(
+      to right,
+      transparent 28%,
+      #002868 28%,
+      #002868 37%,
+      transparent 37%
+    ),
+    linear-gradient(
+      to right,
+      transparent 25%,
+      #fff 25%,
+      #fff 40%,
+      transparent 40%
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 38%,
+      #fff 38%,
+      #fff 59%,
+      transparent 59%
+    ),
+    #ef2b2d;
+}

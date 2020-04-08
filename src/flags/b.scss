@@ -1,0 +1,281 @@
+// Bahamas
+&-bs {
+  background:
+    linear-gradient(
+      146deg,
+      #000 25%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95,
+    linear-gradient(
+      34deg,
+      #000 25%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95,
+    linear-gradient(
+      to bottom,
+      #00a9ce,
+      #00a9ce calc(100% / 3),
+      #fdda24 calc(100% / 3),
+      #fdda24 calc(100% / 3 * 2),
+      #00a9ce calc(100% / 3 * 2),
+      #00a9ce 100%
+    );
+}
+// Bahrain
+&-bh {
+  background:
+    linear-gradient(
+      90deg,
+      #fff,
+      #fff 25%,
+      #ce1126 25%,
+      #ce1126 100%
+    );
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 24%;
+    width: $motion-flag-height / 5;
+    height: 100%;
+    content: "";
+    background:
+      linear-gradient(
+        154deg,
+        #fff 35%,
+        transparent 31%
+      ) 0 $motion-flag-height / 10,
+      linear-gradient(
+        24deg,
+        #fff 35%,
+        transparent 31%
+      ) 0 $motion-flag-width / 5;
+    background-size: $motion-flag-height / 5 $motion-flag-height / 5;
+  }
+}
+// Bangladesh
+&-bd {
+  background:
+    radial-gradient(
+      $motion-flag-size / 1.75 at 40% 50%,
+      #f42a41,
+      #f42a41 35%,
+      transparent 35%,
+      transparent 100%
+    ) #006a4e;
+}
+// Barbados
+&-bb {
+  @include threePart(#012169, #ffc726, #012169, to right);
+
+  &::before {
+    @include flagSymbol("\e906", #000, 32%, 20%, $motion-flag-size / 3);
+  }
+}
+// Belarus
+&-by {
+  @include threePart(#00966e, #00966e, #d62612);
+
+  &::before {
+    @include flagSymbol("\e908", #fff, 0, 0, $motion-flag-height);
+  }
+}
+// Belgium
+&-be {
+  @include threePart(#000,#fae042, #ed2939, to right);
+}
+// Belize
+&-bz {
+  background:
+    linear-gradient(
+      to bottom,
+      #ce1126 15%,
+      #052d74 15%,
+      #052d74 85%,
+      #ce1126 85%,
+      #ce1126 100%
+    );
+}
+// Benin
+&-bj {
+  @include twoPart(#ffd520,#ff4e12);
+}
+// Bermuda
+&-bm {
+  background: #cf142b;
+}
+// Bhutan
+&-bt {
+  background:
+    linear-gradient(
+      146.5deg,
+      #ffd520 50%,
+      #ff4e12 50%
+    );
+}
+// Bolivia
+&-bo {
+  @include threePart(#d52b1e, #ffe000, #007934);
+}
+// Bosnia and Herzegovina
+&-ba {
+  background: #002395;
+
+  &::before {
+    @include flagSymbol("\e939", #ffe000, 0, 0, $motion-flag-height);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 5px;
+    border-style: solid;
+    border-width: 0 $motion-flag-height $motion-flag-height 0;
+    border-color: transparent #ffe000 transparent transparent;
+  }
+}
+// Botswana
+&-bw {
+  background:
+    linear-gradient(
+      to bottom,
+      #75aadb,
+      #75aadb 38%,
+      #fff 38%,
+      #fff 42%,
+      #000 42%,
+      #000 58%,
+      #fff 58%,
+      #fff 62%,
+      #75aadb 62%,
+      #75aadb 100%
+    );
+}
+// Brazil
+&-br {
+  overflow: hidden;
+  background:
+    linear-gradient(
+      149deg,
+      #009b3a 30%,
+      transparent 25%
+    )
+    linear-gradient(
+      -149deg,
+      #009b3a 30%,
+      transparent 25%
+    )
+    linear-gradient(
+      -30deg,
+      #009b3a 30%,
+      transparent 25%
+    )
+    linear-gradient(
+      30deg,
+      #009b3a 30%,
+      transparent 25%
+    )
+    radial-gradient(
+      $motion-flag-size / 2 at 50% 50%,
+      transparent 0,
+      transparent 35%,
+      #fedf00 35%,
+      #fedf00 100%
+    )
+    radial-gradient(
+      $motion-flag-size at 40% 96%,
+      transparent 0,
+      transparent 35%,
+      #fff 35%,
+      #fff 39%,
+      transparent 39%,
+      transparent 100%
+    ) #002776;
+}
+// British Indian Ocean Territory
+&-io {
+  //
+}
+// Brunei Darussalam
+&-bn {
+  background:
+    linear-gradient(
+      20deg,
+      transparent 40%,
+      #000 40%,
+      #000 50%,
+      #fff 50%,
+      #fff 60%,
+      transparent 0
+    ) #f7e017;
+
+  &::before {
+    @include flagSymbol("\e901", #d62612, 27%, 18%, $motion-flag-size / 2.5);
+  }
+}
+// Bulgaria
+&-bg {
+  @include threePart(#fff, #00966e, #d62612);
+}
+// Burkina Faso
+&-bf {
+  @include twoPart(#ef2b2d, #009e49);
+
+  &::before {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    left: 0;
+    font-size: $motion-flag-size / 4;
+    color: #fcd116;
+    text-align: center;
+    content: "★";
+  }
+}
+// Burundi
+&-bi {
+  background:
+    linear-gradient(
+      146deg,
+      #c0001d 20%,
+      transparent 15%
+    ) 87px -114px
+    linear-gradient(
+      -146deg,
+      #c0001d 20%,
+      transparent 15%
+    ) 88px -114px
+    linear-gradient(
+      -34deg,
+      #c0001d 20%,
+      transparent 15%
+    ) 88px 114px
+    linear-gradient(
+      34deg,
+      #c0001d 20%,
+      transparent 15%
+    ) 87px 114px
+    linear-gradient(
+      146deg,
+      #21ab2c 20%,
+      transparent 15%
+    ) 0 -57px
+    linear-gradient(
+      34deg,
+      #21ab2c 20%,
+      transparent 15%
+    ) 0 -57px
+    linear-gradient(
+      -146deg,
+      #21ab2c 20%,
+      transparent 15%
+    ) 175px -57px
+    linear-gradient(
+      -34deg,
+      #21ab2c 20%,
+      transparent 15%
+    ) 175px -57px
+    #fff;
+}

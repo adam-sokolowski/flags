@@ -1,2 +1,2 @@
-# sass-skeleton
-Skeleton for sass libraries
+# flags
+As SCSS as it gets flag's collection

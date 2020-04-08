@@ -1,0 +1,187 @@
+// Gabon
+&-ga {
+  @include threePart(#009639, #ffd100, #003Da5);
+}
+// Gambia
+&-gm {
+  background:
+    linear-gradient(
+      to bottom,
+      #ef3340 30%,
+      #fff 30%,
+      #fff 35%,
+      #003Da5 35%,
+      #003Da5 65%,
+      #fff 65%,
+      #fff 70%,
+      #009639 70%
+    );
+}
+// Georgia
+&-ge {
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 43%,
+      #fb0007 43%,
+      #fb0007 57%,
+      transparent 57%
+    ),
+    linear-gradient(
+      to right,
+      transparent 45%,
+      #fb0007 45%,
+      #fb0007 55%,
+      transparent 55%
+    ), 
+    #fff;
+}
+// Germany
+&-de {
+  @include threePart(#000, #d00, #ffce00);
+}
+// Ghana
+&-gh {
+  @include threePart(#ce1126, #fcd116, #006b3f);
+}
+// Gibraltar
+&-gi {
+  @include threePart(#fff, #fff, #d00009);
+}
+// Greece
+&-gr {
+  position: relative;
+  background-image:
+    repeating-linear-gradient(
+      to bottom,
+      #0d5eaf,
+      #0d5eaf calc(40px / 9),
+      #fff calc(40px / 9),
+      #fff calc(40px / 9 * 2)
+    );
+  
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(40px / 9 * 5);
+    height: calc(40px / 9 * 5);
+    content: "";
+    background:
+      linear-gradient(
+        to bottom,
+        transparent calc(40px / 9 * 2),
+        #fff calc(40px / 9 * 2),
+        #fff calc(40px / 9 * 3),
+        transparent calc(40px / 9 * 3)
+      ),
+      linear-gradient(
+        to right,
+        transparent calc(40px / 9 * 2),
+        #fff calc(40px / 9 * 2),
+        #fff calc(40px / 9 * 3),
+        transparent calc(40px / 9 * 3)
+      ),
+      #0d5eaf;
+  }
+}
+// Greenland
+&-gl {
+  position: relative;
+  @include twoPart(#fff, #e4002b);
+
+  &::before,
+  &::after {
+    position: absolute;
+    display: inline-block;
+    left: 12%;
+    height: $motion-flag-size / 5;
+    width: $motion-flag-size / 2.5;
+  }
+
+  &::before {
+    content: '';
+    background: #e4002b;
+    border-top-left-radius: $motion-flag-size / 5;
+    border-top-right-radius: $motion-flag-size / 5;
+    top: 18%;
+  }
+  &::after {
+    content: '';
+    background: #fff;
+    border-bottom-left-radius: $motion-flag-size / 5;
+    border-bottom-right-radius: $motion-flag-size / 5;
+    top: 50%;
+  }
+}
+// Grenada
+&-gd {
+//
+}
+// Guadeloupe
+&-gp {
+  position: relative;
+  background:
+    linear-gradient(
+      to bottom,
+      #0f7003 20%,
+      #fff 20%,
+      #fff 25%,
+      #fb0007 25%,
+      #fb0007 75%,
+      #fff 75%,
+      #fff 80%,
+      #0f7003 80%
+    );
+  
+  &::before {
+    position: absolute;
+    content: "★";
+    color: #ffff0b;
+    font-size: $motion-flag-size / 6;
+    top: 33%;
+    left: 15%;
+  }
+}
+// Guam
+&-gu {
+  border: $motion-flag-width / 20 solid #c71b36;
+  background:#00257c;
+}
+// Guatemala
+&-gt {
+  @include threePart(#4997d0, #fff, #4997d0, to right);
+}
+// Guinea
+&-gn {
+  @include threePart(#ce1126, #fcd116, #009460, to right);  
+}
+// Guinea-Bissau
+&-gw {
+  position: relative;
+  background:
+    linear-gradient(to right, #ce1126 35%, transparent 35%),
+    linear-gradient(to bottom, #fcd116 50%, #009E49 50%);
+  
+  &::before {
+    position: absolute;
+    content: "★";
+    color: #000;
+    font-size: $motion-flag-size / 4;
+    top: 25%;
+    left: 5%;
+  }
+}
+// Guyana
+&-gy {
+  background:
+    linear-gradient(149deg, #ce1126 24%, transparent 15%) 0 $motion-flag-size / 3.15,
+    linear-gradient(31deg, #ce1126 24%, transparent 15%) 0  $motion-flag-size / 3.15,
+    linear-gradient(149deg, #000 26%, transparent 15%) 0  $motion-flag-size / 3.15,
+    linear-gradient(31deg, #000 26%, transparent 15%) 0  $motion-flag-size / 3.15,
+    linear-gradient(160deg, #fcd116 32%, transparent 15%) 0  $motion-flag-size / 3.15,
+    linear-gradient(20deg, #fcd116 32%, transparent 15%) 0  $motion-flag-size / 3.15,
+    linear-gradient(161deg, #fff 34%, transparent 15%) 0  $motion-flag-size / 3.15,
+    linear-gradient(19deg, #fff 34%, transparent 15%) 0  $motion-flag-size / 3.15,
+    #009e49;
+}

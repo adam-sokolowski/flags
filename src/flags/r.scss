@@ -1,0 +1,19 @@
+// Romania
+&-ro {
+  @include threePart(#002b7f, #fcd116, #ce1126, to right);
+}
+// Russia
+&-ru {
+  @include threePart(#fff, #0039a6, #d52b1e);
+}
+// Rwanda
+&-rw {
+  background:
+    linear-gradient(
+      to bottom,
+      #00a1de 50%,
+      #fad201 50%,
+      #fad201 75%,
+      #20603d 75%
+    );
+}

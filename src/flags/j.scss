@@ -1,0 +1,59 @@
+// Jamaica
+&-jm {
+  background:
+    linear-gradient(146deg, #009b3a 20%, transparent 15%) 87px -114px
+    linear-gradient(-146deg, #009b3a 20%, transparent 15%) 88px -114px
+    linear-gradient(-34deg, #009b3a 20%, transparent 15%) 88px 114px
+    linear-gradient(34deg, #009b3a 20%, transparent 15%) 87px 114px
+    linear-gradient(146deg, #000 20%, transparent 15%) 0 -57px
+    linear-gradient(34deg, #000 20%, transparent 15%) 0 -57px
+    linear-gradient(-146deg, #000 20%, transparent 15%) 175px -57px
+    linear-gradient(-34deg, #000 20%, transparent 15%) 175px -57px
+    #fed100;
+}
+// Japan
+&-jp {
+  background:
+    radial-gradient(
+      $motion-flag-size / 1.5 at 50% 50%,
+      #bc002d 0,
+      #bc002d 30%,
+      transparent 30%,
+      transparent 100%
+    )
+    #fff;
+}
+// Jordan
+&-jo {
+  position: relative;
+  background:
+    linear-gradient(
+      146deg,
+      #da291c 25%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95
+    linear-gradient(
+      34deg,
+      #da291c 25%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95
+    linear-gradient(
+      to bottom,
+      #000,
+      #000 calc(100% / 3),
+      #fff calc(100% / 3),
+      #fff calc(100% / 3 * 2),
+      #009639 calc(100% / 3 * 2),
+      #009639 100%
+    );
+
+  &::before {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: $motion-flag-size / 6;
+    color: #fff;
+    content: "✷";
+    transform: rotate(12.5deg);
+  }
+}

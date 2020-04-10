@@ -1,0 +1,186 @@
+// Taiwan
+&-tw {
+  background: #d00006;
+
+  &::before {
+    padding: $motion-flag-size / 20 $motion-flag-size / 8;
+    background-color: #002868;
+
+    @include flagSymbol("\e92e", #fff, 0, 0, $motion-flag-size / 4);
+  }
+}
+// Tajikistan
+&-tj {
+  @include threePart(#e40046, #fff, #009639);
+}
+// Tanzania
+&-tz {
+  background:
+    linear-gradient(
+      145deg,
+      #1eb53a 40%,
+      #fcd116 40%,
+      #fcd116 43%,
+      #000 43%,
+      #000 57%,
+      #fcd116 57%,
+      #fcd116 60%,
+      #00a3dd
+      60%
+    );
+}
+// Thailand
+&-th {
+  background:
+    linear-gradient(
+      to bottom,
+      #ed1c24 15%,
+      #fff 15%,
+      #fff 30%,
+      #241d4f 30%,
+      #241d4f 70%,
+      #fff 70%,
+      #fff 85%,
+      #ed1c24 85%
+    );
+}
+// Timor-Leste
+&-tl {
+  position: relative;
+  background:
+    linear-gradient(
+      145deg,
+      #000 25%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95
+    linear-gradient(
+      34deg,
+      #000 25%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95
+    linear-gradient(
+      155deg,
+      #ffc726 30%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95
+    linear-gradient(
+      25deg,
+      #ffc726 30%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95
+    #dc241f;
+  
+  &::before {
+    position: absolute;
+    top: 33%;
+    left: 5%;
+    font-size: $motion-flag-size / 5;
+    color: #fff;
+    content: "★";
+    transform: rotate(115deg);
+  }
+}
+// Togo
+&-tg {
+  position: relative;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      #006a4e,
+      #006a4e 20%,
+      #ffce00 20%,
+      #ffce00 40%
+    );
+  
+  &::before {
+    position: absolute;
+    width: 35%;
+    height: 60%;
+    padding-top: 10%;
+    font-size: $motion-flag-size / 6;
+    color: #fff;
+    text-align: center;
+    content: "★";
+    background: #d21034;
+  }
+}
+// Tokelau
+&-tk {
+  background: #01156a;
+
+  &::before {
+    @include flagSymbol("\e933", #fff, 0, 10%);
+  }
+
+  &::after {
+    @include flagSymbol("\e934", #fed100, 20%, 10%, $motion-flag-width / 1.8);
+  }
+
+}
+// Tonga
+&-to {
+  position: relative;
+  background: #c10000;
+  
+  &::before {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    content: "";
+    background:
+      linear-gradient(
+        to bottom,
+        transparent calc(100% / 3),
+        #c10000 calc(100% / 3),
+        #c10000 calc(100% / 3 * 2),
+        transparent 0
+      )
+      linear-gradient(
+        to right,
+        transparent calc(100% / 3),
+        #c10000 calc(100% / 3),
+        #c10000 calc(100% / 3 * 2),
+        transparent 0
+      )
+      #fff;
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-size: $motion-flag-width / 4 $motion-flag-width / 4;
+  }
+}
+// Trinidad and Tobago
+&-tt {
+  background:
+    linear-gradient(
+      45deg,
+      transparent 40%,
+      #fff 40%,
+      #fff 43%,
+      #000 43%,
+      #000 57%,
+      #fff 57%,
+      #fff 60%,
+      transparent 0
+    )
+    #ce1126;
+}
+// Tunisia
+&-tn {
+  background: #e70013;
+}
+// Turkey
+&-tr {
+  background: #e30a17;
+}
+// Turkmenistan
+&-tm {
+  background: #00843d;
+}
+// Turks and Caicos Islands
+&-tc {
+  background: #0018a8;
+}
+// Tuvalu
+&-tv {
+  background: #1085bd;
+}

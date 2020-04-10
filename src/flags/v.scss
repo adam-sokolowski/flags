@@ -1,0 +1,51 @@
+// Vanuatu
+&-vu {
+  background:
+    linear-gradient(
+      to bottom,
+      #d21034,
+      #d21034 46%,
+      #000 46%,
+      #000 50%,
+      #fdce12 50%,
+      #fdce12 54%,
+      #000 54%,
+      #000 58%,
+      #009543 58%,
+      #009543 100%
+    );
+}
+// Venezuela
+&-ve {
+  @include threePart(#fce300, #003da5,#ef3340);
+}
+// Vietnam
+&-vn {
+  position: relative;
+  background: #c8102e;
+
+  &::before {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: $motion-flag-size / 3;
+    color: #ffcd00;
+    text-align: center;
+    content: "★";
+  }
+}
+// Virgin Islands, British
+&-vg {
+  background: #080058;
+}
+// Virgin Islands, U.S.
+&-vi {
+  background: #fff;
+
+  &::after {
+    @include flagBase64Symbol($emblem-vi, 10%, 18%, 45px, 30px);
+  }
+}

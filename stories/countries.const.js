@@ -1,4 +1,4 @@
-[
+export const COUNTRY_CODES = [
   { name: 'Afghanistan',  code: 'AF'},
   { name: 'Åland Islands',  code: 'AX'},
   { name: 'Albania',  code: 'AL'},
@@ -53,7 +53,7 @@
   { name: 'Congo, the Democratic Republic of the',  code: 'CD'},
   { name: 'Cook Islands',  code: 'CK'},
   { name: 'Costa Rica',  code: 'CR'},
-  { name: 'Côte d'Ivoire',  code: 'CI'},
+  { name: 'Côte d`Ivoire',  code: 'CI'},
   { name: 'Croatia',  code: 'HR'},
   { name: 'Cuba',  code: 'CU'},
   { name: 'Curaçao',  code: 'CW'},
@@ -116,11 +116,11 @@
   { name: 'Kazakhstan',  code: 'KZ'},
   { name: 'Kenya',  code: 'KE'},
   { name: 'Kiribati',  code: 'KI'},
-  { name: 'Korea, Democratic People's Republic of',  code: 'KP'},
+  { name: 'Korea, Democratic People`s Republic of',  code: 'KP'},
   { name: 'Korea, Republic of',  code: 'KR'},
   { name: 'Kuwait',  code: 'KW'},
   { name: 'Kyrgyzstan',  code: 'KG'},
-  { name: 'Lao People's Democratic Republic',  code: 'LA'},
+  { name: 'Lao People`s Democratic Republic',  code: 'LA'},
   { name: 'Latvia',  code: 'LV'},
   { name: 'Lebanon',  code: 'LB'},
   { name: 'Lesotho',  code: 'LS'},

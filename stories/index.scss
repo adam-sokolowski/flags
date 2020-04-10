@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin: 0;
+  font-size: 12px;
+
+  @extend .padding;
+}
+
+.wrapper {
+  float: left;
+
+  @media screen and (max-width: 640px) {
+    width: 50%;
+  }
+
+  @media screen and (max-width: 1280px) {
+    width: 33.33333%;
+  }
+
+}
+
+.padding {
+  padding: 10px 5px;
+}
+
+.margin {
+  margin: 5px;
+}

@@ -1,9 +1,7 @@
 module.exports = {
-  extends: ['stylelint-config-standard', 'stylelint-config-recommended-scss'],
   plugins: ['stylelint-scss', 'stylelint-order'],
   processor: ['stylelint-processor-html'],
   rules: {
-    'no-empty-source': null,
     'at-rule-name-space-after': 'always',
     'at-rule-no-vendor-prefix': true,
     'at-rule-semicolon-space-before': 'never',
@@ -23,29 +21,19 @@ module.exports = {
         ]
       }
     ],
-    'block-closing-brace-empty-line-before': null,
-    'block-opening-brace-space-before': null,
     'color-named': 'never',
     'declaration-block-semicolon-newline-after': 'always-multi-line',
     'declaration-block-semicolon-newline-before': 'never-multi-line',
     'declaration-block-semicolon-space-after': 'always-single-line',
-    'declaration-empty-line-before': null,
-    'declaration-no-important': null,
-    'font-family-name-quotes': null,
-    'font-family-no-missing-generic-family-keyword': null,
     'function-url-no-scheme-relative': true,
     'function-url-quotes': 'always',
-    'function-name-case': null,
     'length-zero-no-unit': true,
     'max-empty-lines': 1,
-    'max-line-length': null,
     'media-feature-name-no-vendor-prefix': true,
     'media-feature-parentheses-space-inside': 'never',
     'media-feature-range-operator-space-after': 'always',
     'media-feature-range-operator-space-before': 'never',
-    'no-descending-specificity': null,
     'no-duplicate-selectors': true,
-    'no-eol-whitespace': null,
     'number-leading-zero': 'always',
     'media-feature-name-no-unknown': [
       true,
@@ -276,15 +264,11 @@ module.exports = {
     'selector-max-compound-selectors': 6,
     'selector-max-empty-lines': 1,
     'selector-max-id': 2,
-    'selector-max-specificity': null,
     'selector-max-type': 3,
     'selector-max-universal': 1,
     'selector-no-vendor-prefix': true,
     'string-quotes': 'double',
     'value-keyword-case': 'lower',
-    'value-list-comma-newline-after': 'never-multi-line',
-    'value-list-comma-newline-before': 'never-multi-line',
-    'value-list-comma-space-after': 'always',
-    'value-no-vendor-prefix': true
+    'value-no-vendor-prefix': true,
   }
 };

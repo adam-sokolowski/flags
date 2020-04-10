@@ -2,30 +2,41 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-  margin: 0;
+.label {
+  display: block;
+  width: 75%;
+  height: 12px;
+  overflow: hidden;
   font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: #d0d0d0;
+  border-radius: 16px;
 
   @extend .padding;
 }
 
 .wrapper {
   float: left;
+  width: 50%;
 
-  @media screen and (max-width: 640px) {
-    width: 50%;
-  }
-
-  @media screen and (max-width: 1280px) {
+  @media screen and (min-width: 640px) {
     width: 33.33333%;
   }
 
+  @media screen and (min-width: 768px) {
+    width: 25%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 12.5%;
+  }
 }
 
 .padding {
-  padding: 10px 5px;
+  padding: 10px;
 }
 
 .margin {
-  margin: 5px;
+  margin: 20px 0;
 }

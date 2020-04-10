@@ -6,6 +6,10 @@
     @include flagSymbol("\e901", #fff, 32%, 23%);
   }
 }
+// Åland Islands
+&-ax {
+  //
+}
 // Albania
 &-al {
   background: #da291c;
@@ -35,9 +39,9 @@
 
   &::after {
     position: absolute;
-    top: 38%;
-    left: 48%;
-    font-size: $flag-size / 6;
+    top: 35%;
+    left: 55%;
+    font-size: $flag-size / 8;
     color: #d21034;
     content: "★";
     transform: rotate(15deg);
@@ -47,26 +51,10 @@
 // American Samoa
 &-as {
   background:
-    linear-gradient(
-      -20deg,
-      #fff 31%,
-      transparent 15%
-    ) 0 $flag-size / 3
-    linear-gradient(
-      -160deg,
-      #fff 31%,
-      transparent 15%
-    ) 0 $flag-size / 3
-    linear-gradient(
-      -20deg,
-      #b00018 34%,
-      transparent 15%
-    ) 0 $flag-size / 3
-    linear-gradient(
-      -160deg,
-      #b00018 34%,
-      transparent 15%
-    ) 0 $flag-size / 3
+    linear-gradient(-20deg, #fff 31%,transparent 15%) 0 $flag-size / 3,
+    linear-gradient(-160deg, #fff 31%,transparent 15%) 0 $flag-size / 3,
+    linear-gradient(-20deg, #b00018 34%,transparent 15%) 0 $flag-size / 3,
+    linear-gradient(-160deg, #b00018 34%,transparent 15%) 0 $flag-size / 3,
     #000053;
 
   &::after {
@@ -111,7 +99,7 @@
   @include threePart(#4891d9, #fff, #4891d9);
 
   &::after {
-    @include flagBase64Symbol($emblem-ar, 35%, 25%, 18px, 18px);
+    @include flagBase64Symbol($emblem-ar, 33%, 26%, $flag-size / 3.2, $flag-size / 3.2);
   }
 }
 // Armenia

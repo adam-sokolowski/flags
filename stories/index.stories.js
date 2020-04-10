@@ -5,9 +5,9 @@ export default {
 };
 
 export const Flags = () => `<div class="padding">${COUNTRY_CODES.map(country => `<div class="wrapper">
-      <div class="margin flag flag-${country.code.toLowerCase()}"></div>
-      <p>${country.name}</p>
-    </div>
-    `
+    <div class="margin flag flag-${country.code.toLowerCase()}"></div>
+    <div class="label">${country.name} / [${country.code}]</div>
+  </div>
+  `
 ).toString().replace(/,/g, '')}</div>`;
 

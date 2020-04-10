@@ -1,36 +1,13 @@
 // Bahamas
 &-bs {
   background:
-    linear-gradient(
-      146deg,
-      #000 25%,
-      transparent 15%
-    ) 0 $flag-size * 0.95
-    linear-gradient(
-      34deg,
-      #000 25%,
-      transparent 15%
-    ) 0 $flag-size * 0.95
-    linear-gradient(
-      to bottom,
-      #00a9ce,
-      #00a9ce calc(100% / 3),
-      #fdda24 calc(100% / 3),
-      #fdda24 calc(100% / 3 * 2),
-      #00a9ce calc(100% / 3 * 2),
-      #00a9ce 100%
-    );
+    linear-gradient(146deg, #000 25%, transparent 15%) 0 $flag-size,
+    linear-gradient(34deg, #000 25%, transparent 15%) 0 $flag-size,
+    linear-gradient(to bottom, #00a9ce, #00a9ce calc(100% / 3), #fdda24 calc(100% / 3), #fdda24 calc(100% / 3 * 2), #00a9ce calc(100% / 3 * 2), #00a9ce 100%);
 }
 // Bahrain
 &-bh {
-  background:
-    linear-gradient(
-      90deg,
-      #fff,
-      #fff 25%,
-      #ce1126 25%,
-      #ce1126 100%
-    );
+  background: linear-gradient(90deg, #fff, #fff 25%, #ce1126 25%, #ce1126 100%);
 
   &::before {
     position: absolute;
@@ -40,36 +17,21 @@
     height: 100%;
     content: "";
     background:
-      linear-gradient(
-        154deg,
-        #fff 35%,
-        transparent 31%
-      ) 0 $flag-height / 10
-      linear-gradient(
-        24deg,
-        #fff 35%,
-        transparent 31%
-      ) 0 $flag-width / 5;
+      linear-gradient(154deg, #fff 35%, transparent 31% ) 0 $flag-height / 10,
+      linear-gradient(24deg, #fff 35%, transparent 31% ) 0 $flag-width / 5;
     background-size: $flag-height / 5 $flag-height / 5;
   }
 }
 // Bangladesh
 &-bd {
-  background:
-    radial-gradient(
-      $flag-size / 1.75 at 40% 50%,
-      #f42a41,
-      #f42a41 35%,
-      transparent 35%,
-      transparent 100%
-    ) #006a4e;
+  background: radial-gradient($flag-size / 1.75 at 40% 50%, #f42a41, #f42a41 35%, transparent 35%, transparent 100% ) #006a4e;
 }
 // Barbados
 &-bb {
   @include threePart(#012169, #ffc726, #012169, to right);
 
   &::before {
-    @include flagSymbol("\e906", #000, 32%, 20%, $flag-size / 3);
+    @include flagSymbol("\e906", #000, 34%, 20%, $flag-size / 3);
   }
 }
 // Belarus
@@ -86,15 +48,7 @@
 }
 // Belize
 &-bz {
-  background:
-    linear-gradient(
-      to bottom,
-      #ce1126 15%,
-      #052d74 15%,
-      #052d74 85%,
-      #ce1126 85%,
-      #ce1126 100%
-    );
+  background: linear-gradient( to bottom, #ce1126 15%, #052d74 15%, #052d74 85%, #ce1126 85%, #ce1126 100%);
 }
 // Benin
 &-bj {
@@ -106,12 +60,7 @@
 }
 // Bhutan
 &-bt {
-  background:
-    linear-gradient(
-      146.5deg,
-      #ffd520 50%,
-      #ff4e12 50%
-    );
+  background: linear-gradient(146.5deg, #ffd520 50%, #ff4e12 50%);
 }
 // Bolivia
 &-bo {
@@ -161,29 +110,29 @@
       149deg,
       #009b3a 30%,
       transparent 25%
-    )
+    ),
     linear-gradient(
       -149deg,
       #009b3a 30%,
       transparent 25%
-    )
+    ),
     linear-gradient(
       -30deg,
       #009b3a 30%,
       transparent 25%
-    )
+    ),
     linear-gradient(
       30deg,
       #009b3a 30%,
       transparent 25%
-    )
+    ),
     radial-gradient(
       $flag-size / 2 at 50% 50%,
       transparent 0,
       transparent 35%,
       #fedf00 35%,
       #fedf00 100%
-    )
+    ),
     radial-gradient(
       $flag-size at 40% 96%,
       transparent 0,
@@ -192,7 +141,7 @@
       #fff 39%,
       transparent 39%,
       transparent 100%
-    ) #002776;
+    ), #002776;
 }
 // British Indian Ocean Territory
 &-io {

@@ -1,13 +1,44 @@
 import { COUNTRY_CODES } from './countries.const';
+import { storiesOf } from '@storybook/html';
 
-export default {
-  title: 'CSS Flags collection',
-};
+const getTemplate = (letter) => `
+  <div class="padding">
+    ${COUNTRY_CODES
+      .filter(country => country.name.startsWith(letter))
+      .map(country => `
+        <div class="wrapper">
+          <div class="margin flag flag-${country.code.toLowerCase()}"></div>
+            <div class="label">${country.name} / [${country.code}]</div>
+        </div>`
+      )
+      .toString()
+      .replace(/,/g, '')
+    }
+</div>`;
 
-export const Flags = () => `<div class="padding">${COUNTRY_CODES.map(country => `<div class="wrapper">
-    <div class="margin flag flag-${country.code.toLowerCase()}"></div>
-    <div class="label">${country.name} / [${country.code}]</div>
-  </div>
-  `
-).toString().replace(/,/g, '')}</div>`;
-
+storiesOf('CSS Flags', module)
+  .add('A', () => getTemplate('A'))
+  .add('B', () => getTemplate('B'))
+  .add('C', () => getTemplate('C'))
+  .add('D', () => getTemplate('D'))
+  .add('E', () => getTemplate('E'))
+  .add('F', () => getTemplate('F'))
+  .add('G', () => getTemplate('G'))
+  .add('H', () => getTemplate('H'))
+  .add('I', () => getTemplate('I'))
+  .add('J', () => getTemplate('J'))
+  .add('K', () => getTemplate('K'))
+  .add('L', () => getTemplate('L'))
+  .add('M', () => getTemplate('M'))
+  .add('N', () => getTemplate('N'))
+  .add('O', () => getTemplate('O'))
+  .add('P', () => getTemplate('P'))
+  .add('Q', () => getTemplate('Q'))
+  .add('R', () => getTemplate('R'))
+  .add('S', () => getTemplate('S'))
+  .add('T', () => getTemplate('T'))
+  .add('U', () => getTemplate('U'))
+  .add('V', () => getTemplate('V'))
+  .add('W', () => getTemplate('W'))
+  .add('Y', () => getTemplate('Y'))
+  .add('Z', () => getTemplate('Z'));

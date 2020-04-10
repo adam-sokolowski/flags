@@ -23,24 +23,24 @@
     top: 30.5%;
     right: 0;
     left: 0;
+    width: $motion-flag-size / 4;
+    height: $motion-flag-size / 4;
     margin-right: auto;
     margin-left: auto;
-    background: transparent;
-    height: $motion-flag-size / 4;
-    width: $motion-flag-size / 4;
     content: "";
+    background: transparent;
     border-radius: 50%;
     box-shadow: -3px 0 0 2px #d21034;
   }
 
   &::after {
     position: absolute;
-    content: "★";
-    color: #d21034;
     top: 38%;
     left: 48%;
-    transform: rotate(15deg);
     font-size: $motion-flag-size / 6;
+    color: #d21034;
+    content: "★";
+    transform: rotate(15deg);
   }
 
 }
@@ -51,17 +51,17 @@
       -20deg,
       #fff 31%,
       transparent 15%
-    ) 0 $motion-flag-size / 3,
+    ) 0 $motion-flag-size / 3
     linear-gradient(
       -160deg,
       #fff 31%,
       transparent 15%
-    ) 0 $motion-flag-size / 3,
+    ) 0 $motion-flag-size / 3
     linear-gradient(
       -20deg,
       #b00018 34%,
       transparent 15%
-    ) 0 $motion-flag-size / 3,
+    ) 0 $motion-flag-size / 3
     linear-gradient(
       -160deg,
       #b00018 34%,
@@ -69,16 +69,16 @@
     ) 0 $motion-flag-size / 3
     #000053;
 
-    &:after {
-      @include flagBase64Symbol($emblem-as, 60%, 20%, 20px, 20px);
-    }
+  &::after {
+    @include flagBase64Symbol($emblem-as, 60%, 20%, 20px, 20px);
+  }
   
 }
 // Andorra
 &-ad {
   @include threePart(#0018a8, #fedf00, #d0103a, to right);
 
-  &:after {
+  &::after {
     @include flagBase64Symbol($emblem-ad, 33%, 20%, 20px, 20px);
   }
 }
@@ -110,7 +110,7 @@
 &-ar {
   @include threePart(#4891d9, #fff, #4891d9);
 
-  &:after {
+  &::after {
     @include flagBase64Symbol($emblem-ar, 35%, 25%, 18px, 18px);
   }
 }

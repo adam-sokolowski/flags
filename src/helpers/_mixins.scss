@@ -22,22 +22,21 @@
 
 @mixin flagSymbol ($content, $color, $left, $top, $size : 20px) {
   position: absolute;
-  font-family: 'flag-symbols';
-  content: $content;
-  color: $color;
-  left: $left;
   top: $top;
+  left: $left;
+  font-family: flag-symbols, Arial;
   font-size: $size;
+  color: $color;
+  content: $content;
 }
 
 @mixin flagBase64Symbol ($content, $left: 20%, $top: 20%, $width : 20px, $height : 20px) {
   position: absolute;
-  content: '';
-  background-image: url($content);
-  left: $left;
   top: $top;
+  left: $left;
   width: $width;
   height: $height;
+  content: "";
+  background-image: url($content);
   background-size: $width, $height;
-
 }

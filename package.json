@@ -15,7 +15,7 @@
     "dist"
   ],
   "scripts": {
-    "sass:lint": "sass-lint 'src/**/*.scss' -v -q",
+    "sass:lint": "stylelint './**/*.scss' --syntax scss",
     "release:patch": "standard-version --release-as patch",
     "release:minor": "standard-version --release-as minor",
     "reset:githooks": "rm -rf ./.git/hooks/* && rm -rf node_modules/husky && yarn install --check-files"
@@ -31,7 +31,12 @@
   "license": "MIT",
   "devDependencies": {
     "husky": "4.2.3",
-    "sass-lint": "1.13.1",
-    "standard-version": "7.1.0"
+    "sass": "1.26.3",
+    "standard-version": "7.1.0",
+    "stylelint": "13.3.1",
+    "stylelint-config-recommended-scss": "4.2.0",
+    "stylelint-config-standard": "20.0.0",
+    "stylelint-order": "4.0.0",
+    "stylelint-scss": "3.16.1"
   }
 }

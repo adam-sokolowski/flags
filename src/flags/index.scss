@@ -4,12 +4,12 @@ $motion-flag-width: $motion-flag-size;
 $motion-flag-height: $motion-flag-size / 3 * 2;
 
 .flag {
+  position: relative;
   display: block;
   width: $motion-flag-size;
   height: $motion-flag-height;
   overflow: hidden;
   border: 1px solid #f1f1f1;
-  position: relative;
 
   &-m {
     transform: scale(100% / 3 * 2);
@@ -19,33 +19,9 @@ $motion-flag-height: $motion-flag-size / 3 * 2;
     transform: scale(100% / 3);
   }
 
-  @import "flag-base64-symbols.scss";
-  @import "flag-symbols.scss";
-  @import "mixins";
-
+  @import "./../helpers/flag-base64-symbols.scss";
+  @import "./../helpers/flag-symbols.scss";
+  @import "./../helpers/mixins";
+  // Flags by country name
   @import "a";
-  @import "b";
-  @import "c";
-  @import "d";
-  @import "e";
-  @import "f";
-  @import "g";
-  @import "h";
-  @import "i";
-  @import "j";
-  @import "k";
-  @import "l";
-  @import "m";
-  @import "n";
-  @import "o";
-  @import "p";
-  @import "q";
-  @import "r";
-  @import "s";
-  @import "t";
-  @import "u";
-  @import "v";
-  @import "w";
-  @import "y";
-  @import "z";
 }

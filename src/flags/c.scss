@@ -77,7 +77,7 @@
       #d21034 58%,
       transparent 58%,
       transparent 100%
-    )
+    ),
     linear-gradient(
       to bottom,
       #003082,
@@ -92,11 +92,11 @@
 
   &::before {
     position: absolute;
-    top: 2%;
-    left: 10%;
+    top: 3%;
+    left: 8%;
     margin-right: auto;
     margin-left: auto;
-    font-size: $flag-width / 8;
+    font-size: $flag-width / 10;
     color: #ffce00;
     content: "★";
   }
@@ -125,7 +125,7 @@
     width: $flag-size / 3;
     height: $flag-size / 3;
     padding-top: $flag-size / 18;
-    font-size: $flag-size / 5;
+    font-size: $flag-size / 6;
     color: #fff;
     text-align: center;
     content: "★";
@@ -156,12 +156,12 @@
       146deg,
       #3d8e33 25%,
       transparent 15%
-    ) 0 $flag-width / 3.15
+    ) 0 $flag-width / 3,
     linear-gradient(
       34deg,
       #3d8e33 25%,
       transparent 15%
-    ) 0 $flag-width / 3.15
+    ) 0 $flag-width / 3,
     linear-gradient(
       to bottom,
       #ffc61e 0%,
@@ -248,12 +248,12 @@
       146deg,
       #cf142b 25%,
       transparent 15%
-    ) 0 $flag-width / 3.15
+    ) 0 $flag-width / 3,
     linear-gradient(
       34deg,
       #cf142b 25%,
       transparent 15%
-    ) 0 $flag-width / 3.15
+    ) 0 $flag-width / 3,
     linear-gradient(
       to bottom,
       #002a8f 20%,
@@ -295,12 +295,12 @@
       146deg,
       #11457e 25%,
       transparent 15%
-    ) 0 $flag-size * 0.95
+    ) 0 $flag-size,
     linear-gradient(
       34deg,
       #11457e 25%,
       transparent 15%
-    ) 0 $flag-size * 0.95
+    ) 0 $flag-size,
     linear-gradient(
       to bottom,
       #fff 50%,

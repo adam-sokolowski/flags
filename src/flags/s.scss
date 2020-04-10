@@ -110,12 +110,12 @@
       135deg,
       #da291c 20%,
       transparent 15%
-    ) 0 $flag-size * 0.95
+    ) 0 $flag-size,
     linear-gradient(
       45deg,
       #da291c 20%,
       transparent 15%
-    ) 0 $flag-size * 0.95
+    ) 0 $flag-size,
     linear-gradient(
       to bottom,
       #009639,
@@ -169,10 +169,10 @@
 // Seychelles
 &-sc {
   background:
-    linear-gradient(170deg, transparent 79%, #007a3d 55%)
-    linear-gradient(160deg, transparent 65%, #fff 45%)
-    linear-gradient(141deg, transparent 45%, #d62828 45%)
-    linear-gradient(120deg, transparent 27%, #fcd856 25%)
+    linear-gradient(170deg, transparent 79%, #007a3d 55%),
+    linear-gradient(160deg, transparent 65%, #fff 45%),
+    linear-gradient(141deg, transparent 45%, #d62828 45%),
+    linear-gradient(120deg, transparent 27%, #fcd856 25%),
     #003f87;
 }
 // Sierra Leone
@@ -209,7 +209,7 @@
 
   &::before {
     position: absolute;
-    top: 30%;
+    top: 25%;
     right: 0;
     left: 0;
     margin-right: auto;
@@ -232,12 +232,12 @@
       146deg,
       #0f47af 25%,
       transparent 15%
-    ) 0 $flag-width / 3.15
+    ) 0 $flag-width / 3.15,
     linear-gradient(
       34deg,
       #0f47af 25%,
       transparent 15%
-    ) 0 $flag-width / 3.15
+    ) 0 $flag-width / 3.15,
     linear-gradient(
       to bottom,
       #000 30%,
@@ -273,7 +273,7 @@
     );
 
   &::after {
-    @include flagBase64Symbol($emblem-es, 10%, 20%, $flag-size / 3, $flag-size / 3);
+    @include flagBase64Symbol($emblem-es, 10%, 24%, $flag-size / 3, $flag-size / 3);
   }
 }
 // Sri Lanka
@@ -287,12 +287,12 @@
       148deg,
       #007229 25%,
       transparent 0
-    ) 0 $flag-size * 0.95
+    ) 0 $flag-size,
     linear-gradient(
       33deg,
       #007229 25%,
       transparent 0
-    ) 0 $flag-size * 0.95
+    ) 0 $flag-size,
     linear-gradient(
       to bottom,
       #d21034 calc(100% / 3),
@@ -319,7 +319,7 @@
 
   &::before {
     position: absolute;
-    top: 33%;
+    top: 28%;
     right: 0;
     left: 0;
     margin-right: auto;

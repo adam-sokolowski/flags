@@ -101,7 +101,7 @@
   }
 
   &::before {
-    top: 18%;
+    top: 20%;
     content: "";
     background: #e4002b;
     border-top-left-radius: $flag-size / 5;
@@ -138,7 +138,7 @@
   
   &::before {
     position: absolute;
-    top: 33%;
+    top: 30%;
     left: 15%;
     font-size: $flag-size / 6;
     color: #ffff0b;
@@ -162,12 +162,12 @@
 &-gw {
   position: relative;
   background:
-    linear-gradient(to right, #ce1126 35%, transparent 35%)
+    linear-gradient(to right, #ce1126 35%, transparent 35%),
     linear-gradient(to bottom, #fcd116 50%, #009e49 50%);
 
   &::before {
     position: absolute;
-    top: 25%;
+    top: 22%;
     left: 5%;
     font-size: $flag-size / 4;
     color: #000;
@@ -177,13 +177,13 @@
 // Guyana
 &-gy {
   background:
-    linear-gradient(149deg, #ce1126 24%, transparent 15%) 0 $flag-size / 3.15
-    linear-gradient(31deg, #ce1126 24%, transparent 15%) 0  $flag-size / 3.15
-    linear-gradient(149deg, #000 26%, transparent 15%) 0  $flag-size / 3.15
-    linear-gradient(31deg, #000 26%, transparent 15%) 0  $flag-size / 3.15
-    linear-gradient(160deg, #fcd116 32%, transparent 15%) 0  $flag-size / 3.15
-    linear-gradient(20deg, #fcd116 32%, transparent 15%) 0  $flag-size / 3.15
-    linear-gradient(161deg, #fff 34%, transparent 15%) 0  $flag-size / 3.15
-    linear-gradient(19deg, #fff 34%, transparent 15%) 0  $flag-size / 3.15
+    linear-gradient(149deg, #ce1126 24%, transparent 15%) 0 $flag-size / 3,
+    linear-gradient(31deg, #ce1126 24%, transparent 15%) 0  $flag-size / 3,
+    linear-gradient(149deg, #000 26%, transparent 15%) 0  $flag-size / 3,
+    linear-gradient(31deg, #000 26%, transparent 15%) 0  $flag-size / 3,
+    linear-gradient(160deg, #fcd116 32%, transparent 15%) 0  $flag-size / 3,
+    linear-gradient(20deg, #fcd116 32%, transparent 15%) 0  $flag-size / 3,
+    linear-gradient(161deg, #fff 34%, transparent 15%) 0  $flag-size / 3,
+    linear-gradient(19deg, #fff 34%, transparent 15%) 0  $flag-size / 3,
     #009e49;
 }

@@ -19,6 +19,7 @@ body {
 .wrapper {
   float: left;
   width: 50%;
+  min-height: 120px;
 
   @media screen and (min-width: 640px) {
     width: 33.33333%;

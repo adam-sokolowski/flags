@@ -8,7 +8,7 @@
       #fff 55%,
       transparent 55%,
       transparent 100%
-    )
+    ),
     linear-gradient(
       to right,
       transparent 30%,
@@ -16,7 +16,7 @@
       #fff 40%,
       transparent 40%,
       transparent 100%
-    )
+    ),
     #c60c30;
 }
 // Djibouti
@@ -27,12 +27,12 @@
       146deg,
       #fff 25%,
       transparent 15%
-    ) 0 $flag-size * 0.95
+    ) 0 $flag-size,
     linear-gradient(
       34deg,
       #fff 25%,
       transparent 15%
-    ) 0 $flag-size * 0.95
+    ) 0 $flag-size,
     linear-gradient(
       to bottom,
       #6ab2e7 50%,

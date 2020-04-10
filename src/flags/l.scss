@@ -50,7 +50,7 @@
   @include threePart(#00209f, #fff, #009543);
 
   &::before {
-    @include flagSymbol("\e91a", #000, 40%, 33%, $flag-height / 3);
+    @include flagSymbol("\e91a", #000, 37%, 35%, $flag-height / 3);
   }
 }
 // Liberia
@@ -71,7 +71,7 @@
     left: 0;
     box-sizing: border-box;
     width: $flag-size / 4;
-    height: $flag-size / 4.75;
+    height: $flag-size / 4.4;
     padding-top: $flag-size / 18;
     font-size: $flag-size / 8;
     color: #fff;

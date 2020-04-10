@@ -1,14 +1,14 @@
 // Jamaica
 &-jm {
   background:
-    linear-gradient(146deg, #009b3a 20%, transparent 15%) 87px -114px
-    linear-gradient(-146deg, #009b3a 20%, transparent 15%) 88px -114px
-    linear-gradient(-34deg, #009b3a 20%, transparent 15%) 88px 114px
-    linear-gradient(34deg, #009b3a 20%, transparent 15%) 87px 114px
-    linear-gradient(146deg, #000 20%, transparent 15%) 0 -57px
-    linear-gradient(34deg, #000 20%, transparent 15%) 0 -57px
-    linear-gradient(-146deg, #000 20%, transparent 15%) 175px -57px
-    linear-gradient(-34deg, #000 20%, transparent 15%) 175px -57px
+    linear-gradient(146deg, #009b3a 20%, transparent 15%) 87px -114px,
+    linear-gradient(-146deg, #009b3a 20%, transparent 15%) 88px -114px,
+    linear-gradient(-34deg, #009b3a 20%, transparent 15%) 88px 114px,
+    linear-gradient(34deg, #009b3a 20%, transparent 15%) 87px 114px,
+    linear-gradient(146deg, #000 20%, transparent 15%) 0 -57px,
+    linear-gradient(34deg, #000 20%, transparent 15%) 0 -57px,
+    linear-gradient(-146deg, #000 20%, transparent 15%) 175px -57px,
+    linear-gradient(-34deg, #000 20%, transparent 15%) 175px -57px,
     #fed100;
 }
 // Japan
@@ -31,12 +31,12 @@
       146deg,
       #da291c 25%,
       transparent 15%
-    ) 0 $flag-size * 0.95
+    ) 0 $flag-size,
     linear-gradient(
       34deg,
       #da291c 25%,
       transparent 15%
-    ) 0 $flag-size * 0.95
+    ) 0 $flag-size,
     linear-gradient(
       to bottom,
       #000,
@@ -49,9 +49,9 @@
 
   &::before {
     position: absolute;
-    top: 35%;
+    top: 32%;
     left: 10%;
-    font-size: $flag-size / 6;
+    font-size: $flag-size / 5;
     color: #fff;
     content: "✷";
     transform: rotate(12.5deg);

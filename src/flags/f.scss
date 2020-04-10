@@ -1,0 +1,98 @@
+// Falkland Islands (Malvinas)
+&-fk {
+  background: #0018a8;
+}
+// Faroe Islands
+&-fo {
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 43%,
+      #d72828 43%,
+      #d72828 54%,
+      transparent 54%
+    )
+    linear-gradient(
+      to right,
+      transparent 34%,
+      #d72828 34%,
+      #d72828 41%,
+      transparent 41%
+    )
+    linear-gradient(
+      to right,
+      transparent 30%,
+      #003897 30%,
+      #003897 45%,
+      transparent 45%
+    )
+    linear-gradient(
+      to bottom,
+      transparent 38%,
+      #003897 38%,
+      #003897 59%,
+      transparent 59%
+    )
+    #fff;
+}
+// Fiji
+&-fj {
+  background: #68bfe5;
+}
+// Finland
+&-fi {
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 35%,
+      #003580 35%,
+      #003580 60%,
+      transparent 60%
+    )
+    linear-gradient(
+      to right,
+      transparent 30%,
+      #003580 30%,
+      #003480 45%,
+      transparent 45%
+    )
+    #fff;
+}
+// France
+&-fr {
+  @include threePart(#002395, #fff, #ed2939);
+}
+// French Guiana
+&-gf {
+  background:
+    linear-gradient(
+      33deg,
+      #fcdd09 50%,
+      #078930 50%
+    );
+
+  &::before {
+    position: relative;
+    top: 30%;
+    left: 39%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: $motion-flag-size / 4;
+    color: #da121a;
+    text-align: center;
+    content: "★";
+  }
+}
+// French Polynesia
+&-pf {
+  background:
+    linear-gradient(
+      180deg,
+      #c0001d,
+      #c0001d 25%,
+      #fff 25%,
+      #fff 75%,
+      #c0001d 75%,
+      #c0001d 100%
+    );
+}

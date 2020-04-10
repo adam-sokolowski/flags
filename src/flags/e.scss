@@ -1,0 +1,80 @@
+// Ecuador
+&-ec {
+  background:
+    linear-gradient(
+      to bottom,
+      #fcd116 0%,
+      #fcd116 50%,
+      #003893 50%,
+      #003893 75%,
+      #ce1126 75%,
+      #ce1126 100%
+    );
+}
+// Egypt
+&-eg {
+  @include threePart(#ce1126, #fff, #000);
+
+  &::before {
+    @include flagSymbol("\e90a", #ffcd00, 36%, 28%, $motion-flag-size / 4);
+  }
+}
+// El Salvador
+&-sv {
+  @include threePart(#0f47af, #fff, #0f47af);
+}
+// Equatorial Guinea
+&-gq {
+  position: relative;
+  background:
+    linear-gradient(
+      135deg,
+      #0073ce 20%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95
+    linear-gradient(
+      45deg,
+      #0073ce 20%,
+      transparent 15%
+    ) 0 $motion-flag-size * 0.95
+    linear-gradient(
+      to bottom,
+      #3e9a00,
+      #3e9a00 calc(100% / 3),
+      #fff calc(100% / 3),
+      #fff calc(100% / 3 * 2),
+      #e32118 calc(100% / 3 * 2),
+      #e32118 100%,
+    );
+}
+// Eritrea
+&-er {
+  background:
+    linear-gradient(
+      163deg,
+      #e2002a 32%,
+      transparent 15%
+    ) 0  $motion-flag-size / 3.15
+    linear-gradient(
+      17deg,
+      #e2002a 32%,
+      transparent 15%
+    ) 0  $motion-flag-size / 3.15
+    linear-gradient(
+      to bottom,
+      #1ba221 50%,
+      #3373d5 50%,
+    );
+
+  &::before {
+    @include flagSymbol("\e90b", #ffc726, 5%, 20%, $motion-flag-size / 3);
+  }
+}
+// Estonia
+&-ee {
+  @include threePart(#4891d9, #000, #fff);
+}
+// Ethiopia
+&-et {
+  @include threePart(#298c08, #fecb00, #c60c30);
+}

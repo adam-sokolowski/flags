@@ -3,10 +3,10 @@
   background: #d00006;
 
   &::before {
-    padding: $motion-flag-size / 20 $motion-flag-size / 8;
+    padding: $flag-size / 20 $flag-size / 8;
     background-color: #002868;
 
-    @include flagSymbol("\e92e", #fff, 0, 0, $motion-flag-size / 4);
+    @include flagSymbol("\e92e", #fff, 0, 0, $flag-size / 4);
   }
 }
 // Tajikistan
@@ -52,29 +52,29 @@
       145deg,
       #000 25%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       34deg,
       #000 25%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       155deg,
       #ffc726 30%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       25deg,
       #ffc726 30%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     #dc241f;
   
   &::before {
     position: absolute;
     top: 33%;
     left: 5%;
-    font-size: $motion-flag-size / 5;
+    font-size: $flag-size / 5;
     color: #fff;
     content: "★";
     transform: rotate(115deg);
@@ -97,7 +97,7 @@
     width: 35%;
     height: 60%;
     padding-top: 10%;
-    font-size: $motion-flag-size / 6;
+    font-size: $flag-size / 6;
     color: #fff;
     text-align: center;
     content: "★";
@@ -113,7 +113,7 @@
   }
 
   &::after {
-    @include flagSymbol("\e934", #fed100, 20%, 10%, $motion-flag-width / 1.8);
+    @include flagSymbol("\e934", #fed100, 20%, 10%, $flag-width / 1.8);
   }
 
 }
@@ -145,7 +145,7 @@
       #fff;
     background-repeat: no-repeat;
     background-position: 50% 40%;
-    background-size: $motion-flag-width / 4 $motion-flag-width / 4;
+    background-size: $flag-width / 4 $flag-width / 4;
   }
 }
 // Trinidad and Tobago

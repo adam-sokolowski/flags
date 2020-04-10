@@ -27,12 +27,12 @@
       146deg,
       #fff 25%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       34deg,
       #fff 25%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       to bottom,
       #6ab2e7 50%,
@@ -43,7 +43,7 @@
     position: absolute;
     top: 36%;
     left: 8%;
-    font-size: $motion-flag-size / 6;
+    font-size: $flag-size / 6;
     color: #d7141a;
     content: "★";
   }

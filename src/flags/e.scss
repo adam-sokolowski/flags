@@ -16,7 +16,7 @@
   @include threePart(#ce1126, #fff, #000);
 
   &::before {
-    @include flagSymbol("\e90a", #ffcd00, 36%, 28%, $motion-flag-size / 4);
+    @include flagSymbol("\e90a", #ffcd00, 36%, 28%, $flag-size / 4);
   }
 }
 // El Salvador
@@ -31,12 +31,12 @@
       135deg,
       #0073ce 20%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       45deg,
       #0073ce 20%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       to bottom,
       #3e9a00,
@@ -54,12 +54,12 @@
       163deg,
       #e2002a 32%,
       transparent 15%
-    ) 0  $motion-flag-size / 3.15
+    ) 0  $flag-size / 3.15
     linear-gradient(
       17deg,
       #e2002a 32%,
       transparent 15%
-    ) 0  $motion-flag-size / 3.15
+    ) 0  $flag-size / 3.15
     linear-gradient(
       to bottom,
       #1ba221 50%,
@@ -67,7 +67,7 @@
     );
 
   &::before {
-    @include flagSymbol("\e90b", #ffc726, 5%, 20%, $motion-flag-size / 3);
+    @include flagSymbol("\e90b", #ffc726, 5%, 20%, $flag-size / 3);
   }
 }
 // Estonia

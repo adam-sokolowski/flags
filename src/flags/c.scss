@@ -21,7 +21,7 @@
     top: 30%;
     right: 0;
     left: 0;
-    font-size: $motion-flag-size / 4;
+    font-size: $flag-size / 4;
     color: #fcd116;
     text-align: center;
     content: "★";
@@ -39,7 +39,7 @@
     );
 
   &::before {
-    @include flagSymbol("\e909", #ef3340, 34%, 20%, $motion-flag-size / 3);
+    @include flagSymbol("\e909", #ef3340, 34%, 20%, $flag-size / 3);
   }
 }
 // Cape Verde
@@ -96,7 +96,7 @@
     left: 10%;
     margin-right: auto;
     margin-left: auto;
-    font-size: $motion-flag-width / 8;
+    font-size: $flag-width / 8;
     color: #ffce00;
     content: "★";
   }
@@ -122,10 +122,10 @@
     top: 0;
     left: 0;
     box-sizing: border-box;
-    width: $motion-flag-size / 3;
-    height: $motion-flag-size / 3;
-    padding-top: $motion-flag-size / 18;
-    font-size: $motion-flag-size / 5;
+    width: $flag-size / 3;
+    height: $flag-size / 3;
+    padding-top: $flag-size / 18;
+    font-size: $flag-size / 5;
     color: #fff;
     text-align: center;
     content: "★";
@@ -156,12 +156,12 @@
       146deg,
       #3d8e33 25%,
       transparent 15%
-    ) 0 $motion-flag-width / 3.15
+    ) 0 $flag-width / 3.15
     linear-gradient(
       34deg,
       #3d8e33 25%,
       transparent 15%
-    ) 0 $motion-flag-width / 3.15
+    ) 0 $flag-width / 3.15
     linear-gradient(
       to bottom,
       #ffc61e 0%,
@@ -192,10 +192,10 @@
   
   &::before {
     position: absolute;
-    top: $motion-flag-size * 0.05;
+    top: $flag-size * 0.05;
     margin-top: 0;
     margin-left: 5%;
-    font-size: $motion-flag-size / 4;
+    font-size: $flag-size / 4;
     color: #ffce00;
     content: "★";
   }
@@ -248,12 +248,12 @@
       146deg,
       #cf142b 25%,
       transparent 15%
-    ) 0 $motion-flag-width / 3.15
+    ) 0 $flag-width / 3.15
     linear-gradient(
       34deg,
       #cf142b 25%,
       transparent 15%
-    ) 0 $motion-flag-width / 3.15
+    ) 0 $flag-width / 3.15
     linear-gradient(
       to bottom,
       #002a8f 20%,
@@ -271,7 +271,7 @@
     position: absolute;
     top: 35%;
     left: 8%;
-    font-size: $motion-flag-size / 6;
+    font-size: $flag-size / 6;
     color: #fff;
     content: "★";
   }
@@ -281,11 +281,11 @@
   background: #fff;
 
   &::before {
-    @include flagSymbol("\e931", #d57800, 10%, 0, $motion-flag-height);
+    @include flagSymbol("\e931", #d57800, 10%, 0, $flag-height);
   }
 
   &::after {
-    @include flagSymbol("\e930", #4e5b31, 15%, 35%, $motion-flag-size / 2);
+    @include flagSymbol("\e930", #4e5b31, 15%, 35%, $flag-size / 2);
   }
 }
 // Czech Republic
@@ -295,12 +295,12 @@
       146deg,
       #11457e 25%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       34deg,
       #11457e 25%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       to bottom,
       #fff 50%,

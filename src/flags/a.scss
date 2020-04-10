@@ -23,8 +23,8 @@
     top: 30.5%;
     right: 0;
     left: 0;
-    width: $motion-flag-size / 4;
-    height: $motion-flag-size / 4;
+    width: $flag-size / 4;
+    height: $flag-size / 4;
     margin-right: auto;
     margin-left: auto;
     content: "";
@@ -37,7 +37,7 @@
     position: absolute;
     top: 38%;
     left: 48%;
-    font-size: $motion-flag-size / 6;
+    font-size: $flag-size / 6;
     color: #d21034;
     content: "★";
     transform: rotate(15deg);
@@ -51,22 +51,22 @@
       -20deg,
       #fff 31%,
       transparent 15%
-    ) 0 $motion-flag-size / 3
+    ) 0 $flag-size / 3
     linear-gradient(
       -160deg,
       #fff 31%,
       transparent 15%
-    ) 0 $motion-flag-size / 3
+    ) 0 $flag-size / 3
     linear-gradient(
       -20deg,
       #b00018 34%,
       transparent 15%
-    ) 0 $motion-flag-size / 3
+    ) 0 $flag-size / 3
     linear-gradient(
       -160deg,
       #b00018 34%,
       transparent 15%
-    ) 0 $motion-flag-size / 3
+    ) 0 $flag-size / 3
     #000053;
 
   &::after {
@@ -87,7 +87,7 @@
   @include twoPart(#dc143c,#000);
 
   &::before {
-    @include flagSymbol("\e904", #fedf00, 25%, 10%, $motion-flag-size / 2);
+    @include flagSymbol("\e904", #fedf00, 25%, 10%, $flag-size / 2);
   }
 }
 // Anguilla
@@ -99,7 +99,7 @@
   background: #3a7dce;
 
   &::before {
-    @include flagSymbol("\e905", #fff, 15%, 15%, $motion-flag-size / 2);
+    @include flagSymbol("\e905", #fff, 15%, 15%, $flag-size / 2);
   }
 }
 // Antigua and Barbuda

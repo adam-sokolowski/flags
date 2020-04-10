@@ -2,7 +2,7 @@
 &-la {
   background:
     radial-gradient(
-      $motion-flag-size / 3 at 50% 50%,
+      $flag-size / 3 at 50% 50%,
       #fff 0,
       #fff 35%,
       transparent 35%,
@@ -42,7 +42,7 @@
     );
 
   &::before {
-    @include flagSymbol("\e919", #009543, 40%, 33%, $motion-flag-height / 3);
+    @include flagSymbol("\e919", #009543, 40%, 33%, $flag-height / 3);
   }
 }
 // Lesotho
@@ -50,7 +50,7 @@
   @include threePart(#00209f, #fff, #009543);
 
   &::before {
-    @include flagSymbol("\e91a", #000, 40%, 33%, $motion-flag-height / 3);
+    @include flagSymbol("\e91a", #000, 40%, 33%, $flag-height / 3);
   }
 }
 // Liberia
@@ -60,9 +60,9 @@
     repeating-linear-gradient(
       to bottom,
       #b22234,
-      #b22234 $motion-flag-height / 12,
-      #fff $motion-flag-height / 12,
-      #fff $motion-flag-height / 6
+      #b22234 $flag-height / 12,
+      #fff $flag-height / 12,
+      #fff $flag-height / 6
     );
 
   &::after {
@@ -70,10 +70,10 @@
     top: 0;
     left: 0;
     box-sizing: border-box;
-    width: $motion-flag-size / 4;
-    height: $motion-flag-size / 4.75;
-    padding-top: $motion-flag-size / 18;
-    font-size: $motion-flag-size / 8;
+    width: $flag-size / 4;
+    height: $flag-size / 4.75;
+    padding-top: $flag-size / 18;
+    font-size: $flag-size / 8;
     color: #fff;
     text-align: center;
     content: "★";
@@ -99,8 +99,8 @@
     top: 35%;
     right: 0;
     left: 5%;
-    width: $motion-flag-size / 6;
-    height: $motion-flag-size / 6;
+    width: $flag-size / 6;
+    height: $flag-size / 6;
     margin-right: auto;
     margin-left: auto;
     content: "";
@@ -113,7 +113,7 @@
     position: absolute;
     top: 39.5%;
     left: 55%;
-    font-size: $motion-flag-size / 10;
+    font-size: $flag-size / 10;
     color: #fff;
     content: "★";
     transform: rotate(15deg);

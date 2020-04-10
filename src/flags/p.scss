@@ -6,7 +6,7 @@
 &-pw {
   background:
     radial-gradient(
-      $motion-flag-size / 2 at 40% 50%,
+      $flag-size / 2 at 40% 50%,
       #ffd100,
       #ffd100 35%,
       transparent 35%,
@@ -22,12 +22,12 @@
       135deg,
       #f30007 20%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       45deg,
       #f30007 20%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       to bottom,
       #000,
@@ -56,11 +56,11 @@
   &::before,
   &::after {
     position: absolute;
-    width: $motion-flag-size / 2.07;
-    height: $motion-flag-size / 3.1;
+    width: $flag-size / 2.07;
+    height: $flag-size / 3.1;
     padding-top: 7%;
     padding-left: 15%;
-    font-size: $motion-flag-size / 6;
+    font-size: $flag-size / 6;
     content: "★";
     background: #fff;
   }
@@ -99,12 +99,12 @@
       146deg,
       #fff 25%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       34deg,
       #fff 25%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       to bottom,
       #11457e 50%,
@@ -112,7 +112,7 @@
     );
 
   &::before {
-    @include flagSymbol("\e929", #ffd100, 0, 20%, $motion-flag-size / 2.5);
+    @include flagSymbol("\e929", #ffd100, 0, 20%, $flag-size / 2.5);
   }
 }
 // Poland
@@ -131,12 +131,12 @@
       146deg,
       #0333ec 25%,
       transparent 15%
-    ) 0 $motion-flag-width / 3.15
+    ) 0 $flag-width / 3.15
     linear-gradient(
       34deg,
       #0333ec 25%,
       transparent 15%
-    ) 0 $motion-flag-width / 3.15
+    ) 0 $flag-width / 3.15
     linear-gradient(
       to bottom,
       #e40007 20%,
@@ -154,7 +154,7 @@
     position: absolute;
     top: 35%;
     left: 8%;
-    font-size: $motion-flag-size / 6;
+    font-size: $flag-size / 6;
     color: #fff;
     content: "★";
   }

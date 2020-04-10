@@ -15,7 +15,7 @@
   background: #ba0000;
 
   &::before {
-    @include flagSymbol("\e90f", #fff, 33%, 20%, $motion-flag-size / 3);
+    @include flagSymbol("\e90f", #fff, 33%, 20%, $flag-size / 3);
   }
 }
 // Hungary

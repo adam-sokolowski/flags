@@ -48,15 +48,15 @@
     repeating-linear-gradient(
       to bottom,
       #b22234,
-      #b22234 $motion-flag-height / 14,
-      #fff $motion-flag-height / 14,
-      #fff $motion-flag-height / 7
+      #b22234 $flag-height / 14,
+      #fff $flag-height / 14,
+      #fff $flag-height / 7
     );
 
   &::before {
     background-color: #002868;
 
-    @include flagSymbol("\e935", #fff, 0, 0, $motion-flag-size / 3);
+    @include flagSymbol("\e935", #fff, 0, 0, $flag-size / 3);
   }
 }
 // Uruguay
@@ -65,9 +65,9 @@
     repeating-linear-gradient(
       to bottom,
       #fff,
-      #fff $motion-flag-height / 9,
-      #0038a8 $motion-flag-height / 9,
-      #0038a8 $motion-flag-height / 4.5
+      #fff $flag-height / 9,
+      #0038a8 $flag-height / 9,
+      #0038a8 $flag-height / 4.5
     );
 }
 // Uzbekistan

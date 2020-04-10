@@ -36,7 +36,7 @@
   @include threePart(#f93, #fff, #138808);
   
   &::before {
-    @include flagSymbol("\e911", #0038b8, 40%, 35%, $motion-flag-height / 3);
+    @include flagSymbol("\e911", #0038b8, 40%, 35%, $flag-height / 3);
   }
 }
 // Indonesia
@@ -48,7 +48,7 @@
   @include threePart(#239f40, #fff, #da0000);
 
   &::before {
-    @include flagSymbol("\e913", #da0000, 40%, 35%, $motion-flag-height / 3);
+    @include flagSymbol("\e913", #da0000, 40%, 35%, $flag-height / 3);
   }
 }
 // Iraq
@@ -56,7 +56,7 @@
   @include threePart(#ce1126, #fff, #000);
 
   &::before {
-    @include flagSymbol("\e912", #239f40, 30%, 18%, $motion-flag-height / 1.6);
+    @include flagSymbol("\e912", #239f40, 30%, 18%, $flag-height / 1.6);
   }
 }
 // Ireland
@@ -81,7 +81,7 @@
     #fff;
 
   &::before {
-    @include flagSymbol("\e910", #0038b8, 40%, 33%, $motion-flag-height / 3);
+    @include flagSymbol("\e910", #0038b8, 40%, 33%, $flag-height / 3);
   }
 }
 // Italy

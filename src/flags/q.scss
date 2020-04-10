@@ -14,7 +14,7 @@
     position: absolute;
     top: 0;
     left: 25%;
-    width: $motion-flag-height / 9;
+    width: $flag-height / 9;
     height: 100%;
     content: "";
     background:
@@ -22,12 +22,12 @@
         155deg,
         #fff 32%,
         transparent 31%
-      ) 0 $motion-flag-height / 18
+      ) 0 $flag-height / 18
       linear-gradient(
         25deg,
         #fff 32%,
         transparent 31%
-      ) 0 $motion-flag-width / 9;
-    background-size: $motion-flag-height / 9 $motion-flag-height / 9;
+      ) 0 $flag-width / 9;
+    background-size: $flag-height / 9 $flag-height / 9;
   }
 }

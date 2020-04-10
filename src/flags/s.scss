@@ -19,8 +19,8 @@
     top: 24%;
     left: 40%;
     display: block;
-    width: $motion-flag-height / 5;
-    font-size: $motion-flag-width / 6;
+    width: $flag-height / 5;
+    font-size: $flag-width / 6;
     color: #fff;
     content: "★  ★";
     transform: rotate(55deg);
@@ -34,32 +34,32 @@
       -45deg,
       #fcd116 14%,
       transparent 0
-    ) $motion-flag-width / 2.15 $motion-flag-width * -0.05
+    ) $flag-width / 2.15 $flag-width * -0.05
     linear-gradient(
       45deg,
       #fcd116 14%,
       transparent 0
-    ) $motion-flag-width / 2.15 $motion-flag-width * -0.05
+    ) $flag-width / 2.15 $flag-width * -0.05
     linear-gradient(
       -65deg,
       #000 16%,
       transparent 0
-    ) $motion-flag-width / 2.15 $motion-flag-width * -0.05
+    ) $flag-width / 2.15 $flag-width * -0.05
     linear-gradient(
       65deg,
       #000 16%,
       transparent 0
-    ) $motion-flag-width / 2.15 $motion-flag-width * -0.05
+    ) $flag-width / 2.15 $flag-width * -0.05
     linear-gradient(
       -65deg,
       #fff 18%,
       transparent 0
-    ) $motion-flag-width / 2.15 $motion-flag-width * -0.05
+    ) $flag-width / 2.15 $flag-width * -0.05
     linear-gradient(
       65deg,
       #fff 18%,
       transparent 0
-    ) $motion-flag-width / 2.15 $motion-flag-width * -0.05
+    ) $flag-width / 2.15 $flag-width * -0.05
     #0077c8;
 }
 // Saint Pierre and Miquelon
@@ -80,7 +80,7 @@
     );
 
   &::before {
-    @include flagSymbol("\e936", #199a00, 5%, 5%, $motion-flag-size / 1.55);
+    @include flagSymbol("\e936", #199a00, 5%, 5%, $flag-size / 1.55);
   }
 }
 // Samoa
@@ -88,10 +88,10 @@
   background: #ef3340;
 
   &::before {
-    padding: $motion-flag-size / 20 $motion-flag-size / 12;
+    padding: $flag-size / 20 $flag-size / 12;
     background-color: #002868;
 
-    @include flagSymbol("\e92b", #fff, 0, 0, $motion-flag-size / 4);
+    @include flagSymbol("\e92b", #fff, 0, 0, $flag-size / 4);
   }
 }
 // San Marino
@@ -110,12 +110,12 @@
       135deg,
       #da291c 20%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       45deg,
       #da291c 20%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       to bottom,
       #009639,
@@ -130,7 +130,7 @@
     position: absolute;
     top: 35%;
     left: 45%;
-    font-size: $motion-flag-size / 6;
+    font-size: $flag-size / 6;
     color: #000;
     content: "★  ★";
   }
@@ -140,7 +140,7 @@
   background: #199d00;
 
   &::before {
-    @include flagSymbol("\e92c", #fff, 25%, 30%, $motion-flag-size / 2.5);
+    @include flagSymbol("\e92c", #fff, 25%, 30%, $flag-size / 2.5);
   }
 }
 // Senegal
@@ -156,7 +156,7 @@
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    font-size: $motion-flag-size / 4;
+    font-size: $flag-size / 4;
     color: #00853f;
     text-align: center;
     content: "★";
@@ -214,7 +214,7 @@
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    font-size: $motion-flag-size / 4;
+    font-size: $flag-size / 4;
     color: #fff;
     text-align: center;
     content: "★";
@@ -232,12 +232,12 @@
       146deg,
       #0f47af 25%,
       transparent 15%
-    ) 0 $motion-flag-width / 3.15
+    ) 0 $flag-width / 3.15
     linear-gradient(
       34deg,
       #0f47af 25%,
       transparent 15%
-    ) 0 $motion-flag-width / 3.15
+    ) 0 $flag-width / 3.15
     linear-gradient(
       to bottom,
       #000 30%,
@@ -254,7 +254,7 @@
     position: absolute;
     top: 33%;
     left: 10%;
-    font-size: $motion-flag-size / 6;
+    font-size: $flag-size / 6;
     color: #fcdd09;
     content: "★";
   }
@@ -273,7 +273,7 @@
     );
 
   &::after {
-    @include flagBase64Symbol($emblem-es, 10%, 20%, $motion-flag-size / 3, $motion-flag-size / 3);
+    @include flagBase64Symbol($emblem-es, 10%, 20%, $flag-size / 3, $flag-size / 3);
   }
 }
 // Sri Lanka
@@ -287,12 +287,12 @@
       148deg,
       #007229 25%,
       transparent 0
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       33deg,
       #007229 25%,
       transparent 0
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       to bottom,
       #d21034 calc(100% / 3),
@@ -385,7 +385,7 @@
     #da291c;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: $motion-flag-size / 3 $motion-flag-size / 3;
+  background-size: $flag-size / 3 $flag-size / 3;
 }
 // Syrian Arab Republic
 &-sy {

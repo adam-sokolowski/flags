@@ -31,7 +31,7 @@
     position: absolute;
     top: 60%;
     left: 15%;
-    font-size: $motion-flag-size / 5;
+    font-size: $flag-size / 5;
     color: #fff;
     content: "✹";
   }
@@ -60,7 +60,7 @@
 &-ne {
   background:
     radial-gradient(
-      $motion-flag-size / 4 at 50% 50%,
+      $flag-size / 4 at 50% 50%,
       #e05206 0,
       #e05206 35%,
       transparent 35%,

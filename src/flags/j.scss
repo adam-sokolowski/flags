@@ -15,7 +15,7 @@
 &-jp {
   background:
     radial-gradient(
-      $motion-flag-size / 1.5 at 50% 50%,
+      $flag-size / 1.5 at 50% 50%,
       #bc002d 0,
       #bc002d 30%,
       transparent 30%,
@@ -31,12 +31,12 @@
       146deg,
       #da291c 25%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       34deg,
       #da291c 25%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       to bottom,
       #000,
@@ -51,7 +51,7 @@
     position: absolute;
     top: 35%;
     left: 10%;
-    font-size: $motion-flag-size / 6;
+    font-size: $flag-size / 6;
     color: #fff;
     content: "✷";
     transform: rotate(12.5deg);

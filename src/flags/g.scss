@@ -96,24 +96,24 @@
     position: absolute;
     left: 12%;
     display: inline-block;
-    width: $motion-flag-size / 2.5;
-    height: $motion-flag-size / 5;
+    width: $flag-size / 2.5;
+    height: $flag-size / 5;
   }
 
   &::before {
     top: 18%;
     content: "";
     background: #e4002b;
-    border-top-left-radius: $motion-flag-size / 5;
-    border-top-right-radius: $motion-flag-size / 5;
+    border-top-left-radius: $flag-size / 5;
+    border-top-right-radius: $flag-size / 5;
   }
 
   &::after {
     top: 50%;
     content: "";
     background: #fff;
-    border-bottom-right-radius: $motion-flag-size / 5;
-    border-bottom-left-radius: $motion-flag-size / 5;
+    border-bottom-right-radius: $flag-size / 5;
+    border-bottom-left-radius: $flag-size / 5;
   }
 }
 // Grenada
@@ -140,7 +140,7 @@
     position: absolute;
     top: 33%;
     left: 15%;
-    font-size: $motion-flag-size / 6;
+    font-size: $flag-size / 6;
     color: #ffff0b;
     content: "★";
   }
@@ -148,7 +148,7 @@
 // Guam
 &-gu {
   background: #00257c;
-  border: $motion-flag-width / 20 solid #c71b36;
+  border: $flag-width / 20 solid #c71b36;
 }
 // Guatemala
 &-gt {
@@ -169,7 +169,7 @@
     position: absolute;
     top: 25%;
     left: 5%;
-    font-size: $motion-flag-size / 4;
+    font-size: $flag-size / 4;
     color: #000;
     content: "★";
   }
@@ -177,13 +177,13 @@
 // Guyana
 &-gy {
   background:
-    linear-gradient(149deg, #ce1126 24%, transparent 15%) 0 $motion-flag-size / 3.15
-    linear-gradient(31deg, #ce1126 24%, transparent 15%) 0  $motion-flag-size / 3.15
-    linear-gradient(149deg, #000 26%, transparent 15%) 0  $motion-flag-size / 3.15
-    linear-gradient(31deg, #000 26%, transparent 15%) 0  $motion-flag-size / 3.15
-    linear-gradient(160deg, #fcd116 32%, transparent 15%) 0  $motion-flag-size / 3.15
-    linear-gradient(20deg, #fcd116 32%, transparent 15%) 0  $motion-flag-size / 3.15
-    linear-gradient(161deg, #fff 34%, transparent 15%) 0  $motion-flag-size / 3.15
-    linear-gradient(19deg, #fff 34%, transparent 15%) 0  $motion-flag-size / 3.15
+    linear-gradient(149deg, #ce1126 24%, transparent 15%) 0 $flag-size / 3.15
+    linear-gradient(31deg, #ce1126 24%, transparent 15%) 0  $flag-size / 3.15
+    linear-gradient(149deg, #000 26%, transparent 15%) 0  $flag-size / 3.15
+    linear-gradient(31deg, #000 26%, transparent 15%) 0  $flag-size / 3.15
+    linear-gradient(160deg, #fcd116 32%, transparent 15%) 0  $flag-size / 3.15
+    linear-gradient(20deg, #fcd116 32%, transparent 15%) 0  $flag-size / 3.15
+    linear-gradient(161deg, #fff 34%, transparent 15%) 0  $flag-size / 3.15
+    linear-gradient(19deg, #fff 34%, transparent 15%) 0  $flag-size / 3.15
     #009e49;
 }

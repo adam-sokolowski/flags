@@ -5,12 +5,12 @@
       146deg,
       #000 25%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       34deg,
       #000 25%,
       transparent 15%
-    ) 0 $motion-flag-size * 0.95
+    ) 0 $flag-size * 0.95
     linear-gradient(
       to bottom,
       #00a9ce,
@@ -36,7 +36,7 @@
     position: absolute;
     top: 0;
     left: 24%;
-    width: $motion-flag-height / 5;
+    width: $flag-height / 5;
     height: 100%;
     content: "";
     background:
@@ -44,20 +44,20 @@
         154deg,
         #fff 35%,
         transparent 31%
-      ) 0 $motion-flag-height / 10
+      ) 0 $flag-height / 10
       linear-gradient(
         24deg,
         #fff 35%,
         transparent 31%
-      ) 0 $motion-flag-width / 5;
-    background-size: $motion-flag-height / 5 $motion-flag-height / 5;
+      ) 0 $flag-width / 5;
+    background-size: $flag-height / 5 $flag-height / 5;
   }
 }
 // Bangladesh
 &-bd {
   background:
     radial-gradient(
-      $motion-flag-size / 1.75 at 40% 50%,
+      $flag-size / 1.75 at 40% 50%,
       #f42a41,
       #f42a41 35%,
       transparent 35%,
@@ -69,7 +69,7 @@
   @include threePart(#012169, #ffc726, #012169, to right);
 
   &::before {
-    @include flagSymbol("\e906", #000, 32%, 20%, $motion-flag-size / 3);
+    @include flagSymbol("\e906", #000, 32%, 20%, $flag-size / 3);
   }
 }
 // Belarus
@@ -77,7 +77,7 @@
   @include threePart(#00966e, #00966e, #d62612);
 
   &::before {
-    @include flagSymbol("\e908", #fff, 0, 0, $motion-flag-height);
+    @include flagSymbol("\e908", #fff, 0, 0, $flag-height);
   }
 }
 // Belgium
@@ -122,7 +122,7 @@
   background: #002395;
 
   &::before {
-    @include flagSymbol("\e939", #ffe000, 0, 0, $motion-flag-height);
+    @include flagSymbol("\e939", #ffe000, 0, 0, $flag-height);
   }
 
   &::after {
@@ -133,7 +133,7 @@
     content: "";
     border-color: transparent #ffe000 transparent transparent;
     border-style: solid;
-    border-width: 0 $motion-flag-height $motion-flag-height 0;
+    border-width: 0 $flag-height $flag-height 0;
   }
 }
 // Botswana
@@ -178,14 +178,14 @@
       transparent 25%
     )
     radial-gradient(
-      $motion-flag-size / 2 at 50% 50%,
+      $flag-size / 2 at 50% 50%,
       transparent 0,
       transparent 35%,
       #fedf00 35%,
       #fedf00 100%
     )
     radial-gradient(
-      $motion-flag-size at 40% 96%,
+      $flag-size at 40% 96%,
       transparent 0,
       transparent 35%,
       #fff 35%,
@@ -212,7 +212,7 @@
     ) #f7e017;
 
   &::before {
-    @include flagSymbol("\e901", #d62612, 27%, 18%, $motion-flag-size / 2.5);
+    @include flagSymbol("\e901", #d62612, 27%, 18%, $flag-size / 2.5);
   }
 }
 // Bulgaria
@@ -228,7 +228,7 @@
     top: 30%;
     right: 0;
     left: 0;
-    font-size: $motion-flag-size / 4;
+    font-size: $flag-size / 4;
     color: #fcd116;
     text-align: center;
     content: "★";

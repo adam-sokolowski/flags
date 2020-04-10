@@ -16,6 +16,7 @@
   ],
   "scripts": {
     "sass:lint": "stylelint './**/*.scss' --syntax scss",
+    "sass:compile": "sass src/flags/_index.scss dist/index.css",
     "release:patch": "standard-version --release-as patch",
     "release:minor": "standard-version --release-as minor",
     "reset:githooks": "rm -rf ./.git/hooks/* && rm -rf node_modules/husky && yarn install --check-files"
@@ -24,6 +25,9 @@
     "hooks": {
       "pre-commit": [
         "yarn sass:lint"
+      ],
+      "pre-push": [
+        "yarn sass:compile"
       ]
     }
   },

@@ -260,6 +260,14 @@
     content: "★";
   }
 }
+
+// South Korea
+&-kr {
+  &::before {
+    @include flagSymbol("\e916", #000, 25%, 15%, $flag-size / 2);
+  }
+}
+
 // Spain
 &-es {
   background:

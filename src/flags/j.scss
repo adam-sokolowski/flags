@@ -23,29 +23,6 @@
     )
     #fff;
 }
-&-je {
-  background:
-  linear-gradient(
-    145deg,
-    transparent 45%,
-    transparent 45%,
-    #ff0016 45%,
-    #ff0016 45%,
-    #ff0016 55%,
-    transparent 55%,
-    transparent 55%
-  ),
-  linear-gradient(
-    35deg,
-    transparent 45%,
-    transparent 45%,
-    #ff0016 45%,
-    #ff0016 45%,
-    #ff0016 55%,
-    transparent 55%,
-    transparent 55%
-  );
-}
 // Jordan
 &-jo {
   position: relative;
@@ -80,3 +57,27 @@
     transform: rotate(12.5deg);
   }
 }
+
+// &-je {
+//   background:
+//   linear-gradient(
+//     145deg,
+//     transparent 45%,
+//     transparent 45%,
+//     #ff0016 45%,
+//     #ff0016 45%,
+//     #ff0016 55%,
+//     transparent 55%,
+//     transparent 55%
+//   ),
+//   linear-gradient(
+//     35deg,
+//     transparent 45%,
+//     transparent 45%,
+//     #ff0016 45%,
+//     #ff0016 45%,
+//     #ff0016 55%,
+//     transparent 55%,
+//     transparent 55%
+//   );
+// }

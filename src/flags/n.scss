@@ -52,6 +52,21 @@
 &-nz {
   background: #0018a8;
 }
+// North Korea
+&-kp {
+  background:
+    linear-gradient(
+      to bottom,
+      #024fa2 20%,
+      #fff 20%,
+      #fff 25%,
+      #ed1c27 25%,
+      #ed1c27 75%,
+      #fff 75%,
+      #fff 80%,
+      #024fa2 80%
+    );
+}
 // Nicaragua
 &-ni {
   @include threePart(#0067c6, #fff, #0067c6);

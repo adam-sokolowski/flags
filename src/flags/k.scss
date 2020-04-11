@@ -3,11 +3,11 @@
   background: #00aec7;
 
   &::before {
-    @include flagSymbol("\e918", #fec50c, 0, 0, $flag-height);
+    @include flagSymbol("\e927", #fec50c, 0, 0, $flag-height);
   }
 
   &::after {
-    @include flagSymbol("\e917", #fec50c, 30%, 15%, $flag-height / 1.5);
+    @include flagSymbol("\e926", #fec50c, 30%, 15%, $flag-height / 1.5);
   }
 }
 // Kenya
@@ -29,31 +29,6 @@
 &-ki {
   background: #ce1126;
 }
-// Korea
-&-kp {
-  background:
-    linear-gradient(
-      to bottom,
-      #024fa2 20%,
-      #fff 20%,
-      #fff 25%,
-      #ed1c27 25%,
-      #ed1c27 75%,
-      #fff 75%,
-      #fff 80%,
-      #024fa2 80%
-    );
-}
-// Korea, Republic of South Korea
-&-kr {
-  &::before {
-    @include flagSymbol("\e916", #000, 25%, 15%, $flag-size / 2);
-  }
-}
-// Kosovo
-&-xk {
-  background: #1c3594;
-}
 // Kuwait
 &-kw {
   background: #fff;
@@ -74,6 +49,11 @@
   background: #ef3340;
 
   &::before {
-    @include flagSymbol("\e915", #feff00, 33%, 20%, $flag-size / 3);
+    @include flagSymbol("\e921", #feff00, 33%, 20%, $flag-size / 3);
   }
 }
+
+// // Kosovo
+// &-xk {
+//   background: #1c3594;
+// }

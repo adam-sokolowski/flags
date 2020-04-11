@@ -63,10 +63,6 @@
 &-ie {
   @include threePart(#169b62, #fff, #ff883e, to right);
 }
-// Isle of Man
-&-im{
-  background: #cf142b;
-}
 // Israel
 &-il {
   position: relative;
@@ -92,3 +88,12 @@
 &-it {
   @include threePart(#009246, #fff, #ce2b37, to right);
 }
+// Ivory Coast
+&-ci {
+  @include threePart(#f77f00, #fff, #009e60, to right);
+}
+
+// // Isle of Man
+// &-im{
+//   background: #cf142b;
+// }

@@ -10,6 +10,7 @@ export const COUNTRY_CODES = [
   { name: 'Australia',  code: 'AU'},
   { name: 'Austria',  code: 'AT'},
   { name: 'Azerbaijan',  code: 'AZ'},
+
   { name: 'Bahrain',  code: 'BH'},
   { name: 'Bangladesh',  code: 'BD'},
   { name: 'Barbados',  code: 'BB'},
@@ -26,6 +27,7 @@ export const COUNTRY_CODES = [
   { name: 'Bulgaria',  code: 'BG'},
   { name: 'Burkina Faso',  code: 'BF'},
   { name: 'Burundi',  code: 'BI'},
+
   { name: 'Cambodia',  code: 'KH'},
   { name: 'Cameroon',  code: 'CM'},
   { name: 'Canada',  code: 'CA'},
@@ -41,10 +43,12 @@ export const COUNTRY_CODES = [
   { name: 'Cuba',  code: 'CU'},
   { name: 'Cyprus',  code: 'CY'},
   { name: 'Czechia',  code: 'CZ'},
+
   { name: 'Denmark',  code: 'DK'},
   { name: 'Djibouti',  code: 'DJ'},
   { name: 'Dominica',  code: 'DM'},
   { name: 'Dominican Republic',  code: 'DO'},
+
   { name: 'East Timor',  code: 'TL'},
   { name: 'Ecuador',  code: 'EC'},
   { name: 'Egypt',  code: 'EG'},
@@ -56,6 +60,7 @@ export const COUNTRY_CODES = [
   { name: 'Fiji',  code: 'FJ'},
   { name: 'Finland',  code: 'FI'},
   { name: 'France',  code: 'FR'},
+
   { name: 'Gabon',  code: 'GA'},
   { name: 'Georgia',  code: 'GE'},
   { name: 'Germany',  code: 'DE'},
@@ -66,6 +71,7 @@ export const COUNTRY_CODES = [
   { name: 'Guinea',  code: 'GN'},
   { name: 'Guinea-Bissau',  code: 'GW'},
   { name: 'Guyana',  code: 'GY'},
+
   { name: 'Haiti',  code: 'HT'},
   { name: 'Holy See (Vatican City State)',  code: 'VA'},
   { name: 'Honduras',  code: 'HN'},
@@ -74,20 +80,23 @@ export const COUNTRY_CODES = [
   { name: 'Iceland',  code: 'IS'},
   { name: 'India',  code: 'IN'},
   { name: 'Indonesia',  code: 'ID'},
-  { name: 'Iran, Islamic Republic of',  code: 'IR'},
+  { name: 'Iran',  code: 'IR'},
   { name: 'Iraq',  code: 'IQ'},
   { name: 'Ireland',  code: 'IE'},
   { name: 'Israel',  code: 'IL'},
   { name: 'Italy',  code: 'IT'},
   { name: 'Ivory Coast',  code: 'CI'},
+
   { name: 'Jamaica',  code: 'JM'},
   { name: 'Japan',  code: 'JP'},
   { name: 'Jordan',  code: 'JO'},
+
   { name: 'Kazakhstan',  code: 'KZ'},
   { name: 'Kenya',  code: 'KE'},
   { name: 'Kiribati',  code: 'KI'},
   { name: 'Kuwait',  code: 'KW'},
   { name: 'Kyrgyzstan',  code: 'KG'},
+
   { name: 'Laos',  code: 'LA'},
   { name: 'Latvia',  code: 'LV'},
   { name: 'Lebanon',  code: 'LB'},
@@ -97,6 +106,7 @@ export const COUNTRY_CODES = [
   { name: 'Liechtenstein',  code: 'LI'},
   { name: 'Lithuania',  code: 'LT'},
   { name: 'Luxembourg',  code: 'LU'},
+
   { name: 'Macedonia',  code: 'MK'},
   { name: 'Madagascar',  code: 'MG'},
   { name: 'Malawi',  code: 'MW'},
@@ -116,6 +126,7 @@ export const COUNTRY_CODES = [
   { name: 'Morocco',  code: 'MA'},
   { name: 'Mozambique',  code: 'MZ'},
   { name: 'Myanmar',  code: 'MM'},
+
   { name: 'Namibia',  code: 'NA'},
   { name: 'Nauru',  code: 'NR'},
   { name: 'Nepal',  code: 'NP'},
@@ -126,7 +137,9 @@ export const COUNTRY_CODES = [
   { name: 'Nigeria',  code: 'NG'},
   { name: 'North Korea',  code: 'KP'},
   { name: 'Norway',  code: 'NO'},
+
   { name: 'Oman',  code: 'OM'},
+
   { name: 'Pakistan',  code: 'PK'},
   { name: 'Palau',  code: 'PW'},
   { name: 'Panama',  code: 'PA'},
@@ -137,10 +150,13 @@ export const COUNTRY_CODES = [
   { name: 'Poland',  code: 'PL'},
   { name: 'Portugal',  code: 'PT'},
   { name: 'Puerto Rico',  code: 'PR'},
+ 
   { name: 'Qatar',  code: 'QA'},
+
   { name: 'Romania',  code: 'RO'},
   { name: 'Russia',  code: 'RU'},
   { name: 'Rwanda',  code: 'RW'},
+
   { name: 'Saint Kitts and Nevis',  code: 'KN'},
   { name: 'Saint Lucia',  code: 'LC'},
   { name: 'Saint Vincent and the Grenadines',  code: 'VC'},
@@ -169,6 +185,7 @@ export const COUNTRY_CODES = [
   { name: 'Sweden',  code: 'SE'},
   { name: 'Switzerland',  code: 'CH'},
   { name: 'Syria',  code: 'SY'},
+
   { name: 'Tajikistan',  code: 'TJ'},
   { name: 'Tanzania, United Republic of',  code: 'TZ'},
   { name: 'Thailand',  code: 'TH'},
@@ -183,6 +200,7 @@ export const COUNTRY_CODES = [
   { name: 'Turkey',  code: 'TR'},
   { name: 'Turkmenistan',  code: 'TM'},
   { name: 'Tuvalu',  code: 'TV'},
+
   { name: 'Uganda',  code: 'UG'},
   { name: 'Ukraine',  code: 'UA'},
   { name: 'United Arab Emirates',  code: 'AE'},
@@ -190,10 +208,13 @@ export const COUNTRY_CODES = [
   { name: 'United States',  code: 'US'},
   { name: 'Uruguay',  code: 'UY'},
   { name: 'Uzbekistan',  code: 'UZ'},
+
   { name: 'Vanuatu',  code: 'VU'},
   { name: 'Venezuela',  code: 'VE'},
   { name: 'Vietnam',  code: 'VN'},
+
   { name: 'Yemen',  code: 'YE'},
+
   { name: 'Zambia',  code: 'ZM'},
   { name: 'Zimbabwe',  code: 'ZW'}
 ];

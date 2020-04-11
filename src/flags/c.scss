@@ -58,7 +58,7 @@
     );
 
   &::before {
-    @include flagSymbol("\e93b", #f7d116, 10%, 45%);
+    @include flagSymbol("\e93b", #f7d116, 10%, 40%);
   }
 }
 // Cayman Islands
@@ -92,7 +92,7 @@
 
   &::before {
     position: absolute;
-    top: 3%;
+    top: 5%;
     left: 8%;
     margin-right: auto;
     margin-left: auto;
@@ -124,7 +124,7 @@
     box-sizing: border-box;
     width: $flag-size / 3;
     height: $flag-size / 3;
-    padding-top: $flag-size / 18;
+    padding-top: $flag-size / 12;
     font-size: $flag-size / 6;
     color: #fff;
     text-align: center;

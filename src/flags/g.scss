@@ -22,17 +22,17 @@
   background:
     linear-gradient(
       to bottom,
-      transparent 43%,
-      #fb0007 43%,
-      #fb0007 57%,
-      transparent 57%
-    )
+      transparent 40%,
+      #ff0000 40%,
+      #ff0000 60%,
+      transparent 60%
+    ),
     linear-gradient(
       to right,
-      transparent 45%,
-      #fb0007 45%,
-      #fb0007 55%,
-      transparent 55%
+      transparent 44%,
+      #ff0000 44%,
+      #ff0000 56%,
+      transparent 56%
     )
     #fff;
 }
@@ -153,6 +153,25 @@
 // Guatemala
 &-gt {
   @include threePart(#4997d0, #fff, #4997d0, to right);
+}
+// Guernsey
+&-gg {
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 40%,
+      #e8112d 40%,
+      #e8112d 60%,
+      transparent 60%
+    ),
+    linear-gradient(
+      to right,
+      transparent 44%,
+      #e8112d 44%,
+      #e8112d 56%,
+      transparent 56%
+    ),
+    #fff;
 }
 // Guinea
 &-gn {

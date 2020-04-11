@@ -8,7 +8,36 @@
 }
 // Åland Islands
 &-ax {
-  //
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 43%,
+      #d21034 43%,
+      #d21034 54%,
+      transparent 54%
+    ),
+    linear-gradient(
+      to right,
+      transparent 34%,
+      #d21034 34%,
+      #d21034 41%,
+      transparent 41%
+    ),
+    linear-gradient(
+      to right,
+      transparent 30%,
+      #ffce00 30%,
+      #ffce00 45%,
+      transparent 45%
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 38%,
+      #ffce00 38%,
+      #ffce00 59%,
+      transparent 59%
+    )
+    #0053a5;
 }
 // Albania
 &-al {

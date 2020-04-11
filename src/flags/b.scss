@@ -102,6 +102,39 @@
       #75aadb 100%
     );
 }
+// Bouvet island
+&-bv {
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 43%,
+      #002868 43%,
+      #002868 54%,
+      transparent 54%
+    ),
+    linear-gradient(
+      to right,
+      transparent 28%,
+      #002868 28%,
+      #002868 37%,
+      transparent 37%
+    ),
+    linear-gradient(
+      to right,
+      transparent 25%,
+      #fff 25%,
+      #fff 40%,
+      transparent 40%
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 38%,
+      #fff 38%,
+      #fff 59%,
+      transparent 59%
+    )
+    #ef2b2d;
+}
 // Brazil
 &-br {
   overflow: hidden;
@@ -190,37 +223,37 @@
       146deg,
       #c0001d 20%,
       transparent 15%
-    ) 87px -114px
+    ) 87px -114px,
     linear-gradient(
       -146deg,
       #c0001d 20%,
       transparent 15%
-    ) 88px -114px
+    ) 88px -114px,
     linear-gradient(
       -34deg,
       #c0001d 20%,
       transparent 15%
-    ) 88px 114px
+    ) 88px 114px,
     linear-gradient(
       34deg,
       #c0001d 20%,
       transparent 15%
-    ) 87px 114px
+    ) 87px 114px,
     linear-gradient(
       146deg,
       #21ab2c 20%,
       transparent 15%
-    ) 0 -57px
+    ) 0 -57px,
     linear-gradient(
       34deg,
       #21ab2c 20%,
       transparent 15%
-    ) 0 -57px
+    ) 0 -57px,
     linear-gradient(
       -146deg,
       #21ab2c 20%,
       transparent 15%
-    ) 175px -57px
+    ) 175px -57px,
     linear-gradient(
       -34deg,
       #21ab2c 20%,

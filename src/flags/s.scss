@@ -13,7 +13,7 @@
 
   &::after {
     position: absolute;
-    top: 16%;
+    top: 25%;
     left: 40%;
     display: block;
     width: $flag-height / 5;
@@ -22,7 +22,6 @@
     content: "★  ★";
     transform: rotate(55deg);
   }
-
 }
 // Saint Lucia
 &-lc {
@@ -321,7 +320,7 @@
 
   &::before {
     position: absolute;
-    top: 28%;
+    top: 35%;
     right: 0;
     left: 0;
     margin-right: auto;
@@ -334,7 +333,36 @@
 }
 // Svalbard and Jan Mayen
 &-sj {
-  // 
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 43%,
+      #002868 43%,
+      #002868 54%,
+      transparent 54%
+    ),
+    linear-gradient(
+      to right,
+      transparent 28%,
+      #002868 28%,
+      #002868 37%,
+      transparent 37%
+    ),
+    linear-gradient(
+      to right,
+      transparent 25%,
+      #fff 25%,
+      #fff 40%,
+      transparent 40%
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 38%,
+      #fff 38%,
+      #fff 59%,
+      transparent 59%
+    )
+    #ef2b2d;
 }
 // Swaziland
 &-sz {

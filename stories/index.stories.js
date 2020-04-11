@@ -18,7 +18,7 @@ const getTemplate = (letter) => `
       .map(country => `
         <div class="wrapper">
           <div class="margin flag flag-${size} flag-${country.code.toLowerCase()}"></div>
-            <div class="label">${country.name} / [${country.code}]</div>
+            <div class="label">[${country.code}] - ${country.name}</div>
         </div>`
       )
       .toString()

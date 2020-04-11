@@ -1,7 +1,3 @@
-// Réunion
-&-re {
-  @include threePart(#002395, #fff, #ed2939, to right);
-}
 // Romania
 &-ro {
   @include threePart(#002b7f, #fcd116, #ce1126, to right);
@@ -14,3 +10,8 @@
 &-rw {
   background: linear-gradient(to bottom, #00a1de 50%, #fad201 50%, #fad201 75%, #20603d 75%);
 }
+
+// // Réunion
+// &-re {
+//   @include threePart(#002395, #fff, #ed2939, to right);
+// }

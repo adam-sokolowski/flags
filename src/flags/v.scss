@@ -41,15 +41,16 @@
     content: "★";
   }
 }
-// Virgin Islands, British
-&-vg {
-  background: #080058;
-}
-// Virgin Islands, U.S.
-&-vi {
-  background: #fff;
 
-  &::after {
-    @include flagBase64Symbol($emblem-vi, 10%, 18%, 45px, 30px);
-  }
-}
+// // Virgin Islands, British
+// &-vg {
+//   background: #080058;
+// }
+// // Virgin Islands, U.S.
+// &-vi {
+//   background: #fff;
+
+//   &::after {
+//     @include flagBase64Symbol($emblem-vi, 10%, 18%, 45px, 30px);
+//   }
+// }

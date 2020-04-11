@@ -82,6 +82,15 @@
 &-nu {
   background: #fac914;
 }
+// Norfolk Island 
+&-nf{
+  @include threePart(#007934, #fff, #007934, to right);
+
+  &::before {
+    @include flagSymbol("\e924", #007934, 40%, 25%, $flag-height / 2);
+  }
+  
+}
 // Northern Mariana Islands
 &-mp {
   background: #0071bc;

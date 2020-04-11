@@ -26,7 +26,7 @@ const getTemplate = (letter) => `
     }
 </div>`;
 
-storiesOf('CSS Flags', module)
+storiesOf('Countries', module)
   .add('A', () => getTemplate('A'))
   .add('B', () => getTemplate('B'))
   .add('C', () => getTemplate('C'))
@@ -49,8 +49,11 @@ storiesOf('CSS Flags', module)
   .add('T', () => getTemplate('T'))
   .add('U', () => getTemplate('U'))
   .add('V', () => getTemplate('V'))
-  .add('W', () => getTemplate('W'))
   .add('Y', () => getTemplate('Y'))
+  .add('Z', () => getTemplate('Z'));
+
+  storiesOf('Teritories', module)
+  .add('A', () => getTemplate('A'))
   .add('Z', () => getTemplate('Z'));
 
 export default {

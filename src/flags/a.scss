@@ -63,19 +63,18 @@
     content: "";
     background: transparent;
     border-radius: 50%;
-    box-shadow: -3px 0 0 2px #d21034;
+    box-shadow: -$flag-size / 20 0 0 $flag-size / 30 #d21034;
   }
 
   &::after {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 55%;
     font-size: $flag-size / 8;
     color: #d21034;
     content: "★";
     transform: rotate(15deg);
   }
-
 }
 // American Samoa
 &-as {

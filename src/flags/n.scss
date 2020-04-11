@@ -13,6 +13,10 @@
       #009543
       60%
     );
+
+  &::before {
+    @include flagSymbol("\e933", #ffc61e, 5%, 10%, $flag-height / 3);
+  }
 }
 // Nauru
 &-nr {
@@ -88,6 +92,18 @@
       #fff 80%,
       #024fa2 80%
     );
+
+  &::before {
+    @include flagSymbol("\e924", #fff, 5%, 27%, $flag-size / 3.5);
+  }
+}
+// North Macedonia
+&-mk {
+  background: #d20000;
+
+  &::before {
+    @include flagSymbol("\e92d", #ffe600, -1%, -8%, $flag-size / 1.3);
+  }
 }
 // Norway
 &-no {

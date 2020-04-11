@@ -84,6 +84,10 @@
       #1eb53a 70%,
       #1eb53a 100%
     );
+
+    &::before {  
+      @include flagSymbol("\e947", #fff, 5%, 0, $flag-size / 3.8);
+    }
 }
 
 // // United States Minor Outlying Islands

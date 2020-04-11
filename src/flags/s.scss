@@ -64,7 +64,7 @@
     );
 
   &::before {
-    @include flagSymbol("\e936", #199a00, 5%, 5%, $flag-size / 1.55);
+    @include flagSymbol("\e948", #199a00, 7%, 5%, $flag-size / 1.55);
   }
 }
 // Samoa
@@ -75,7 +75,7 @@
     padding: $flag-size / 20 $flag-size / 12;
     background-color: #002868;
 
-    @include flagSymbol("\e92b", #fff, 0, 0, $flag-size / 4);
+    @include flagSymbol("\e93c", #fff, 0, 0, $flag-size / 4);
   }
 }
 // San Marino
@@ -112,7 +112,7 @@
 
   &::before {
     position: absolute;
-    top: 30%;
+    top: 38%;
     left: 45%;
     font-size: $flag-size / 6;
     color: #000;
@@ -124,7 +124,7 @@
   background: #199d00;
 
   &::before {
-    @include flagSymbol("\e92c", #fff, 25%, 25%, $flag-size / 2.5);
+    @include flagSymbol("\e93e", #fff, 30%, 25%, $flag-size / 2.5);
   }
 }
 // Senegal
@@ -135,7 +135,7 @@
 
   &::before {
     position: absolute;
-    top: 23%;
+    top: 30%;
     right: 0;
     left: 0;
     margin-right: auto;
@@ -166,6 +166,10 @@
 // Singapore
 &-sg {
   @include twoPart(#dc143c, #fff);
+
+  &::before {
+    @include flagSymbol("\e93f", #fff, 5%, 10%, $flag-height / 3);
+  }
 }
 // Slovakia
 &-sk {
@@ -204,7 +208,7 @@
 // South Korea
 &-kr {
   &::before {
-    @include flagSymbol("\e916", #000, 25%, 15%, $flag-size / 2);
+    @include flagSymbol("\e925", #000, 25%, 15%, $flag-size / 2);
   }
 }
 // South Sudan
@@ -262,6 +266,10 @@
 // Sri Lanka
 &-lk {
   //
+
+  &::before {
+    @include flagSymbol("\e929", #ff0, 27%, 25%, $flag-height / 2);
+  }
 }
 // State of Palestie
 &-ps {

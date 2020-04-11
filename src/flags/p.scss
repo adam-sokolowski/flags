@@ -85,6 +85,14 @@
       #000 50%,
       #c8102e 50%
     );
+
+    &::before {
+      @include flagSymbol("\e939", #ffd100, 50%, 10%, $flag-size / 3);
+    }
+    
+    &::after {  
+      @include flagSymbol("\e93c", #fff, 5%, 40%, $flag-size / 3);
+    }
 }
 // Paraguay
 &-py {
@@ -114,7 +122,7 @@
     );
 
   &::before {
-    @include flagSymbol("\e929", #ffd100, 0, 20%, $flag-size / 2.5);
+    @include flagSymbol("\e93a", #e0b700, 0, 20%, $flag-size / 2.5);
   }
 }
 // Poland

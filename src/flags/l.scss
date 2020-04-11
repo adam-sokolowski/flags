@@ -42,7 +42,7 @@
     );
 
   &::before {
-    @include flagSymbol("\e919", #009543, 40%, 33%, $flag-height / 3);
+    @include flagSymbol("\e928", #009543, 40%, 33%, $flag-height / 3);
   }
 }
 // Lesotho
@@ -50,7 +50,7 @@
   @include threePart(#00209f, #fff, #009543);
 
   &::before {
-    @include flagSymbol("\e91a", #000, 37%, 35%, $flag-height / 3);
+    @include flagSymbol("\e92a", #000, 37%, 35%, $flag-height / 3);
   }
 }
 // Liberia

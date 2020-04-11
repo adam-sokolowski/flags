@@ -18,11 +18,11 @@ export const COUNTRY_CODES = [
   { name: 'Belize',  code: 'BZ'},
   { name: 'Benin',  code: 'BJ'},
   { name: 'Bhutan',  code: 'BT'},
-  { name: 'Bolivia, Plurinational State of ',  code: 'BO'},
+  { name: 'Bolivia',  code: 'BO'},
   { name: 'Bosnia and Herzegovina',  code: 'BA'},
   { name: 'Botswana',  code: 'BW'},
   { name: 'Brazil',  code: 'BR'},
-  { name: 'Brunei Darussalam',  code: 'BN'},
+  { name: 'Brunei',  code: 'BN'},
   { name: 'Bulgaria',  code: 'BG'},
   { name: 'Burkina Faso',  code: 'BF'},
   { name: 'Burundi',  code: 'BI'},
@@ -96,7 +96,6 @@ export const COUNTRY_CODES = [
   { name: 'Liechtenstein',  code: 'LI'},
   { name: 'Lithuania',  code: 'LT'},
   { name: 'Luxembourg',  code: 'LU'},
-
   { name: 'Macedonia',  code: 'MK'},
   { name: 'Madagascar',  code: 'MG'},
   { name: 'Malawi',  code: 'MW'},
@@ -116,7 +115,6 @@ export const COUNTRY_CODES = [
   { name: 'Morocco',  code: 'MA'},
   { name: 'Mozambique',  code: 'MZ'},
   { name: 'Myanmar',  code: 'MM'},
-
   { name: 'Namibia',  code: 'NA'},
   { name: 'Nauru',  code: 'NR'},
   { name: 'Nepal',  code: 'NP'},
@@ -127,9 +125,7 @@ export const COUNTRY_CODES = [
   { name: 'Nigeria',  code: 'NG'},
   { name: 'North Korea',  code: 'KP'},
   { name: 'Norway',  code: 'NO'},
-
   { name: 'Oman',  code: 'OM'},
-
   { name: 'Pakistan',  code: 'PK'},
   { name: 'Palau',  code: 'PW'},
   { name: 'Panama',  code: 'PA'},
@@ -140,12 +136,10 @@ export const COUNTRY_CODES = [
   { name: 'Poland',  code: 'PL'},
   { name: 'Portugal',  code: 'PT'},
   { name: 'Puerto Rico',  code: 'PR'},
- 
   { name: 'Qatar',  code: 'QA'},
   { name: 'Romania',  code: 'RO'},
   { name: 'Russia',  code: 'RU'},
   { name: 'Rwanda',  code: 'RW'},
-
   { name: 'Saint Kitts and Nevis',  code: 'KN'},
   { name: 'Saint Lucia',  code: 'LC'},
   { name: 'Saint Vincent and the Grenadines',  code: 'VC'},
@@ -174,14 +168,13 @@ export const COUNTRY_CODES = [
   { name: 'Sweden',  code: 'SE'},
   { name: 'Switzerland',  code: 'CH'},
   { name: 'Syria',  code: 'SY'},
-
   { name: 'Tajikistan',  code: 'TJ'},
   { name: 'Tanzania',  code: 'TZ'},
   { name: 'Thailand',  code: 'TH'},
   { name: 'The Bahamas',  code: 'BS'},
   { name: 'The Democratic Republic of Congo',  code: 'CD'},
   { name: 'The Gambia',  code: 'GM'},
-  { name: 'The republic of the Congo',  code: 'CG'},
+  { name: 'The Republic of the Congo',  code: 'CG'},
   { name: 'Togo',  code: 'TG'},
   { name: 'Tonga',  code: 'TO'},
   { name: 'Trinidad and Tobago',  code: 'TT'},

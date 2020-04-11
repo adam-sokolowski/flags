@@ -1,11 +1,3 @@
-// Saint Barthélemy
-&-bl {
-  //
-}
-// Saint Helena Ascension and Tristan da Cunha
-&-sh {
-  //
-}
 // Saint Kitts and Nevis
 &-kn {
   position: relative;
@@ -57,14 +49,6 @@
       transparent 0
     ) $flag-width / 2 $flag-width * -0.05,
     #0077c8;
-}
-// Saint Martin (French part)
-&-mf {
-  //
-}
-// Saint Pierre and Miquelon
-&-pm {
-  //
 }
 // Saint Vincent and the Grenadines
 &-vc {
@@ -183,10 +167,6 @@
 &-sg {
   @include twoPart(#dc143c, #fff);
 }
-// Sint Maarten (Dutch part)
-&-sx {
-  //
-}
 // Slovakia
 &-sk {
   @include threePart(#fff, #0b4ea2, #ee1c25);
@@ -221,9 +201,11 @@
 &-za {
   //
 }
-// South Georgia and the South Sandwich Islands
-&-gs {
-  //
+// South Korea
+&-kr {
+  &::before {
+    @include flagSymbol("\e916", #000, 25%, 15%, $flag-size / 2);
+  }
 }
 // South Sudan
 &-ss {
@@ -260,14 +242,6 @@
     content: "★";
   }
 }
-
-// South Korea
-&-kr {
-  &::before {
-    @include flagSymbol("\e916", #000, 25%, 15%, $flag-size / 2);
-  }
-}
-
 // Spain
 &-es {
   background:
@@ -288,6 +262,30 @@
 // Sri Lanka
 &-lk {
   //
+}
+// State of Palestie
+&-ps {
+  position: relative;
+  background:
+    linear-gradient(
+      135deg,
+      #f30007 20%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      45deg,
+      #f30007 20%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      to bottom,
+      #000,
+      #000 calc(100% / 3),
+      #fff calc(100% / 3),
+      #fff calc(100% / 3 * 2),
+      #0e692f	calc(100% / 3 * 2),
+      #0e692f	 100%,
+    );
 }
 // Sudan
 &-sd {
@@ -339,39 +337,6 @@
     content: "★";
   }
 }
-// Svalbard and Jan Mayen
-&-sj {
-  background:
-    linear-gradient(
-      to bottom,
-      transparent 43%,
-      #002868 43%,
-      #002868 54%,
-      transparent 54%
-    ),
-    linear-gradient(
-      to right,
-      transparent 28%,
-      #002868 28%,
-      #002868 37%,
-      transparent 37%
-    ),
-    linear-gradient(
-      to right,
-      transparent 25%,
-      #fff 25%,
-      #fff 40%,
-      transparent 40%
-    ),
-    linear-gradient(
-      to bottom,
-      transparent 38%,
-      #fff 38%,
-      #fff 59%,
-      transparent 59%
-    )
-    #ef2b2d;
-}
 // Swaziland
 &-sz {
   background: linear-gradient(to bottom, #3e5eb9 20%, #ffd900 20%, #ffd900 25%, #b10c0c 25%, #b10c0c 75%, #ffd900 75%, #ffd900 80%, #3e5eb9 80%);
@@ -393,7 +358,66 @@
   background-position: 50% 50%;
   background-size: $flag-size / 3 $flag-size / 3;
 }
-// Syrian Arab Republic
+// Syria
 &-sy {
   @include threePart(#ce1126, #fff, #000);
 }
+
+// // Saint Martin (French part)
+// &-mf {
+//   //
+// }
+// // Saint Pierre and Miquelon
+// &-pm {
+//   //
+// }
+// // Saint Barthélemy
+// &-bl {
+//   //
+// }
+// // Saint Helena Ascension and Tristan da Cunha
+// &-sh {
+//   //
+// }
+// // South Georgia and the South Sandwich Islands
+// &-gs {
+//   //
+// }
+
+// // Sint Maarten (Dutch part)
+// &-sx {
+//   //
+// }
+// // Svalbard and Jan Mayen
+// &-sj {
+//   background:
+//     linear-gradient(
+//       to bottom,
+//       transparent 43%,
+//       #002868 43%,
+//       #002868 54%,
+//       transparent 54%
+//     ),
+//     linear-gradient(
+//       to right,
+//       transparent 28%,
+//       #002868 28%,
+//       #002868 37%,
+//       transparent 37%
+//     ),
+//     linear-gradient(
+//       to right,
+//       transparent 25%,
+//       #fff 25%,
+//       #fff 40%,
+//       transparent 40%
+//     ),
+//     linear-gradient(
+//       to bottom,
+//       transparent 38%,
+//       #fff 38%,
+//       #fff 59%,
+//       transparent 59%
+//     )
+//     #ef2b2d;
+// }

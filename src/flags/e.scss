@@ -52,7 +52,7 @@
   @include threePart(#ce1126, #fff, #000);
 
   &::before {
-    @include flagSymbol("\e90a", #ffcd00, 36%, 28%, $flag-size / 4);
+    @include flagSymbol("\e913", #ffcd00, 36%, 28%, $flag-size / 4);
   }
 }
 // El Salvador
@@ -103,7 +103,7 @@
     );
 
   &::before {
-    @include flagSymbol("\e90b", #ffc726, 5%, 20%, $flag-size / 3);
+    @include flagSymbol("\e914", #ffc726, 5%, 20%, $flag-size / 3);
   }
 }
 // Estonia

@@ -44,28 +44,9 @@
 &-nl {
   @include threePart(#ae1c28, #fff, #21468b);
 }
-// New Caledonia
-&-nc {
-  @include threePart(#0035ad, #ed4135, #009543);
-}
 // New Zealand
 &-nz {
   background: #0018a8;
-}
-// North Korea
-&-kp {
-  background:
-    linear-gradient(
-      to bottom,
-      #024fa2 20%,
-      #fff 20%,
-      #fff 25%,
-      #ed1c27 25%,
-      #ed1c27 75%,
-      #fff 75%,
-      #fff 80%,
-      #024fa2 80%
-    );
 }
 // Nicaragua
 &-ni {
@@ -93,22 +74,20 @@
 &-ng {
   @include threePart(#008751, #fff, #008751, to right);
 }
-// Niue
-&-nu {
-  background: #fac914;
-}
-// Norfolk Island 
-&-nf{
-  @include threePart(#007934, #fff, #007934, to right);
-
-  &::before {
-    @include flagSymbol("\e924", #007934, 40%, 25%, $flag-height / 2);
-  }
-  
-}
-// Northern Mariana Islands
-&-mp {
-  background: #0071bc;
+// North Korea
+&-kp {
+  background:
+    linear-gradient(
+      to bottom,
+      #024fa2 20%,
+      #fff 20%,
+      #fff 25%,
+      #ed1c27 25%,
+      #ed1c27 75%,
+      #fff 75%,
+      #fff 80%,
+      #024fa2 80%
+    );
 }
 // Norway
 &-no {
@@ -143,3 +122,24 @@
     )
     #ef2b2d;
 }
+
+// // Niue
+// &-nu {
+//   background: #fac914;
+// }
+// // Norfolk Island 
+// &-nf{
+//   @include threePart(#007934, #fff, #007934, to right);
+
+//   &::before {
+//     @include flagSymbol("\e924", #007934, 40%, 25%, $flag-height / 2);
+//   }
+// }
+// // Northern Mariana Islands
+// &-mp {
+//   background: #0071bc;
+// }
+// // New Caledonia
+// &-nc {
+//   @include threePart(#0035ad, #ed4135, #009543);
+// }

@@ -11,7 +11,7 @@
   background: #d20000;
 
   &::before {
-    @include flagSymbol("\e932", #ffe600, 1%, 0, $flag-size / 1.4);
+    @include flagSymbol("\e932", #ffe600, 1.5%, -4%, $flag-size / 1.35);
   }
 }
 // Madagascar
@@ -21,7 +21,7 @@
       to right,
       #fff 30%,
       transparent 30%
-    )
+    ),
     linear-gradient(
       to bottom,
       #fc3d32 50%,
@@ -52,7 +52,7 @@
       #007e3a 35%,
       transparent 35%,
       transparent 100%
-    )
+    ),
     radial-gradient(
       $flag-width / 3 at 50% 50%,
       #fff 0,
@@ -80,13 +80,13 @@
       #003087 0,
       #003087 30%,
       transparent 26%
-    )
+    ),
     linear-gradient(
       -22deg,
       #fff 0,
       #fff 38%,
       transparent 28%
-    )
+    ),
     linear-gradient(
       -26deg,
       #e57200 0,
@@ -107,7 +107,7 @@
       #fff 43%,
       #fff 57%,
       transparent 57%
-    )
+    ),
     linear-gradient(
       to right,
       transparent 45%,
@@ -127,7 +127,7 @@
       #006233 35%,
       transparent 35%,
       transparent 100%
-    )
+    ),
     radial-gradient(
       $flag-width / 3 * 2 at 50% 40%,
       #ffc400 0,

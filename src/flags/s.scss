@@ -1,22 +1,19 @@
+// Saint Barthélemy
+&-bl {
+  //
+}
+// Saint Helena Ascension and Tristan da Cunha
+&-sh {
+  //
+}
 // Saint Kitts and Nevis
 &-kn {
   position: relative;
-  background:
-    linear-gradient(
-      145deg,
-      #1eb53a 39%,
-      #fcd116 39%,
-      #fcd116 41%,
-      #000 41%,
-      #000 59%,
-      #fcd116 59%,
-      #fcd116 61%,
-      #c70000 61%
-    );
+  background: linear-gradient(145deg, #1eb53a 39%, #fcd116 39%, #fcd116 41%, #000 41%, #000 59%,  #fcd116 59%, #fcd116 61%, #c70000 61%);
 
   &::after {
     position: absolute;
-    top: 24%;
+    top: 16%;
     left: 40%;
     display: block;
     width: $flag-height / 5;
@@ -34,33 +31,37 @@
       -45deg,
       #fcd116 14%,
       transparent 0
-    ) $flag-width / 2.15 $flag-width * -0.05
+    ) $flag-width / 2 $flag-width * -0.05,
     linear-gradient(
       45deg,
       #fcd116 14%,
       transparent 0
-    ) $flag-width / 2.15 $flag-width * -0.05
+    ) $flag-width / 2 $flag-width * -0.05,
     linear-gradient(
       -65deg,
       #000 16%,
       transparent 0
-    ) $flag-width / 2.15 $flag-width * -0.05
+    ) $flag-width / 2 $flag-width * -0.05,
     linear-gradient(
       65deg,
       #000 16%,
       transparent 0
-    ) $flag-width / 2.15 $flag-width * -0.05
+    ) $flag-width / 2 $flag-width * -0.05,
     linear-gradient(
       -65deg,
       #fff 18%,
       transparent 0
-    ) $flag-width / 2.15 $flag-width * -0.05
+    ) $flag-width / 2 $flag-width * -0.05,
     linear-gradient(
       65deg,
       #fff 18%,
       transparent 0
-    ) $flag-width / 2.15 $flag-width * -0.05
+    ) $flag-width / 2 $flag-width * -0.05,
     #0077c8;
+}
+// Saint Martin (French part)
+&-mf {
+  //
 }
 // Saint Pierre and Miquelon
 &-pm {
@@ -128,11 +129,11 @@
 
   &::before {
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 45%;
     font-size: $flag-size / 6;
     color: #000;
-    content: "★  ★";
+    content: "★ ★";
   }
 }
 // Saudi Arabia
@@ -140,7 +141,7 @@
   background: #199d00;
 
   &::before {
-    @include flagSymbol("\e92c", #fff, 25%, 30%, $flag-size / 2.5);
+    @include flagSymbol("\e92c", #fff, 25%, 25%, $flag-size / 2.5);
   }
 }
 // Senegal
@@ -183,6 +184,10 @@
 &-sg {
   @include twoPart(#dc143c, #fff);
 }
+// Sint Maarten (Dutch part)
+&-sx {
+  //
+}
 // Slovakia
 &-sk {
   @include threePart(#fff, #0b4ea2, #ee1c25);
@@ -193,14 +198,7 @@
 }
 // Solomon Islands
 &-sb {
-  background:
-    linear-gradient(
-      147deg,
-      #0639ac 48%,
-      #f8c911 48%,
-      #f8c911 52%,
-      #164823 52%
-    );
+  background: linear-gradient(147deg, #0639ac 48%, #f8c911 48%, #f8c911 52%, #164823 52%);
 }
 // Somalia
 &-so {
@@ -222,6 +220,10 @@
 }
 // South Africa
 &-za {
+  //
+}
+// South Georgia and the South Sandwich Islands
+&-gs {
   //
 }
 // South Sudan
@@ -328,60 +330,28 @@
     color: #ecc81d;
     text-align: center;
     content: "★";
-
   }
+}
+// Svalbard and Jan Mayen
+&-sj {
+  // 
 }
 // Swaziland
 &-sz {
-  background:
-    linear-gradient(
-      to bottom,
-      #3e5eb9 20%,
-      #ffd900 20%,
-      #ffd900 25%,
-      #b10c0c 25%,
-      #b10c0c 75%,
-      #ffd900 75%,
-      #ffd900 80%,
-      #3e5eb9 80%
-    );
+  background: linear-gradient(to bottom, #3e5eb9 20%, #ffd900 20%, #ffd900 25%, #b10c0c 25%, #b10c0c 75%, #ffd900 75%, #ffd900 80%, #3e5eb9 80%);
 }
 // Sweden
 &-se {
   background:
-    linear-gradient(
-      to right,
-      transparent 30%,
-      #fecc00 30%,
-      #fecc00 45%,
-      transparent 0
-    )
-    linear-gradient(
-      to bottom,
-      transparent 38%,
-      #fecc00 38%,
-      #fecc00 59%,
-      transparent 0
-    )
+    linear-gradient(to right, transparent 30%, #fecc00 30%, #fecc00 45%, transparent 0),
+    linear-gradient(to bottom, transparent 38%, #fecc00 38%, #fecc00 59%, transparent 0),
     #006aa7;
 }
 // Switzerland
 &-ch {
   background:
-    linear-gradient(
-      to bottom,
-      transparent calc(100% / 3),
-      #fff calc(100% / 3),
-      #fff calc(100% / 3 * 2),
-      transparent 0
-    )
-    linear-gradient(
-      to right,
-      transparent calc(100% / 3),
-      #fff calc(100% / 3),
-      #fff calc(100% / 3 * 2),
-      transparent 0
-    )
+    linear-gradient(to bottom, transparent calc(100% / 3), #fff calc(100% / 3), #fff calc(100% / 3 * 2), transparent 0),
+    linear-gradient(to right, transparent calc(100% / 3), #fff calc(100% / 3), #fff calc(100% / 3 * 2), transparent 0),
     #da291c;
   background-repeat: no-repeat;
   background-position: 50% 50%;

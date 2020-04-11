@@ -1,6 +1,32 @@
 // Pakistan
 &-pk {
   @include threePart(#fff, #115740, #115740, to right);
+
+  &::before {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 40%;
+    width: $flag-size / 3;
+    height: $flag-size / 3;
+    margin-right: auto;
+    margin-left: auto;
+    content: "";
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -$flag-size / 20 $flag-size / 30 0 $flag-size / 60 #fff;
+  }
+
+  &::after {
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    font-size: $flag-size / 8;
+    color: #fff;
+    content: "★";
+    transform: rotate(15deg);
+  }
+
 }
 // Palau
 &-pw {
@@ -22,12 +48,12 @@
       135deg,
       #f30007 20%,
       transparent 15%
-    ) 0 $flag-size * 0.95
+    ) 0 $flag-size,
     linear-gradient(
       45deg,
       #f30007 20%,
       transparent 15%
-    ) 0 $flag-size * 0.95
+    ) 0 $flag-size,
     linear-gradient(
       to bottom,
       #000,
@@ -46,20 +72,20 @@
       90deg,
       #005293 50%,
       transparent 50%
-    )
+    ),
     linear-gradient(
       #d21034 50%,
       transparent 50%
-    )
+    ),
     #fff;
 
   &::before,
   &::after {
     position: absolute;
-    width: $flag-size / 2.07;
-    height: $flag-size / 3.1;
-    padding-top: 7%;
-    padding-left: 15%;
+    width: $flag-size / 3;
+    height: $flag-size / 4;
+    padding-top: 8%;
+    padding-left: 17%;
     font-size: $flag-size / 6;
     content: "★";
     background: #fff;
@@ -99,12 +125,12 @@
       146deg,
       #fff 25%,
       transparent 15%
-    ) 0 $flag-size * 0.95
+    ) 0 $flag-size,
     linear-gradient(
       34deg,
       #fff 25%,
       transparent 15%
-    ) 0 $flag-size * 0.95
+    ) 0 $flag-size,
     linear-gradient(
       to bottom,
       #11457e 50%,
@@ -114,6 +140,10 @@
   &::before {
     @include flagSymbol("\e929", #ffd100, 0, 20%, $flag-size / 2.5);
   }
+}
+// Pitcairn
+&-pn {
+ //
 }
 // Poland
 &-pl {
@@ -131,12 +161,12 @@
       146deg,
       #0333ec 25%,
       transparent 15%
-    ) 0 $flag-width / 3.15
+    ) 0 $flag-width / 3,
     linear-gradient(
       34deg,
       #0333ec 25%,
       transparent 15%
-    ) 0 $flag-width / 3.15
+    ) 0 $flag-width / 3,
     linear-gradient(
       to bottom,
       #e40007 20%,

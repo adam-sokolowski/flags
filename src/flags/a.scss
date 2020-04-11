@@ -3,48 +3,15 @@
   @include threePart(#000, #d32011, #007a36, to right);
 
   &::before {
-    @include flagSymbol("\e901", #fff, 32%, 23%);
+    @include flagSymbol("\e900", #fff, 32%, 23%);
   }
-}
-// Åland Islands
-&-ax {
-  background:
-    linear-gradient(
-      to bottom,
-      transparent 43%,
-      #d21034 43%,
-      #d21034 54%,
-      transparent 54%
-    ),
-    linear-gradient(
-      to right,
-      transparent 34%,
-      #d21034 34%,
-      #d21034 41%,
-      transparent 41%
-    ),
-    linear-gradient(
-      to right,
-      transparent 30%,
-      #ffce00 30%,
-      #ffce00 45%,
-      transparent 45%
-    ),
-    linear-gradient(
-      to bottom,
-      transparent 38%,
-      #ffce00 38%,
-      #ffce00 59%,
-      transparent 59%
-    )
-    #0053a5;
 }
 // Albania
 &-al {
   background: #da291c;
 
   &::before {
-    @include flagSymbol("\e903", #000, 33%, 25%);
+    @include flagSymbol("\e902", #000, 33%, 25%);
   }
 }
 // Algeria
@@ -76,20 +43,6 @@
     transform: rotate(15deg);
   }
 }
-// American Samoa
-&-as {
-  background:
-    linear-gradient(-20deg, #fff 31%,transparent 15%) 0 $flag-size / 3,
-    linear-gradient(-160deg, #fff 31%,transparent 15%) 0 $flag-size / 3,
-    linear-gradient(-20deg, #b00018 34%,transparent 15%) 0 $flag-size / 3,
-    linear-gradient(-160deg, #b00018 34%,transparent 15%) 0 $flag-size / 3,
-    #000053;
-
-  &::after {
-    @include flagBase64Symbol($emblem-as, 60%, 20%, 20px, 20px);
-  }
-  
-}
 // Andorra
 &-ad {
   @include threePart(#0018a8, #fedf00, #d0103a, to right);
@@ -103,19 +56,7 @@
   @include twoPart(#dc143c,#000);
 
   &::before {
-    @include flagSymbol("\e904", #fedf00, 25%, 10%, $flag-size / 2);
-  }
-}
-// Anguilla
-&-ai {
-  background: #00247d;
-}
-// Antarctica
-&-aq {
-  background: #3a7dce;
-
-  &::before {
-    @include flagSymbol("\e905", #fff, 15%, 15%, $flag-size / 2);
+    @include flagSymbol("\e903", #fedf00, 30%, 10%, $flag-size / 2);
   }
 }
 // Antigua and Barbuda
@@ -127,27 +68,12 @@
   @include threePart(#4891d9, #fff, #4891d9);
 
   &::after {
-    @include flagBase64Symbol($emblem-ar, 33%, 26%, $flag-size / 3.2, $flag-size / 3.2);
+    @include flagBase64Symbol($emblem-ar, 33%, 27%, $flag-size / 3.2, $flag-size / 3.2);
   }
 }
 // Armenia
 &-am {
   @include threePart(#d90012, #0033a0, #f2a800);
-}
-// Aruba
-&-aw {
-  background:
-    linear-gradient(
-      #39c 70%,
-      #ff0 70%,
-      #ff0 75%,
-      #39c 75%,
-      #39c 80%,
-      #ff0 80%,
-      #ff0 85%,
-      #39c 85%,
-      #39c 100%
-    );
 }
 // Australia
 &-au {
@@ -161,3 +87,80 @@
 &-az {
   @include threePart(#00b5e2, #ef3340, #509e2f);
 }
+
+// // Anguilla
+// &-ai {
+//   background: #00247d;
+// }
+// // Antarctica
+// &-aq {
+//   background: #3a7dce;
+
+//   &::before {
+//     @include flagSymbol("\e905", #fff, 15%, 15%, $flag-size / 2);
+//   }
+// }
+
+// // American Samoa
+// &-as {
+//   background:
+//     linear-gradient(-20deg, #fff 31%,transparent 15%) 0 $flag-size / 3,
+//     linear-gradient(-160deg, #fff 31%,transparent 15%) 0 $flag-size / 3,
+//     linear-gradient(-20deg, #b00018 34%,transparent 15%) 0 $flag-size / 3,
+//     linear-gradient(-160deg, #b00018 34%,transparent 15%) 0 $flag-size / 3,
+//     #000053;
+
+//   &::after {
+//     @include flagBase64Symbol($emblem-as, 60%, 20%, 20px, 20px);
+//   }
+// }
+
+// // Åland Islands
+// &-ax {
+//   background:
+//     linear-gradient(
+//       to bottom,
+//       transparent 43%,
+//       #d21034 43%,
+//       #d21034 54%,
+//       transparent 54%
+//     ),
+//     linear-gradient(
+//       to right,
+//       transparent 34%,
+//       #d21034 34%,
+//       #d21034 41%,
+//       transparent 41%
+//     ),
+//     linear-gradient(
+//       to right,
+//       transparent 30%,
+//       #ffce00 30%,
+//       #ffce00 45%,
+//       transparent 45%
+//     ),
+//     linear-gradient(
+//       to bottom,
+//       transparent 38%,
+//       #ffce00 38%,
+//       #ffce00 59%,
+//       transparent 59%
+//     )
+//     #0053a5;
+// }
+
+// // Aruba
+// &-aw {
+//   background:
+//     linear-gradient(
+//       #39c 70%,
+//       #ff0 70%,
+//       #ff0 75%,
+//       #39c 75%,
+//       #39c 80%,
+//       #ff0 80%,
+//       #ff0 85%,
+//       #39c 85%,
+//       #39c 100%
+//     );
+// }

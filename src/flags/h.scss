@@ -10,15 +10,16 @@
 &-hn {
   @include threePart(#0073cf, #fff, #0073cf);
 }
-// Hong Kong
-&-hk {
-  background: #ba0000;
-
-  &::before {
-    @include flagSymbol("\e90f", #fff, 33%, 20%, $flag-size / 3);
-  }
-}
 // Hungary
 &-hu {
   @include threePart(#cd2a3e, #fff, #436f4d);
 }
+
+// // Hong Kong
+// &-hk {
+//   background: #ba0000;
+
+//   &::before {
+//     @include flagSymbol("\e90f", #fff, 33%, 20%, $flag-size / 3);
+//   }
+// }

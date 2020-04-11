@@ -11,7 +11,7 @@
     );
 
   &::before {
-    @include flagSymbol("\e943", #fff, 34%, 20%, $flag-size / 3);
+    @include flagSymbol("\e922", #fff, 30%, 30%, $flag-size / 4);
   }
 }
 // Cameroon
@@ -43,7 +43,7 @@
     );
 
   &::before {
-    @include flagSymbol("\e909", #ef3340, 34%, 20%, $flag-size / 3);
+    @include flagSymbol("\e90c", #ef3340, 34%, 20%, $flag-size / 3);
   }
 }
 // Cape Verde
@@ -62,12 +62,8 @@
     );
 
   &::before {
-    @include flagSymbol("\e93b", #f7d116, 10%, 40%);
+    @include flagSymbol("\e910", #f7d116, 10%, 40%);
   }
-}
-// Cayman Islands
-&-ky {
-  background: #0018a8;
 }
 // Central African Republic
 &-cf {
@@ -139,6 +135,10 @@
 // China
 &-cn {
   background: #ce1126;
+
+  &::before {
+    @include flagSymbol("\e90f", #f7d116, 5%, 10%);
+  }
 }
 // Colombia
 &-co {
@@ -177,48 +177,10 @@
       #3a75c4 75%,
       #3a75c4 100%
     );
-}
-// Congo
-&-cg {
-  position: relative;
-  background:
-    linear-gradient(
-      152deg,
-      #00a3dd 40%,
-      #fcd116 40%,
-      #fcd116 43%,
-      #d21034 43%,
-      #d21034 57%,
-      #fcd116 57%,
-      #fcd116 60%,
-      #00a3dd 60%
-    );
-  
-  &::before {
-    position: absolute;
-    top: $flag-size * 0.05;
-    margin-top: 0;
-    margin-left: 5%;
-    font-size: $flag-size / 4;
-    color: #ffce00;
-    content: "★";
-  }
-}
-// Congo
-&-cd {
-  background:
-    linear-gradient(
-      135deg,
-      #009543 40%,
-      #fbde4a 40%,
-      #fbde4a 60%,
-      #d21034 60%,
-      #d21034 60%
-    );
-}
-// Cook Islands
-&-ck {
-  background: #0018a8;
+
+    &::before {
+      @include flagSymbol("\e923", #fff, -5%, 25%, $flag-height / 2);
+    }
 }
 // Costa Rica
 &-cr {
@@ -235,10 +197,6 @@
       #002b7f 85%,
       #002b7f 100%
     );
-}
-// Ivory Coast
-&-ci {
-  @include threePart(#f77f00, #fff, #009e60, to right);
 }
 // Croatia
 &-hr {
@@ -285,14 +243,14 @@
   background: #fff;
 
   &::before {
-    @include flagSymbol("\e931", #d57800, 10%, 0, $flag-height);
+    @include flagSymbol("\e912", #d57800, 10%, 0, $flag-height);
   }
 
   &::after {
-    @include flagSymbol("\e930", #4e5b31, 15%, 35%, $flag-size / 2);
+    @include flagSymbol("\e911", #4e5b31, 15%, 35%, $flag-size / 2);
   }
 }
-// Czech Republic
+// Czechia
 &-cz {
   background:
     linear-gradient(
@@ -310,4 +268,48 @@
       #fff 50%,
       #d7141a 50%
     );
+}
+
+// Congo
+// &-cg {
+//   position: relative;
+//   background:
+//     linear-gradient(
+//       152deg,
+//       #00a3dd 40%,
+//       #fcd116 40%,
+//       #fcd116 43%,
+//       #d21034 43%,
+//       #d21034 57%,
+//       #fcd116 57%,
+//       #fcd116 60%,
+//       #00a3dd 60%
+//     );
+  
+//   &::before {
+//     position: absolute;
+//     top: $flag-size * 0.05;
+//     margin-top: 0;
+//     margin-left: 5%;
+//     font-size: $flag-size / 4;
+//     color: #ffce00;
+//     content: "★";
+//   }
+// }
+// // Congo
+// &-cd {
+//   background:
+//     linear-gradient(
+//       135deg,
+//       #009543 40%,
+//       #fbde4a 40%,
+//       #fbde4a 60%,
+//       #d21034 60%,
+//       #d21034 60%
+//     );
+// }
+
+// Ivory Coast
+&-ci {
+  @include threePart(#f77f00, #fff, #009e60, to right);
 }

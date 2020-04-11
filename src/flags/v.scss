@@ -18,6 +18,10 @@
 // Venezuela
 &-ve {
   @include threePart(#fce300, #003da5,#ef3340);
+  
+  &::before {
+    @include flagSymbol("\e949", #fff, 15%, 13%, $flag-size / 2);
+  }
 }
 // Vietnam
 &-vn {
@@ -26,7 +30,7 @@
 
   &::before {
     position: absolute;
-    top: 15%;
+    top: 20%;
     right: 0;
     left: 0;
     margin-right: auto;

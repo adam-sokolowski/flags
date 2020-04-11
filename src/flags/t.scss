@@ -1,3 +1,19 @@
+// Gambia
+&-gm {
+  background:
+    linear-gradient(
+      to bottom,
+      #ef3340 30%,
+      #fff 30%,
+      #fff 35%,
+      #003da5 35%,
+      #003da5 65%,
+      #fff 65%,
+      #fff 70%,
+      #009639 70%
+    );
+}
+
 // Taiwan
 &-tw {
   background: #d00006;
@@ -44,42 +60,7 @@
       #ed1c24 85%
     );
 }
-// Timor-Leste
-&-tl {
-  position: relative;
-  background:
-    linear-gradient(
-      145deg,
-      #000 25%,
-      transparent 15%
-    ) 0 $flag-size,
-    linear-gradient(
-      34deg,
-      #000 25%,
-      transparent 15%
-    ) 0 $flag-size,
-    linear-gradient(
-      155deg,
-      #ffc726 30%,
-      transparent 15%
-    ) 0 $flag-size,
-    linear-gradient(
-      25deg,
-      #ffc726 30%,
-      transparent 15%
-    ) 0 $flag-size,
-    #dc241f;
-  
-  &::before {
-    position: absolute;
-    top: 33%;
-    left: 5%;
-    font-size: $flag-size / 5;
-    color: #fff;
-    content: "★";
-    transform: rotate(115deg);
-  }
-}
+
 // Togo
 &-tg {
   position: relative;

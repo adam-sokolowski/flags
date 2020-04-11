@@ -56,7 +56,7 @@
   &::before {
     background-color: #002868;
 
-    @include flagSymbol("\e935", #fff, 0, 0, $flag-size / 3.2);
+    @include flagSymbol("\e946", #fff, 0, 0, $flag-size / 3.2);
   }
 }
 // United States Minor Outlying Islands
@@ -73,7 +73,7 @@
   &::before {
     background-color: #002868;
 
-    @include flagSymbol("\e935", #fff, 0, 0, $flag-size / 3.2);
+    @include flagSymbol("\e946", #fff, 0, 0, $flag-size / 3.2);
   }
 }
 // Uruguay

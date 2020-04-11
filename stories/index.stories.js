@@ -52,10 +52,6 @@ storiesOf('Countries', module)
   .add('Y', () => getTemplate('Y'))
   .add('Z', () => getTemplate('Z'));
 
-  storiesOf('Teritories', module)
-  .add('A', () => getTemplate('A'))
-  .add('Z', () => getTemplate('Z'));
-
 export default {
   title: 'Knobs',
   decorators: [withKnobs],

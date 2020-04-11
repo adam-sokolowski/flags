@@ -9,6 +9,10 @@
       #ce1126 75%,
       #ce1126 100%
     );
+
+  &::before {
+    @include flagSymbol("\e943", #fff, 34%, 20%, $flag-size / 3);
+  }
 }
 // Cameroon
 &-cm {

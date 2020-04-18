@@ -45,6 +45,15 @@
 // Ghana
 &-gh {
   @include threePart(#ce1126, #fcd116, #006b3f);
+  
+  &::before {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-size: $flag-size / 4;
+    color: #000;
+    content: "★";
+  }
 }
 // Greece
 &-gr {
@@ -129,6 +138,10 @@
 // Guatemala
 &-gt {
   @include threePart(#4997d0, #fff, #4997d0, to right);
+
+  &::before {
+    @include flagBase64Symbol($emblem-gt, 37%, 30%, $flag-width / 4, $flag-width / 4);
+  }
 }
 // Guinea
 &-gn {

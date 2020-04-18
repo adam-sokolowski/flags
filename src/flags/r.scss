@@ -14,8 +14,3 @@
     @include flagSymbol("\e93b", #fad201, 70%, 5%, $flag-size / 4);
   }
 }
-
-// // Réunion
-// &-re {
-//   @include threePart(#002395, #fff, #ed2939, to right);
-// }

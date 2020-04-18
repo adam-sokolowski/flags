@@ -28,6 +28,14 @@
 // Kiribati
 &-ki {
   background: #ce1126;
+
+  &::before {
+    @include flagBase64Symbol($emblem-ki_top, 35%, 20%, $flag-width / 3.5, $flag-height / 1.75);
+  }
+
+  &::after {
+    @include flagBase64Symbol($emblem-ki_bottom, -15%, 50%, $flag-width * 1.30, $flag-height / 2);
+  }
 }
 // Kuwait
 &-kw {

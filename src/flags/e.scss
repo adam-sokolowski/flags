@@ -58,6 +58,10 @@
 // El Salvador
 &-sv {
   @include threePart(#0f47af, #fff, #0f47af);
+
+  &::after {
+    @include flagBase64Symbol($emblem-sv, 40%, 32%, $flag-size / 4.5, $flag-size / 4.5);
+  }
 }
 // Equatorial Guinea
 &-gq {
@@ -103,7 +107,7 @@
     );
 
   &::before {
-    @include flagSymbol("\e914", #ffc726, 5%, 20%, $flag-size / 3);
+    @include flagSymbol("\e914", #ffc726, 5%, 22%, $flag-size / 3);
   }
 }
 // Estonia

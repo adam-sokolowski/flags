@@ -27,20 +27,33 @@
       #fff $flag-height / 7
     );
 
-  &::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    box-sizing: border-box;
-    width: $flag-size / 1.75;
-    height: $flag-size /2.55;
-    padding-top: $flag-size / 20;
-    font-size: $flag-size / 8;
-    color: #fff;
-    text-align: center;
-    content: "★";
-    background: #0039a6;
+  &::before {
+    @include flagSymbol("\e932", #fedf00, 27%, 20%, $flag-size / 8);
   }
+
+  &::after {
+    display: block;
+    width: $flag-width / 2;
+    height: $flag-height / 1.75;
+    content: "";
+    background:
+      radial-gradient(
+        $flag-width / 3.5 at 55% 50%,
+        #0039a6 0,
+        #0039a6 35%,
+        transparent 35%,
+        transparent 100%
+      ),
+      radial-gradient(
+        $flag-width / 3 at 50% 50%,
+        #fedf00 0,
+        #fedf00 35%,
+        transparent 35%,
+        transparent 100%
+      )
+      #0039a6;
+  }
+
 }
 // Maldives
 &-mv {
@@ -155,6 +168,10 @@
 // Mexico
 &-mx {
   @include threePart(#006847, #fff, #ce1126, to right);
+
+  &::after {
+    @include flagBase64Symbol($emblem-mx, 37%, 30%, $flag-width / 4, $flag-height / 3);
+  }  
 }
 // Micronesia
 &-fm {
@@ -196,7 +213,7 @@
   background: #c1272d;
 
   &::before {
-    @include flagSymbol("\e91b", #306233, 33%, 20%, $flag-size / 3);
+    @include flagSymbol("\e91b", #3f8143, 33%, 20%, $flag-size / 3);
   }
 }
 // Mozambique
@@ -250,39 +267,3 @@
     content: "★";
   }
 }
-
-// // Martinique
-// &-mq {
-//   background:
-//     linear-gradient(
-//       to bottom,
-//       transparent 43%,
-//       #fff 43%,
-//       #fff 57%,
-//       transparent 57%
-//     ),
-//     linear-gradient(
-//       to right,
-//       transparent 45%,
-//       #fff 45%,
-//       #fff 55%,
-//       transparent 55%
-//     )
-//     #0077c8;
-// }
-// // Mayotte
-// &-yt {
-//   @include threePart(#002395, #fff, #ed2939, to right);
-// }
-// // Montserrat
-// &-ms {
-//   background: #0018a8;
-// }
-// // Macao
-// &-mo {
-//   background: #00785e;
-
-//   &::before {
-//     @include flagSymbol("\e91e", #fff, 33%, 20%, $flag-size / 3);
-//   }
-// }

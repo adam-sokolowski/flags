@@ -201,6 +201,10 @@
 // Croatia
 &-hr {
   @include threePart(#c8102e, #fff, #012169);
+
+  &::after {
+    @include flagBase64Symbol($emblem-hr, 34%, 13%, $flag-width / 3, $flag-height / 1.5);
+  }
 }
 // Cuba
 &-cu {

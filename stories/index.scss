@@ -6,19 +6,25 @@ body {
 }
 
 .label {
-  display: block;
+  display: inline-block;
   width: 75%;
-  height: 12px;
   overflow: hidden;
   font-size: 12px;
   color: #fff;
   text-overflow: ellipsis;
   white-space: nowrap;
-  background: #646464;
+  background: #838383;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
 
-  @extend .padding;
+.code {
+  display: inline-block;
+  height: 12px;
+  padding: 10px;
+  margin-right: 5px;
+  font-weight: bold;
+  background: #000;
 }
 
 .wrapper {

@@ -18,7 +18,12 @@ const getTemplate = (letter) => `
     .map(country => `
         <div class="wrapper">
           <div class="container flag flag-${size} flag-${country.code.toLowerCase()}"></div>
-            <div class="label">[${country.code}] - ${country.name}</div>
+          <div class="label">
+            <div class="code">
+              ${country.code}
+            </div>
+            ${country.name}
+          </div>
         </div>`
     )
     .toString()

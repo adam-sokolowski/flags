@@ -51,6 +51,16 @@
 // New Zealand
 &-nz {
   background: #0018a8;
+
+  &::before {
+    @include flagBase64Symbol($emblem-union-jack, 0, 0, $flag-width / 1.75, $flag-width / 3.5);
+  }
+
+  &::after {
+    @include flagSymbol("\e93d", #ed1c27, 50%, 10%, $flag-width / 2);
+    text-shadow: 0 0 $flag-width / 80 #fff;
+  }
+  
 }
 // Nicaragua
 &-ni {

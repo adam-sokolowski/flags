@@ -1,14 +1,14 @@
 // Jamaica
 &-jm {
   background:
-    linear-gradient(146deg, #009b3a 20%, transparent 15%) 87px -114px,
-    linear-gradient(-146deg, #009b3a 20%, transparent 15%) 88px -114px,
-    linear-gradient(-34deg, #009b3a 20%, transparent 15%) 88px 114px,
-    linear-gradient(34deg, #009b3a 20%, transparent 15%) 87px 114px,
-    linear-gradient(146deg, #000 20%, transparent 15%) 0 -57px,
-    linear-gradient(34deg, #000 20%, transparent 15%) 0 -57px,
-    linear-gradient(-146deg, #000 20%, transparent 15%) 175px -57px,
-    linear-gradient(-34deg, #000 20%, transparent 15%) 175px -57px,
+    linear-gradient(146deg, #009b3a 20%, transparent 15%) $flag-width / 2 -$flag-width,
+    linear-gradient(-146deg, #009b3a 20%, transparent 15%) $flag-width / 2 -$flag-width,
+    linear-gradient(-34deg, #009b3a 20%, transparent 15%) $flag-width / 2 -$flag-width,
+    linear-gradient(34deg, #009b3a 20%, transparent 15%) $flag-width / 2 -$flag-width,
+    linear-gradient(146deg, #000 20%, transparent 15%) 0 $flag-width / 3,
+    linear-gradient(34deg, #000 20%, transparent 15%) 0 $flag-width / 3,
+    linear-gradient(-146deg, #000 20%, transparent 15%) -$flag-width $flag-width / 3,
+    linear-gradient(-34deg, #000 20%, transparent 15%) -$flag-width $flag-width / 3,
     #fed100;
 }
 // Japan
@@ -48,36 +48,6 @@
     );
 
   &::before {
-    position: absolute;
-    top: 32%;
-    left: 10%;
-    font-size: $flag-size / 5;
-    color: #fff;
-    content: "✷";
-    transform: rotate(12.5deg);
+    @include flagSymbol("\e940", #fff, 10%, 40%, $flag-height / 4.25);
   }
 }
-
-// &-je {
-//   background:
-//   linear-gradient(
-//     145deg,
-//     transparent 45%,
-//     transparent 45%,
-//     #ff0016 45%,
-//     #ff0016 45%,
-//     #ff0016 55%,
-//     transparent 55%,
-//     transparent 55%
-//   ),
-//   linear-gradient(
-//     35deg,
-//     transparent 45%,
-//     transparent 45%,
-//     #ff0016 45%,
-//     #ff0016 45%,
-//     #ff0016 55%,
-//     transparent 55%,
-//     transparent 55%
-//   );
-// }

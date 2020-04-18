@@ -50,9 +50,70 @@
 }
 // Dominica
 &-dm {
-  //
+  background:
+    linear-gradient(
+      to right,
+      transparent 0,
+      transparent 41%,
+      #fcd116 41%,
+      #fcd116 47%,
+      #000 47%,
+      #000 53%,
+      #fff 53%,
+      #fff 59%,
+      transparent 59%,
+      transparent 100%,
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 39%,
+      #fcd116 39%,
+      #fcd116 46%,
+      #000 46%,
+      #000 54%,
+      #fff 54%,
+      #fff 61%,
+      transparent 61%,
+      transparent 100%,
+    )
+    #006b3f;
+
+  &::before {
+    @include flagBase64Symbol($emblem-dm, 30%, 20%, $flag-width / 2.5, $flag-width / 2.5);
+  }
 }
 // Dominican Republic
 &-do {
-  //
+  // background-color: #002d62;
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 40%,
+      #fff 40%,
+      #fff 60%,
+      transparent 60%
+    ),
+    linear-gradient(
+      to right,
+      transparent 44%,
+      #fff 44%,
+      #fff 56%,
+      transparent 56%
+    )
+    #ff0000;
+
+  &::before,
+  &::after {
+    display: block;
+    width: $flag-size / 2.25;
+    height: $flag-size / 3.75;
+    content: "";
+    background: #002d62;
+  }
+  &::after {
+    position: absolute;
+    top: 60%;
+    left: 55%;
+  }
 }

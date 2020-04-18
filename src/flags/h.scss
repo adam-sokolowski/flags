@@ -5,6 +5,10 @@
 // Holy See (Vatican City State)
 &-va {
   @include twoPart(#ffe000, #fff, to right);
+
+  &::before {
+    @include flagBase64Symbol($emblem-va, 60%, 20%, $flag-width / 3.5, $flag-height / 1.75);
+  }
 }
 // Honduras
 &-hn {

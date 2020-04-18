@@ -22,13 +22,30 @@
     repeating-linear-gradient(
       to bottom,
       #b22234,
-      #b22234 $flag-height / 14,
-      #fff $flag-height / 14,
+      #b22234 $flag-height / 13,
+      #fff $flag-height / 13,
       #fff $flag-height / 7
     );
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: $flag-size / 1.75;
+    height: $flag-size /2.55;
+    padding-top: $flag-size / 20;
+    font-size: $flag-size / 8;
+    color: #fff;
+    text-align: center;
+    content: "★";
+    background: #0039a6;
+  }
 }
 // Maldives
 &-mv {
+  width: $flag-width - $flag-size / 5;
+  height: $flag-height - $flag-size / 5;
   background:
     radial-gradient(
       $flag-width / 3.8 at 55% 50%,
@@ -45,7 +62,10 @@
       transparent 100%
     )
     #007e3a;
-  border: $flag-width / 6 solid #d21034;
+  border-top: $flag-size / 10 solid #d21034;
+  border-right: $flag-size / 10 solid #d21034;
+  border-bottom: $flag-size / 10 solid #d21034;
+  border-left: $flag-size / 10 solid #d21034;
 }
 // Mali
 &-ml {
@@ -158,8 +178,10 @@
 }
 // Montenegro
 &-me {
+  width: $flag-width - $flag-size / 10;
+  height: $flag-height - $flag-size / 10;
   background: #ef3340;
-  border: $flag-width / 20 solid #daaa00;
+  border: $flag-size / 20 solid #daaa00;
 }
 // Morocco
 &-ma {

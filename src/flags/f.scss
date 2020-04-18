@@ -1,6 +1,14 @@
 // Fiji
 &-fj {
   background: #68bfe5;
+
+  &::before {
+    @include flagBase64Symbol($emblem-union-jack, 0, 0, $flag-width / 1.75, $flag-width / 3.5);
+  }
+
+  &::after {
+    @include flagBase64Symbol($emblem-fj, 65%, 45%, $flag-width / 4, $flag-width / 3.1);
+  }
 }
 // Finland
 &-fi {

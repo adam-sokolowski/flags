@@ -36,7 +36,7 @@
   @include threePart(#f93, #fff, #138808);
   
   &::before {
-    @include flagSymbol("\e91d", #0038b8, 37%, 35%, $flag-height / 3);
+    @include flagSymbol("\e91d", #0038b8, 40%, 35%, $flag-height / 3.25);
   }
 }
 // Indonesia
@@ -48,7 +48,7 @@
   @include threePart(#239f40, #fff, #da0000);
 
   &::before {
-    @include flagSymbol("\e91f", #da0000, 37%, 35%, $flag-height / 3);
+    @include flagSymbol("\e91f", #da0000, 40%, 35%, $flag-height / 3.25);
   }
 }
 // Iraq
@@ -92,8 +92,3 @@
 &-ci {
   @include threePart(#f77f00, #fff, #009e60, to right);
 }
-
-// // Isle of Man
-// &-im{
-//   background: #cf142b;
-// }

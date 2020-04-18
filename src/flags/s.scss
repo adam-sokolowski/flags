@@ -174,10 +174,18 @@
 // Slovakia
 &-sk {
   @include threePart(#fff, #0b4ea2, #ee1c25);
+  
+  &::before {
+    @include flagBase64Symbol($emblem-sk, 10%, 25%, $flag-size / 4, $flag-size / 3.2);
+  }
 }
 // Slovenia
 &-si {
   @include threePart(#fff, #0b4ea2, #ee1c25);
+
+  &::before {
+    @include flagBase64Symbol($emblem-si, 10%, 25%, $flag-size / 6, $flag-size / 5.3);
+  }
 }
 // Solomon Islands
 &-sb {
@@ -208,7 +216,11 @@
 // South Korea
 &-kr {
   &::before {
-    @include flagSymbol("\e925", #000, 25%, 15%, $flag-size / 2);
+    @include flagSymbol("\e925", #000, 26%, 15%, $flag-size / 2);
+  }
+  
+  &::after {
+    @include flagBase64Symbol($emblem-kr, 38%, 32%, $flag-size / 4, $flag-size / 4);
   }
 }
 // South Sudan
@@ -260,7 +272,7 @@
     );
 
   &::after {
-    @include flagBase64Symbol($emblem-es, 10%, 24%, $flag-size / 3, $flag-size / 3);
+    @include flagBase64Symbol($emblem-es, 10%, 27%, $flag-size / 3.5, $flag-size / 3.4);
   }
 }
 // Sri Lanka

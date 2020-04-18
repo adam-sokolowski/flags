@@ -50,7 +50,7 @@
   @include threePart(#00209f, #fff, #009543);
 
   &::before {
-    @include flagSymbol("\e92a", #000, 37%, 35%, $flag-height / 3);
+    @include flagSymbol("\e92a", #000, 40%, 35%, $flag-height / 3.25);
   }
 }
 // Liberia
@@ -62,7 +62,7 @@
       #b22234,
       #b22234 $flag-height / 12,
       #fff $flag-height / 12,
-      #fff $flag-height / 6
+      #fff $flag-height / 6.5
     );
 
   &::after {
@@ -72,7 +72,7 @@
     box-sizing: border-box;
     width: $flag-size / 4;
     height: $flag-size / 4.4;
-    padding-top: $flag-size / 18;
+    padding-top: $flag-size / 20;
     font-size: $flag-size / 8;
     color: #fff;
     text-align: center;

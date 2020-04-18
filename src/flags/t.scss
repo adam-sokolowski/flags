@@ -231,6 +231,14 @@
 // Turkmenistan
 &-tm {
   background: #00843d;
+
+  &::before {
+    @include flagBase64Symbol($emblem-tm, 5%, 0, $flag-width / 6, $flag-height );
+  }
+
+  &::after {
+    @include flagSymbol("\e943", #fff, 25%, 10%, $flag-width / 5);
+  }
 }
 // Tuvalu
 &-tv {
@@ -244,34 +252,3 @@
       @include flagSymbol("\e944", #fed100, 50%, 30%, $flag-width / 2.5);
     }
 }
-
-// // Taiwan
-// &-tw {
-//   background: #d00006;
-
-//   &::before {
-//     padding: $flag-size / 20 $flag-size / 8;
-//     background-color: #002868;
-
-//     @include flagSymbol("\e92e", #fff, 0, 0, $flag-size / 4);
-//   }
-// }
-
-// // Tokelau
-// &-tk {
-//   background: #01156a;
-
-//   &::before {
-//     @include flagSymbol("\e933", #fff, 0, 10%);
-//   }
-
-//   &::after {
-//     @include flagSymbol("\e934", #fed100, 20%, 10%, $flag-width / 1.8);
-//   }
-
-// }
-
-// // Turks and Caicos Islands
-// &-tc {
-//   background: #0018a8;
-// }

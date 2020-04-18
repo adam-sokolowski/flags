@@ -16,6 +16,10 @@
       #de3908 calc(100% / 6 * 5),
       #de3908 100%
     );
+
+  &::before {
+    @include flagBase64Symbol($emblem-ug, 35%, 30%, $flag-width / 4, $flag-width / 4);
+  }
 }
 // Ukraine
 &-ua {
@@ -67,8 +71,14 @@
       #fff,
       #fff $flag-height / 9,
       #0038a8 $flag-height / 9,
-      #0038a8 $flag-height / 4.5
+      #0038a8 $flag-height / 4.4
     );
+
+  &::before {
+    background-color: #fff;
+
+    @include flagBase64Symbol($emblem-uy, 0, 0, $flag-width / 3, $flag-width / 3);
+  }
 }
 // Uzbekistan
 &-uz {

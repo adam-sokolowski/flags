@@ -40,6 +40,29 @@
       #fff calc(40px / 9),
       #fff calc(40px / 9 * 2)
     );
+  
+  &::before {
+    display: block;
+    width: $flag-width / 2.5;
+    height: $flag-height / 1.85;
+    content: "";
+    background:
+      linear-gradient(
+        to bottom,
+        transparent 40%,
+        #fff 40%,
+        #fff 60%,
+        transparent 60%
+      ),
+      linear-gradient(
+        to right,
+        transparent 42%,
+        #fff 42%,
+        #fff 58%,
+        transparent 58%
+      )
+      #0d5eaf;
+  }
 }
 // Grenada
 &-gd {

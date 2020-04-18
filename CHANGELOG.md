@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.1](https://github.com/adam-sokolowski/flags/compare/v1.1.0-alpha.0...v1.1.0-alpha.1) (2020-04-18)
+
+
+### Documentation
+
+* **all:** add flags previev ([dc6e265](https://github.com/adam-sokolowski/flags/commit/dc6e265d87e4e92e2140caf5d17b9b5c9ff6d68c))
+
 ## 1.1.0-alpha.0 (2020-04-18)
 
 

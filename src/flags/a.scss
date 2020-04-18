@@ -48,7 +48,7 @@
   @include threePart(#0018a8, #fedf00, #d0103a, to right);
 
   &::after {
-    @include flagBase64Symbol($emblem-ad, 34%, 20%, 20px, 20px);
+    @include flagBase64Symbol($emblem-ad, 36%, 25%, $flag-size / 3.5, $flag-size / 3.5);
   }
 }
 // Angola
@@ -78,6 +78,15 @@
 // Australia
 &-au {
   background: #0018a8;
+
+    &::before {
+      @include flagSymbol("\e940", #fff, 25%, 60%, $flag-width / 6);
+    }
+
+    &::after {
+      @include flagSymbol("\e93c", #fff, 45%, 20%, $flag-width / 2);
+    }
+
 }
 // Austria
 &-at {

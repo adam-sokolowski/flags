@@ -14,16 +14,16 @@ const size = select('Size', sizes, 'm');
 const getTemplate = (letter) => `
   <div class="padding">
     ${COUNTRY_CODES
-      .filter(country => country.name.startsWith(letter))
-      .map(country => `
+    .filter(country => country.name.startsWith(letter))
+    .map(country => `
         <div class="wrapper">
-          <div class="margin flag flag-${size} flag-${country.code.toLowerCase()}"></div>
+          <div class="container flag flag-${size} flag-${country.code.toLowerCase()}"></div>
             <div class="label">[${country.code}] - ${country.name}</div>
         </div>`
-      )
-      .toString()
-      .replace(/,/g, '')
-    }
+    )
+    .toString()
+    .replace(/,/g, '')
+  }
 </div>`;
 
 storiesOf('Countries', module)

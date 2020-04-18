@@ -166,7 +166,38 @@
 }
 // Tunisia
 &-tn {
-  background: #e70013;
+  background:
+    radial-gradient(
+      $flag-size / 1.25 at 50% 50%,
+      #fff 0,
+      #fff 30%,
+      transparent 30%,
+      transparent 100%
+    )
+    #e70013;
+
+  &::before {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    left: 15%;
+    width: $flag-size / 3;
+    height: $flag-size / 3;
+    margin-right: auto;
+    margin-left: auto;
+    content: "";
+    border-radius: 50%;
+    box-shadow: -$flag-size / 15 0 0 $flag-size / 60 #e70013;
+  }
+
+  &::after {
+    position: absolute;
+    top: 38%;
+    left: 47%;
+    font-size: $flag-size / 6;
+    color: #e70013;
+    content: "★";
+  }
 }
 // Turkey
 &-tr {
@@ -205,11 +236,10 @@
 &-tv {
   background: #1085bd;
 
-  
-
     &::before {
       @include flagBase64Symbol($emblem-union-jack, 0, 0, $flag-width / 1.75, $flag-width / 3.5);
     }
+
     &::after {
       @include flagSymbol("\e944", #fed100, 50%, 30%, $flag-width / 2.5);
     }

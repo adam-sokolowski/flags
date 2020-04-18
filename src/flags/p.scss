@@ -26,7 +26,6 @@
     content: "★";
     transform: rotate(15deg);
   }
-
 }
 // Palau
 &-pw {
@@ -97,10 +96,19 @@
 // Paraguay
 &-py {
   @include threePart(#ef3340, #fff, #0033a0);
+
+  &::after {
+    @include flagBase64Symbol($emblem-py, 37%, 33%, $flag-size / 4.5, $flag-size / 4.5);
+  }
 }
 // Peru
 &-pe {
   @include threePart(#d91023, #fff, #d91023, to right);
+
+    &::after {
+      @include flagBase64Symbol($emblem-pe, 36%, 25%, $flag-size / 3.5, $flag-size / 3.5);
+    }
+  
 }
 // Philippines
 &-ph {
@@ -132,46 +140,8 @@
 // Portugal
 &-pt {
   @include threePart(#006600, #ff0000, #ff0000, to right);
+
+  &::after {
+    @include flagBase64Symbol($emblem-pt, 15%, 25%, $flag-size / 3, $flag-size / 3);
+  }
 }
-
-// // Puerto Rico
-// &-pr {
-//   position: relative;
-//   background:
-//     linear-gradient(
-//       146deg,
-//       #0333ec 25%,
-//       transparent 15%
-//     ) 0 $flag-width / 3,
-//     linear-gradient(
-//       34deg,
-//       #0333ec 25%,
-//       transparent 15%
-//     ) 0 $flag-width / 3,
-//     linear-gradient(
-//       to bottom,
-//       #e40007 20%,
-//       #fff 20%,
-//       #fff 40%,
-//       #e40007 40%,
-//       #e40007 60%,
-//       #fff 60%,
-//       #fff 80%,
-//       #e40007 80%,
-//       #e40007 100%
-//     );
-  
-//   &::before {
-//     position: absolute;
-//     top: 35%;
-//     left: 8%;
-//     font-size: $flag-size / 6;
-//     color: #fff;
-//     content: "★";
-//   }
-// }
-
-// // Pitcairn
-// &-pn {
-//  //
-// }

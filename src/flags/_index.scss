@@ -9,7 +9,6 @@ $flag-height: $flag-size / 3 * 2;
   width: $flag-size;
   height: $flag-height;
   overflow: hidden;
-  border: 1px solid #d6d6d6;
 
   &-xl {
     transform: scale(calc(2));

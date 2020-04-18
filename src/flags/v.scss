@@ -14,6 +14,48 @@
       #009543 58%,
       #009543 100%
     );
+
+  &::before {
+    display: block;
+    width: $flag-width / 2.15;
+    height: $flag-height;
+    content: "";
+    background:
+      linear-gradient(
+        145deg,
+        #000 30%,
+        transparent 15%
+      ) 0 $flag-size / 0.99,
+      linear-gradient(
+        35deg,
+        #000 30%,
+        transparent 15%
+      ) 0 $flag-size / 0.99,
+      linear-gradient(
+        145deg,
+        #ffc726 34%,
+        transparent 15%
+      ) 0 $flag-size / 0.99,
+      linear-gradient(
+        35deg,
+        #ffc726 34%,
+        transparent 15%
+      ) 0 $flag-size / 0.99,
+      linear-gradient(
+        145deg,
+        #000 36%,
+        transparent 15%
+      ) 0 $flag-size / 0.99,
+      linear-gradient(
+        35deg,
+        #000 36%,
+        transparent 15%
+      ) 0 $flag-size / 0.99;
+  }
+  
+  &::after {
+    @include flagSymbol("\e94a", #fdce12, 5%, 35%, $flag-size / 4.5);
+  }   
 }
 // Venezuela
 &-ve {
@@ -41,16 +83,3 @@
     content: "★";
   }
 }
-
-// // Virgin Islands, British
-// &-vg {
-//   background: #080058;
-// }
-// // Virgin Islands, U.S.
-// &-vi {
-//   background: #fff;
-
-//   &::after {
-//     @include flagBase64Symbol($emblem-vi, 10%, 18%, 45px, 30px);
-//   }
-// }

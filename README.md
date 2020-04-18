@@ -1,4 +1,4 @@
-# Collection of 195 country flags 
+# Collection of 195 country flags
 
 A combination of pure `CSS`, Font and `base64` symbols covering all recognised countries.
 
@@ -7,5 +7,8 @@ A combination of pure `CSS`, Font and `base64` symbols covering all recognised c
     `sass:compile`: Compiles SASS code into CSS output
     `storybook:compile`: Compile and serve storybook with flags playground
 
+## Preview
+![Previev](./assets/css_flags.jpg)
 
-TODO: Implement countries teritorries
+
+TODO: Implement countries territories

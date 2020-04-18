@@ -73,7 +73,11 @@
 }
 // Malta
 &-mt {
-  @include twoPart(#ce0000, #fff, to right);
+  @include twoPart(#fff, #ce0000, to right);
+
+  &::after {
+    @include flagBase64Symbol($emblem-mt, 10%, 10%, $flag-width / 6, $flag-height / 4);
+  }
 }
 // Marshall Islands
 &-mh {
@@ -182,6 +186,10 @@
   height: $flag-height - $flag-size / 10;
   background: #ef3340;
   border: $flag-size / 20 solid #daaa00;
+
+  &::after {
+    @include flagBase64Symbol($emblem-me, 32%, 11%, $flag-width / 3, $flag-height / 1.7);
+  }
 }
 // Morocco
 &-ma {

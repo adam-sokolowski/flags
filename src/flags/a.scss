@@ -78,15 +78,19 @@
 // Australia
 &-au {
   background: #0018a8;
-
     &::before {
-      @include flagSymbol("\e940", #fff, 25%, 60%, $flag-width / 6);
+      @include flagBase64Symbol($emblem-union-jack, 0, 0, $flag-width / 1.75, $flag-width / 3.5);
+      font-family: "FlagSymbols", Arial;
+      font-size: $flag-height / 4;
+      line-height: $flag-height * 1.5;
+      color: #fff;
+      text-indent: $flag-height / 4;
+      content: "\e940";
     }
 
     &::after {
       @include flagSymbol("\e93c", #fff, 45%, 20%, $flag-width / 2);
     }
-
 }
 // Austria
 &-at {

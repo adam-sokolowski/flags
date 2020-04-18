@@ -1,6 +1,6 @@
 {
   "name": "@adso-sass/flags",
-  "version": "1.0.0",
+  "version": "1.1.0-alpha.0",
   "description": "SCSS flags collection",
   "repository": {
     "type": "git",

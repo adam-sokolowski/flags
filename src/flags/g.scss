@@ -4,6 +4,10 @@
 }
 // Georgia
 &-ge {
+  font-family: "FlagSymbols", Arial;
+  font-size: $flag-height / 5;
+  color: #ff0000;
+  letter-spacing: $flag-width / 2;
   background:
     linear-gradient(
       to bottom,
@@ -20,6 +24,19 @@
       transparent 56%
     )
     #fff;
+
+  &::before {
+    padding-left: $flag-width / 8;
+    line-height: $flag-height / 2.5;
+    content: "\e917 \e917";
+  }
+
+  &::after {
+    position: absolute;
+    padding-top: $flag-width / 5;
+    padding-left: $flag-width / 8;
+    content: "\e917 \e917";
+  }
 }
 // Germany
 &-de {
@@ -85,7 +102,7 @@
 
   &::before {
     position: absolute;
-    top: 22%;
+    top: 25%;
     left: 5%;
     font-size: $flag-size / 4;
     color: #000;

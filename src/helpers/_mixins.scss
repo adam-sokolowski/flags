@@ -26,7 +26,18 @@
   left: $left;
   font-family: "FlagSymbols";
   font-size: $size;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   color: $color;
+  text-transform: none;
   content: $content;
 }
 

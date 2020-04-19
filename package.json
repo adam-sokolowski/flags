@@ -12,7 +12,9 @@
   ],
   "main": "dist/_index.scss",
   "files": [
-    "dist"
+    "dist/**/*",
+    "assets/**/*",
+    "src/**/*"
   ],
   "scripts": {
     "sass:lint": "stylelint './**/*.scss' --syntax scss",

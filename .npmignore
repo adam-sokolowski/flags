@@ -7,7 +7,5 @@ src
 .versionrc.json
 .eslintrc.js
 .prettierrc.js
-jest.config.js
-tsconfig.json
 yarn.lock
-CONTRIBUTING.md
+.DS_Store

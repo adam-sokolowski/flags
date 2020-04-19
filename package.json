@@ -8,7 +8,9 @@
   },
   "keywords": [
     "sass",
-    "skeleton"
+    "css",
+    "flags",
+    "countries"
   ],
   "main": "dist/_index.scss",
   "files": [

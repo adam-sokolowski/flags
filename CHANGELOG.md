@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/adam-sokolowski/flags/compare/v1.1.0...v1.2.0) (2020-04-19)
+
+
+### New features
+
+* **all:** updates of documentation, fontt rendering and npm package settings ([2422693](https://github.com/adam-sokolowski/flags/commit/242269384abf6300780aac96709ca11146dff67c))
+
 ## [1.1.0](https://github.com/adam-sokolowski/flags/compare/v1.1.0-alpha.1...v1.1.0) (2020-04-18)
 
 ## [1.1.0-alpha.1](https://github.com/adam-sokolowski/flags/compare/v1.1.0-alpha.0...v1.1.0-alpha.1) (2020-04-18)

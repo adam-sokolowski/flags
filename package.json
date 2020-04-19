@@ -2,15 +2,23 @@
   "name": "@adso-sass/flags",
   "version": "1.2.0",
   "description": "SCSS flags collection",
+  "author": "Adam Sokołowski <adam.sokolowski@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git@github.com:adam-sokolowski/flags.git"
   },
+  "bugs": "https://github.com/adam-sokolowski/flags/issues",
   "keywords": [
-    "sass",
-    "css",
     "flags",
-    "countries"
+    "sass",
+    "scss",
+    "css",
+    "countries",
+    "css flags",
+    "base64",
+    "flag symbols",
+    "flag helper"
   ],
   "main": "dist/_index.scss",
   "files": [
@@ -36,8 +44,6 @@
       ]
     }
   },
-  "author": "Adam Sokołowski <adam.sokolowski@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@storybook/addon-knobs": "5.3.18",
@@ -51,6 +57,5 @@
     "stylelint": "13.3.1",
     "stylelint-order": "4.0.0",
     "stylelint-scss": "3.16.1"
-  },
-  "dependencies": {}
+  }
 }

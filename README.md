@@ -2,11 +2,11 @@
 A combination of pure `CSS`, Font and `base64` symbols covering all recognised countries.
 
 ## Scripts
-    `sass:compile`: Compiles SASS code into CSS output
-    `storybook:compile`: Compile and serve storybook with flags playground
+- `sass:compile`: Compiles SASS code into CSS output
+- `storybook:compile`: Compile and serve storybook with flags playground
 
 ## Installation
-`yarn ass -D @adso-sass/flags`
+`yarn add -D @adso-sass/flags`
 
 ## Usage
 ```scss

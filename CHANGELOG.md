@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/adam-sokolowski/flags/compare/v1.2.0...v1.2.1) (2020-04-20)
+
+
+### Documentation
+
+* **all:** fix typos in readme ([5ba3722](https://github.com/adam-sokolowski/flags/commit/5ba3722fd7b9df1bd22e03fbe536636f695697a8))
+
 ## [1.2.0](https://github.com/adam-sokolowski/flags/compare/v1.1.0...v1.2.0) (2020-04-19)
 
 

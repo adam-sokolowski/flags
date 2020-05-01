@@ -26,6 +26,7 @@
     #fff;
 
   &::before {
+    position: absolute;
     left: $flag-width / 8;
     line-height: $flag-height / 2.5;
     content: "\e917 \e917";

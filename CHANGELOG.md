@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/adam-sokolowski/flags/compare/v1.2.1...v1.3.0) (2020-05-01)
+
+
+### Bug fixes
+
+* **flags:** update flag sizes ([c94387d](https://github.com/adam-sokolowski/flags/commit/c94387d7e80c504ce142f60e1451045fb5fee02a))
+
 ### [1.2.1](https://github.com/adam-sokolowski/flags/compare/v1.2.0...v1.2.1) (2020-04-20)
 
 

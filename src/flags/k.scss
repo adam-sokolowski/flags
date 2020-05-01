@@ -44,7 +44,7 @@
   &::before {
     display: block;
     width: $flag-width;
-    height: $flag-height / 2.5;
+    height: $flag-height;
     content: "";
     border-top: $flag-width / 5 solid #007a3d;
     border-right: 0;

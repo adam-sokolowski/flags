@@ -57,8 +57,8 @@
   &::before,
   &::after {
     position: absolute;
-    width: $flag-size / 3;
-    height: $flag-size / 4;
+    width: $flag-size / 2;
+    height: $flag-size / 3;
     padding-top: 8%;
     padding-left: 17%;
     font-size: $flag-size / 6;

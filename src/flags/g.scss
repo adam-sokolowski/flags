@@ -26,15 +26,15 @@
     #fff;
 
   &::before {
-    padding-left: $flag-width / 8;
+    left: $flag-width / 8;
     line-height: $flag-height / 2.5;
     content: "\e917 \e917";
   }
 
   &::after {
     position: absolute;
-    padding-top: $flag-width / 5;
-    padding-left: $flag-width / 8;
+    top: $flag-width / 2.1;
+    left: $flag-width / 8;
     content: "\e917 \e917";
   }
 }
@@ -92,8 +92,6 @@
 }
 // Grenada
 &-gd {
-  width: $flag-width - $flag-size / 5;
-  height: $flag-height - $flag-size / 5;
   background:
     linear-gradient(
       150deg,

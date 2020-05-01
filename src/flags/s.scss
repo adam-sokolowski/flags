@@ -5,14 +5,14 @@
 
   &::after {
     position: absolute;
-    top: 25%;
-    left: 40%;
+    top: 48%;
+    left: 35%;
     display: block;
     width: $flag-height / 5;
     font-size: $flag-width / 6;
     color: #fff;
     content: "★  ★";
-    transform: rotate(55deg);
+    transform: rotate(-45deg);
   }
 }
 // Saint Lucia

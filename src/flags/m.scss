@@ -57,8 +57,6 @@
 }
 // Maldives
 &-mv {
-  width: $flag-width - $flag-size / 5;
-  height: $flag-height - $flag-size / 5;
   background:
     radial-gradient(
       $flag-width / 3.8 at 55% 50%,
@@ -199,8 +197,6 @@
 }
 // Montenegro
 &-me {
-  width: $flag-width - $flag-size / 10;
-  height: $flag-height - $flag-size / 10;
   background: #ef3340;
   border: $flag-size / 20 solid #daaa00;
 

@@ -58,7 +58,7 @@
     "stylelint-order": "~4.1.0",
     "stylelint-scss": "~3.18.0"
   },
-  "dependencies": {
+  "resolutions": {
     "dot-prop": "^5.2.0",
     "prismjs": "^1.21.0"
   }

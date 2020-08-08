@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.2](https://github.com/adam-sokolowski/flags/compare/v1.2.1...v1.3.2) (2020-08-08)
+
+
+### Bug fixes
+
+* **flags:** add missing prop in GE flag ([1dd1c96](https://github.com/adam-sokolowski/flags/commit/1dd1c96cb71c1a8d77b1781049ef21529cdbd764))
+* **flags:** update flag sizes ([c94387d](https://github.com/adam-sokolowski/flags/commit/c94387d7e80c504ce142f60e1451045fb5fee02a))
+
 ### [1.3.1](https://github.com/adam-sokolowski/flags/compare/v1.3.0...v1.3.1) (2020-05-01)
 
 

@@ -1,15 +1,5 @@
 import { storiesOf } from '@storybook/html';
-import { select, withKnobs } from '@storybook/addon-knobs';
 import { COUNTRY_CODES } from './countries.const';
-
-const sizes = {
-  ExtraSmall: 'xs',
-  Small: 's',
-  Medium: 'm',
-  Large: 'l',
-  ExtraLarge: 'xl',
-};
-const size = select('Size', sizes, 'm');
 
 const getTemplate = (letter) => `
   <div class="padding">
@@ -17,7 +7,7 @@ const getTemplate = (letter) => `
     .filter(country => country.name.startsWith(letter))
     .map(country => `
         <div class="wrapper">
-          <div class="container flag flag-${size} flag-${country.code.toLowerCase()}"></div>
+          <div class="container flag flag-m flag-${country.code.toLowerCase()}"></div>
           <div class="label">
             <div class="code">
               ${country.code}
@@ -56,8 +46,3 @@ storiesOf('Countries', module)
   .add('V', () => getTemplate('V'))
   .add('Y', () => getTemplate('Y'))
   .add('Z', () => getTemplate('Z'));
-
-export default {
-  title: 'Knobs',
-  decorators: [withKnobs],
-};

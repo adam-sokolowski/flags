@@ -9,11 +9,11 @@ $flag-height: $flag-size / 3 * 2;
 
 .flag {
   position: relative;
+  box-sizing: border-box;
   display: block;
   width: $flag-size;
   height: $flag-height;
   overflow: hidden;
-  box-sizing: border-box;
 
   &::after,
   &::before {

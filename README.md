@@ -1,41 +1,43 @@
 # Collection of 195 country flags
-A combination of pure `CSS`, Font and `base64` symbols covering all recognised countries.
+A combination of `CSS`, `font` and `base64` symbols covering all recognised countries.
 
-## Scripts
+### Scripts
 - `sass:compile`: Compiles SASS code into CSS output
 - `storybook:compile`: Compile and serve storybook with flags playground
 
-## Installation
-`yarn add -D @adso-sass/flags`
+### Installation
+`yarn add @adso-sass/flags`
 
-## Usage
+### Usage
 ```scss
   $flag-size: 60px;
 
   @import "~@adso-sass/flags/src/flags";
 ```
 
-### Sizes:
-Base size: 60px x 40px;
+#### Sizes:
+Default size: 60px x 40px;
 
-> `xs`(scale: 0.33), `s`(0.5), `m`, `l` (1.5), `xl` (2)
+Also available:
+- `xs`(scale: 0.33),
+- `s`(0.5),
+- `m`,
+- `l` (1.5), 
+- `xl` (2)
 
-
-### Helper class
+#### Helper class
 
  > `flag flag-${size} flag-${countryCode}`
 
-### Example
+#### Example
 ```html
 <div class="flag flag-m flag-es"/>
 ```
 
-## Preview
+### Preview
 ![Collection previev](./assets/css_flags.jpg)
-
 
 TODO: 
 - Implement territories and dependencies flags
-- improve storybook example with knobs
 - optimize `base64` collection
 - split into modules

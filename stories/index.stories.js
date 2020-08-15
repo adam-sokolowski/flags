@@ -1,5 +1,16 @@
 import { storiesOf } from '@storybook/html';
 import { COUNTRY_CODES } from './countries.const';
+import { select, withKnobs } from '@storybook/addon-knobs';
+
+const sizes = {
+  ExtraSmall: 'xs',
+  Small: 's',
+  Medium: 'm',
+  Large: 'l',
+  ExtraLarge: 'xl',
+};
+
+const size = select('Size', sizes, 'm');
 
 const getTemplate = (letter) => `
   <div class="padding">
@@ -8,7 +19,7 @@ const getTemplate = (letter) => `
     .map(country => `
         <div class="wrapper">
           <div class="container">
-            <span class="flag flag-l flag-${country.code.toLowerCase()}"/>
+            <span class="flag flag-${country.code.toLowerCase()} flag-${size}"/>
           </div>
           <div class="label">
             <div class="code">
@@ -48,3 +59,8 @@ storiesOf('Countries', module)
   .add('V', () => getTemplate('V'))
   .add('Y', () => getTemplate('Y'))
   .add('Z', () => getTemplate('Z'));
+
+export default {
+  title: 'Adjust flag size',
+  decorators: [withKnobs],
+};

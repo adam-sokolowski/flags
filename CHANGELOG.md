@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/adam-sokolowski/flags/compare/v1.3.3...v1.4.0) (2020-08-15)
+
+
+### New features
+
+* **storybook:** restore knobs imports ([2b309ab](https://github.com/adam-sokolowski/flags/commit/2b309ab43a65c70af8d0c898fdb67b9620f32fe5))
+* **storybook:** update storybook, add theme, update dependencies ([78aa5cd](https://github.com/adam-sokolowski/flags/commit/78aa5cd9c86f7a208cb39508d1d63cd50f249c32))
+
+
+### Bug fixes
+
+* **all:** address linter issues ([f2b4ba3](https://github.com/adam-sokolowski/flags/commit/f2b4ba39d0786781bd6aaec148b9274d52a77312))
+* **flags:** Kuwait and Panama flags - add missing box-sizing ([d4713c1](https://github.com/adam-sokolowski/flags/commit/d4713c1d81ad2cd4be8801c4c7f450aabc7e4251))
+
 ### [1.3.3](https://github.com/adam-sokolowski/flags/compare/v1.3.2...v1.3.3) (2020-08-08)
 
 ### [1.3.2](https://github.com/adam-sokolowski/flags/compare/v1.2.1...v1.3.2) (2020-08-08)

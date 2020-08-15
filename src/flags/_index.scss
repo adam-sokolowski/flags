@@ -13,6 +13,12 @@ $flag-height: $flag-size / 3 * 2;
   width: $flag-size;
   height: $flag-height;
   overflow: hidden;
+  box-sizing: border-box;
+
+  &::after,
+  &::before {
+    box-sizing: border-box;
+  }
 
   &-xl {
     transform: scale(calc(2));

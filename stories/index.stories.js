@@ -7,7 +7,9 @@ const getTemplate = (letter) => `
     .filter(country => country.name.startsWith(letter))
     .map(country => `
         <div class="wrapper">
-          <div class="container flag flag-m flag-${country.code.toLowerCase()}"></div>
+          <div class="container">
+            <span class="flag flag-l flag-${country.code.toLowerCase()}"/>
+          </div>
           <div class="label">
             <div class="code">
               ${country.code}

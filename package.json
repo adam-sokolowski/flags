@@ -45,22 +45,22 @@
     }
   },
   "devDependencies": {
-    "@babel/core": "~7.11.0",
-    "@storybook/addon-knobs": "^6.0.20",
-    "@storybook/html": "~6.0.20",
-    "babel-loader": "~8.1.0",
-    "husky": "~4.2.5",
+    "@babel/core": "~7.14.0",
+    "@storybook/addon-knobs": "~6.0.0",
+    "@storybook/html": "~6.0.0",
+    "babel-loader": "~8.2.0",
+    "husky": "~6.0.0",
     "path": "~0.12.0",
-    "sass": "~1.26.10",
+    "sass": "~1.35.0",
     "sass-loader": "~10.0.0",
-    "standard-version": "~9.0.0",
-    "stylelint": "~13.6.0",
+    "standard-version": "~9.3.0",
+    "stylelint": "~13.13.0",
     "stylelint-order": "~4.1.0",
-    "stylelint-scss": "~3.18.0"
+    "stylelint-scss": "~3.19.0"
   },
   "resolutions": {
-    "dot-prop": "^5.2.0",
-    "prismjs": "^1.21.0",
-    "serialize-javascript": "^3.1.0"
+    "dot-prop": "^6.0.0",
+    "prismjs": "^1.24.0",
+    "serialize-javascript": "^6.0.0"
   }
 }

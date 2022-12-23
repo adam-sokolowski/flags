@@ -3,16 +3,28 @@
   position: relative;
   background: linear-gradient(145deg, #1eb53a 39%, #fcd116 39%, #fcd116 41%, #000 41%, #000 59%,  #fcd116 59%, #fcd116 61%, #c70000 61%);
 
-  &::after {
+  &::before {
     position: absolute;
-    top: 48%;
-    left: 35%;
+    top: 20%;
+    left: 55%;
     display: block;
     width: $flag-height / 5;
     font-size: $flag-width / 6;
     color: #fff;
-    content: "★  ★";
-    transform: rotate(-45deg);
+    content: "★";
+    transform: rotate(49deg);
+  }
+  
+  &::after {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    display: block;
+    width: $flag-height / 5;
+    font-size: $flag-width / 6;
+    color: #fff;
+    content: "★";
+    transform: rotate(49deg);
   }
 }
 // Saint Lucia
@@ -22,34 +34,35 @@
       -45deg,
       #fcd116 14%,
       transparent 0
-    ) $flag-width / 2 $flag-width * -0.05,
+    ) $flag-width * 0.5 $flag-width * -0.05,
     linear-gradient(
       45deg,
       #fcd116 14%,
       transparent 0
-    ) $flag-width / 2 $flag-width * -0.05,
+    ) $flag-width * 0.5 $flag-width * -0.05,
     linear-gradient(
       -65deg,
       #000 16%,
       transparent 0
-    ) $flag-width / 2 $flag-width * -0.05,
+    ) $flag-width * 0.5 $flag-width * -0.05,
     linear-gradient(
       65deg,
       #000 16%,
       transparent 0
-    ) $flag-width / 2 $flag-width * -0.05,
+    ) $flag-width * 0.5 $flag-width * -0.05,
     linear-gradient(
       -65deg,
       #fff 18%,
       transparent 0
-    ) $flag-width / 2 $flag-width * -0.05,
+    ) $flag-width * 0.5 $flag-width * -0.05,
     linear-gradient(
       65deg,
       #fff 18%,
       transparent 0
-    ) $flag-width / 2 $flag-width * -0.05,
+    ) $flag-width * 0.5 $flag-width * -0.05,
     #0077c8;
 }
+
 // Saint Vincent and the Grenadines
 &-vc {
   background:
@@ -366,7 +379,7 @@
   border: $flag-size / 20 solid #ffbe29;
 
   &::before {
-    @include flagSymbol("\e929", #ffbe29, 30%, 3%, $flag-height / 1.25);
+    @include flagSymbol("\e929", #ffbe29, 32%, 3%, $flag-height / 1.5);
   }
 }
 // State of Palestie

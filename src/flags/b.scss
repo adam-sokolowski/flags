@@ -128,7 +128,7 @@
       transparent 25%
     ),
     radial-gradient(
-      $flag-size / 2 at 50% 50%,
+      $flag-size * 0.5 at 50% 50%,
       transparent 0,
       transparent 35%,
       #fedf00 35%,
@@ -183,10 +183,10 @@
 // Burundi
 &-bi {
   background:
-    linear-gradient(146deg, #c0001d 20%, transparent 15%) $flag-width / 2 -$flag-width,
-    linear-gradient(-146deg, #c0001d 20%, transparent 15%) $flag-width / 2 -$flag-width,
-    linear-gradient(-34deg, #c0001d 20%, transparent 15%) $flag-width / 2 -$flag-width,
-    linear-gradient(34deg, #c0001d 20%, transparent 15%) $flag-width / 2 -$flag-width,
+    linear-gradient(146deg, #c0001d 20%, transparent 15%) $flag-width * 0.5 -$flag-width,
+    linear-gradient(-146deg, #c0001d 20%, transparent 15%) $flag-width * 0.5 -$flag-width,
+    linear-gradient(-34deg, #c0001d 20%, transparent 15%) $flag-width * 0.5 -$flag-width,
+    linear-gradient(34deg, #c0001d 20%, transparent 15%) $flag-width * 0.5 -$flag-width,
     linear-gradient(146deg, #21ab2c 20%, transparent 15%) 0 $flag-width / 3,
     linear-gradient(34deg, #21ab2c 20%, transparent 15%) 0 $flag-width / 3,
     linear-gradient(-146deg, #21ab2c 20%, transparent 15%) -$flag-width $flag-width / 3,
@@ -196,7 +196,7 @@
   &::after {
     background:
       radial-gradient(
-        $flag-size / 2 at 50% 50%,
+        $flag-size * 0.5 at 50% 50%,
         #bc002d 0,
         #bc002d 30%,
         transparent 30%,

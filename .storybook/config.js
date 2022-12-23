@@ -1,5 +1,5 @@
 import { addParameters, configure } from '@storybook/html';
-import { withKnobs } from '@storybook/addon-knobs';
+import { withKnobs } from '@storybook/addon-controls';
 
 const req = require.context('./../stories', true, /.stories\.js$/);
 

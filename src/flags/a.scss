@@ -111,7 +111,7 @@
     }
 
     &::after {
-      @include flagSymbol("\e93c", #fff, 45%, 20%, $flag-width / 2);
+      @include flagSymbol("\e93c", #fff, 45%, 20%, $flag-width * 0.5);
     }
 }
 // Austria

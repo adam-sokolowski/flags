@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/html';
 import { COUNTRY_CODES } from './countries.const';
-import { select, withKnobs } from '@storybook/addon-knobs';
+import { select, withKnobs } from '@storybook/addon-controls';
 
 const sizes = {
   ExtraSmall: 'xs',

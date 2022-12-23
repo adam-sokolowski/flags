@@ -209,7 +209,7 @@
   background: #c1272d;
 
   &::before {
-    @include flagSymbol("\e91b", #3f8143, 33%, 20%, $flag-size / 3);
+    @include flagSymbol("\e92b", #3f8143, 33%, 20%, $flag-size / 3);
   }
 }
 // Mozambique

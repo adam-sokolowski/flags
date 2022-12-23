@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/adam-sokolowski/flags/compare/v1.4.0...v1.5.0) (2022-12-23)
+
+
+### Bug fixes
+
+* **all:** restores knobs for sb 6.4 ([e752eaf](https://github.com/adam-sokolowski/flags/commit/e752eaf722afa01772cfb32bc56816c2a920209b))
+* **flags:** adds -en alias fo UK flag ([1e53b62](https://github.com/adam-sokolowski/flags/commit/1e53b62f413ca1ff609a574eb940710037975ad6))
+
 ## [1.4.0](https://github.com/adam-sokolowski/flags/compare/v1.3.3...v1.4.0) (2020-08-15)
 
 

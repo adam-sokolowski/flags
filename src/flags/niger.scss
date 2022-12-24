@@ -1,0 +1,18 @@
+// Niger
+&-ne {
+  background:
+    radial-gradient(
+      $flag-size / 4 at 50% 50%,
+      #e05206 0,
+      #e05206 35%,
+      transparent 35%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to bottom,
+      #e05206 calc(100% / 3),
+      #fff calc(100% / 3),
+      #fff calc(100% / 3 * 2),
+      #0db02b calc(100% / 3 * 2)
+    );
+}

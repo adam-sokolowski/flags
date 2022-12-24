@@ -1,0 +1,8 @@
+// Singapore
+&-sg {
+  @include twoPart(#dc143c, #fff);
+
+  &::before {
+    @include flagSymbol("\e93f", #fff, 5%, 10%, $flag-height / 3);
+  }
+}

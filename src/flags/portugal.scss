@@ -1,0 +1,8 @@
+// Portugal
+&-pt {
+  @include threePart(#006600, #ff0000, #ff0000, to right);
+
+  &::after {
+    @include flagBase64Symbol($emblem-pt, 15%, 25%, $flag-size / 3, $flag-size / 3);
+  }
+}

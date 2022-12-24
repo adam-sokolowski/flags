@@ -1,0 +1,8 @@
+// Iraq
+&-iq {
+  @include threePart(#ce1126, #fff, #000);
+
+  &::before {
+    @include flagSymbol("\e91e", #239f40, 30%, 20%, $flag-height / 1.6);
+  }
+}

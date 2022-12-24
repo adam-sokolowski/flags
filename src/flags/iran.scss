@@ -1,0 +1,8 @@
+// Iran
+&-ir {
+  @include threePart(#239f40, #fff, #da0000);
+
+  &::before {
+    @include flagSymbol("\e91f", #da0000, 40%, 35%, $flag-height / 3.25);
+  }
+}

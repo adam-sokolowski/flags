@@ -1,0 +1,37 @@
+// Panama
+&-pa {
+  position: relative;
+  background:
+    linear-gradient(
+      90deg,
+      #005293 50%,
+      transparent 50%
+    ),
+    linear-gradient(
+      #d21034 50%,
+      transparent 50%
+    ),
+    #fff;
+
+  &::before,
+  &::after {
+    position: absolute;
+    width: $flag-size / 2;
+    height: $flag-size / 3;
+    padding-top: 8%;
+    padding-left: 17%;
+    font-size: $flag-size / 6;
+    content: "★";
+    background: #fff;
+  }
+  
+  &::before {
+    color: #005293;
+  }
+  
+  &::after {
+    right: 0;
+    bottom: 0;
+    color: #d21034;
+  }
+}

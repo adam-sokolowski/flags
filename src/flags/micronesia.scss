@@ -1,0 +1,8 @@
+// Micronesia
+&-fm {
+  background: #6797d6;
+  
+  &::before {
+    @include flagSymbol("\e916", #fff, 18%, 13%, $flag-size / 2);
+  }
+}

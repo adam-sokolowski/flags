@@ -1,0 +1,36 @@
+// East Timor
+&-tl {
+  position: relative;
+  background:
+    linear-gradient(
+      145deg,
+      #000 25%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      34deg,
+      #000 25%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      155deg,
+      #ffc726 30%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      25deg,
+      #ffc726 30%,
+      transparent 15%
+    ) 0 $flag-size,
+    #dc241f;
+  
+  &::before {
+    position: absolute;
+    top: 33%;
+    left: 5%;
+    font-size: $flag-size / 5;
+    color: #fff;
+    content: "★";
+    transform: rotate(115deg);
+  }
+}

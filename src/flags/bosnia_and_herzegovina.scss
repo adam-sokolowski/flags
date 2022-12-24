@@ -1,0 +1,19 @@
+// Bosnia and Herzegovina
+&-ba {
+  background: #002395;
+
+  &::before {
+    @include flagSymbol("\e906", #ffe000, 0, 0, $flag-height);
+  }
+
+  &::after {
+    position: absolute;
+    right: 5px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-color: transparent #ffe000 transparent transparent;
+    border-style: solid;
+    border-width: 0 $flag-height $flag-height 0;
+  }
+}

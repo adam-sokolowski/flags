@@ -1,0 +1,8 @@
+// Malta
+&-mt {
+  @include twoPart(#fff, #ce0000, to right);
+
+  &::after {
+    @include flagBase64Symbol($emblem-mt, 10%, 10%, $flag-width / 6, $flag-height / 4);
+  }
+}

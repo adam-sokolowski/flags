@@ -1,0 +1,17 @@
+// Papua New Guinea
+&-pg {
+  background:
+    linear-gradient(
+      33deg,
+      #000 50%,
+      #c8102e 50%
+    );
+
+    &::before {
+      @include flagSymbol("\e939", #ffd100, 50%, 10%, $flag-size / 3);
+    }
+    
+    &::after {  
+      @include flagSymbol("\e93c", #fff, 5%, 40%, $flag-size / 3);
+    }
+}

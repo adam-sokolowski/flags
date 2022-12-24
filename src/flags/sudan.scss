@@ -1,0 +1,21 @@
+// Sudan
+&-sd {
+  background:
+    linear-gradient(
+      148deg,
+      #007229 25%,
+      transparent 0
+    ) 0 $flag-size,
+    linear-gradient(
+      33deg,
+      #007229 25%,
+      transparent 0
+    ) 0 $flag-size,
+    linear-gradient(
+      to bottom,
+      #d21034 calc(100% / 3),
+      #fff calc(100% / 3),
+      #fff calc(100% / 3 * 2),
+      #000 calc(100% / 3 * 2)
+    );
+}

@@ -1,0 +1,42 @@
+// Sao Tome and Principe
+&-st {
+  position: relative;
+  background:
+    linear-gradient(
+      135deg,
+      #da291c 20%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      45deg,
+      #da291c 20%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      to bottom,
+      #009639,
+      #009639 calc(100% / 3),
+      #ffd100 calc(100% / 3),
+      #ffd100 calc(100% / 3 * 2),
+      #009639 calc(100% / 3 * 2),
+      #009639 100%
+    );
+
+  &::before {
+    position: absolute;
+    top: 37%;
+    left: 45%;
+    font-size: $flag-size / 6;
+    color: #000;
+    content: "★";
+  }
+
+  &::after {
+    position: absolute;
+    top: 37%;
+    left: 70%;
+    font-size: $flag-size / 6;
+    color: #000;
+    content: "★";
+  }
+}

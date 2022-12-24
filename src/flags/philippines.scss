@@ -1,0 +1,23 @@
+// Philippines
+&-ph {
+  background:
+    linear-gradient(
+      146deg,
+      #fff 25%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      34deg,
+      #fff 25%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      to bottom,
+      #11457e 50%,
+      #d7141a 50%
+    );
+
+  &::before {
+    @include flagSymbol("\e93a", #e0b700, 0, 20%, $flag-size / 2.5);
+  }
+}

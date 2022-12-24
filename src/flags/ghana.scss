@@ -1,0 +1,13 @@
+// Ghana
+&-gh {
+  @include threePart(#ce1126, #fcd116, #006b3f);
+  
+  &::before {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-size: $flag-size / 4;
+    color: #000;
+    content: "★";
+  }
+}

@@ -1,0 +1,35 @@
+// Saint Lucia
+&-lc {
+  background:
+    linear-gradient(
+      -45deg,
+      #fcd116 14%,
+      transparent 0
+    ) $flag-width * 0.5 $flag-width * -0.05,
+    linear-gradient(
+      45deg,
+      #fcd116 14%,
+      transparent 0
+    ) $flag-width * 0.5 $flag-width * -0.05,
+    linear-gradient(
+      -65deg,
+      #000 16%,
+      transparent 0
+    ) $flag-width * 0.5 $flag-width * -0.05,
+    linear-gradient(
+      65deg,
+      #000 16%,
+      transparent 0
+    ) $flag-width * 0.5 $flag-width * -0.05,
+    linear-gradient(
+      -65deg,
+      #fff 18%,
+      transparent 0
+    ) $flag-width * 0.5 $flag-width * -0.05,
+    linear-gradient(
+      65deg,
+      #fff 18%,
+      transparent 0
+    ) $flag-width * 0.5 $flag-width * -0.05,
+    #0077c8;
+}

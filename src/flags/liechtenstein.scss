@@ -1,0 +1,8 @@
+// Liechtenstein
+&-li {
+  @include twoPart(#002b7f, #ce1126);
+
+  &::before {
+    @include flagBase64Symbol($emblem-li, 10%, 10%, $flag-width / 5, $flag-height / 4);
+  }  
+}

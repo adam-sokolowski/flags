@@ -1,0 +1,8 @@
+// Saudi Arabia
+&-sa {
+  background: #199d00;
+
+  &::before {
+    @include flagSymbol("\e93e", #fff, 30%, 25%, $flag-size / 2.5);
+  }
+}

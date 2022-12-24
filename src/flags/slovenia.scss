@@ -1,0 +1,8 @@
+// Slovenia
+&-si {
+  @include threePart(#fff, #0b4ea2, #ee1c25);
+
+  &::before {
+    @include flagBase64Symbol($emblem-si, 10%, 25%, $flag-size / 6, $flag-size / 5.3);
+  }
+}

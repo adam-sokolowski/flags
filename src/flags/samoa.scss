@@ -1,0 +1,11 @@
+// Samoa
+&-ws {
+  background: #ce1126;
+
+  &::before {
+    padding: $flag-size / 24 $flag-size / 12;
+    background-color: #002b7f;
+
+    @include flagSymbol("\e93c", #fff, 0, 0, $flag-size / 4);
+  }
+}

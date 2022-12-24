@@ -1,0 +1,27 @@
+// Marshall Islands
+&-mh {
+  background-color: #003087;
+  background-image:
+    linear-gradient(
+      -17deg,
+      #003087 0,
+      #003087 30%,
+      transparent 26%
+    ),
+    linear-gradient(
+      -22deg,
+      #fff 0,
+      #fff 38%,
+      transparent 28%
+    ),
+    linear-gradient(
+      -26deg,
+      #e57200 0,
+      #e57200 45%,
+      transparent 45%
+    );
+
+  &::before {
+    @include flagSymbol("\e92c", #fff, 10%, 10%, $flag-height / 3);
+  }
+}

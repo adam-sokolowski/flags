@@ -1,0 +1,11 @@
+// South Korea
+&-kr {
+  background: #fff;
+  &::before {
+    @include flagSymbol("\e925", #000, 26%, 15%, $flag-size / 2);
+  }
+  
+  &::after {
+    @include flagBase64Symbol($emblem-kr, 38%, 32%, $flag-size / 4, $flag-size / 4);
+  }
+}

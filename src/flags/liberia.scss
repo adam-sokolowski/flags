@@ -1,0 +1,27 @@
+// Liberia
+&-lr {
+  position: relative;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      #b22234,
+      #b22234 $flag-height / 12,
+      #fff $flag-height / 12,
+      #fff $flag-height / 6.5
+    );
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: $flag-size / 3.9;
+    height: $flag-size / 3.9;
+    padding-top: $flag-size / 18;
+    font-size: $flag-size / 8;
+    color: #fff;
+    text-align: center;
+    content: "★";
+    background: #0039a6;
+  }
+}

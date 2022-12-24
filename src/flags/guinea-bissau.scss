@@ -1,0 +1,16 @@
+// Guinea-Bissau
+&-gw {
+  position: relative;
+  background:
+    linear-gradient(to right, #ce1126 35%, transparent 35%),
+    linear-gradient(to bottom, #fcd116 50%, #009e49 50%);
+
+  &::before {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-size: $flag-size / 4;
+    color: #000;
+    content: "★";
+  }
+}

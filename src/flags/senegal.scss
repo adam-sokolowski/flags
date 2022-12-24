@@ -1,0 +1,19 @@
+// Senegal
+&-sn {
+  position: relative;
+
+  @include threePart(#00853f, #fdef42, #e31b23, to right);
+
+  &::before {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: $flag-size / 4;
+    color: #00853f;
+    text-align: center;
+    content: "★";
+  }
+}

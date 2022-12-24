@@ -1,0 +1,36 @@
+// Georgia
+&-ge {
+  font-size: $flag-height / 5;
+  color: #ff0000;
+  letter-spacing: $flag-width / 2;
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 40%,
+      #ff0000 40%,
+      #ff0000 60%,
+      transparent 60%
+    ),
+    linear-gradient(
+      to right,
+      transparent 44%,
+      #ff0000 44%,
+      #ff0000 56%,
+      transparent 56%
+    )
+    #fff;
+
+  &::before {
+    position: absolute;
+    left: $flag-width / 8;
+    line-height: $flag-height / 2.5;
+    content: "\e917 \e917";
+  }
+
+  &::after {
+    position: absolute;
+    top: $flag-width / 2.1;
+    left: $flag-width / 8;
+    content: "\e917 \e917";
+  }
+}

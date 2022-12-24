@@ -1,0 +1,9 @@
+// Peru
+&-pe {
+  @include threePart(#d91023, #fff, #d91023, to right);
+
+    &::after {
+      @include flagBase64Symbol($emblem-pe, 36%, 25%, $flag-size / 3.5, $flag-size / 3.5);
+    }
+  
+}

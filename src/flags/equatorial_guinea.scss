@@ -1,0 +1,24 @@
+// Equatorial Guinea
+&-gq {
+  position: relative;
+  background:
+    linear-gradient(
+      135deg,
+      #0073ce 20%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      45deg,
+      #0073ce 20%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      to bottom,
+      #3e9a00,
+      #3e9a00 calc(100% / 3),
+      #fff calc(100% / 3),
+      #fff calc(100% / 3 * 2),
+      #e32118 calc(100% / 3 * 2),
+      #e32118 100%,
+    );
+}

@@ -1,0 +1,39 @@
+// Malaysia
+&-my {
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      #b22234,
+      #b22234 $flag-height / 13,
+      #fff $flag-height / 13,
+      #fff $flag-height / 7
+    );
+
+  &::before {
+    @include flagSymbol("\e932", #fedf00, 27%, 20%, $flag-size / 8);
+  }
+
+  &::after {
+    display: block;
+    width: $flag-width / 2;
+    height: $flag-height / 1.75;
+    content: "";
+    background:
+      radial-gradient(
+        $flag-width / 3.5 at 55% 50%,
+        #0039a6 0,
+        #0039a6 35%,
+        transparent 35%,
+        transparent 100%
+      ),
+      radial-gradient(
+        $flag-width / 3 at 50% 50%,
+        #fedf00 0,
+        #fedf00 35%,
+        transparent 35%,
+        transparent 100%
+      )
+      #0039a6;
+  }
+
+}

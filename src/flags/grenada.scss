@@ -1,0 +1,43 @@
+// Grenada
+&-gd {
+  background:
+    linear-gradient(
+      150deg,
+      #007a5e 25%,
+      transparent 15%
+    ) 0 $flag-size / 4.35,
+    linear-gradient(
+      30deg,
+      #007a5e 25%,
+      transparent 15%
+    ) 0 $flag-size / 4.35,
+    linear-gradient(
+      -150deg,
+      #007a5e 25%,
+      transparent 15%
+    ) 0 $flag-size / 4.35,
+    linear-gradient(
+      -30deg,
+      #007a5e 25%,
+      transparent 15%
+    ) 0 $flag-size / 4.35,
+    #fed100;
+
+  border-top: $flag-size / 10 solid #d21034;
+  border-right: $flag-size / 10 solid #d21034;
+  border-bottom: $flag-size / 10 solid #d21034;
+  border-left: $flag-size / 10 solid #d21034;
+
+  &::before {
+    background:
+      radial-gradient(
+        $flag-size / 3 at 50% 50%,
+        #fed100 0,
+        #fed100 30%,
+        transparent 30%,
+        transparent 100%
+      );
+
+    @include flagSymbol("\e924", #bc002d, 27%, 20%, $flag-size / 3.5);
+  }  
+}

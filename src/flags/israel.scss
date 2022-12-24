@@ -1,0 +1,21 @@
+// Israel
+&-il {
+  position: relative;
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 15%,
+      #0038b8 15%,
+      #0038b8 30%,
+      transparent 30%,
+      transparent 70%,
+      #0038b8 70%,
+      #0038b8 85%,
+      transparent 85%
+    )
+    #fff;
+
+  &::before {
+    @include flagSymbol("\e91b", #0038b8, 37%, 33%, $flag-height / 3);
+  }
+}

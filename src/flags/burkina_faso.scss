@@ -1,0 +1,15 @@
+// Burkina Faso
+&-bf {
+  @include twoPart(#ef2b2d, #009e49);
+
+  &::before {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    left: 0;
+    font-size: $flag-size / 4;
+    color: #fcd116;
+    text-align: center;
+    content: "★";
+  }
+}

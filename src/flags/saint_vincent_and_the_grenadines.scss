@@ -1,0 +1,17 @@
+// Saint Vincent and the Grenadines
+&-vc {
+  background:
+    linear-gradient(
+      to right,
+      #0058aa,
+      #0058aa 25%,
+      #f4f100 25%,
+      #f4f100 75%,
+      #199a00 75%,
+      #199a00 100%
+    );
+
+  &::before {
+    @include flagSymbol("\e948", #199a00, 7%, 5%, $flag-size / 1.55);
+  }
+}

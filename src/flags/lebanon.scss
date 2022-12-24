@@ -1,0 +1,17 @@
+// Lebanon
+&-lb {
+  background:
+    linear-gradient(
+      180deg,
+      #f00,
+      #f00 28%,
+      #fff 28%,
+      #fff 72%,
+      #f00 72%,
+      #f00 100%
+    );
+
+  &::before {
+    @include flagSymbol("\e928", #009543, 40%, 33%, $flag-height / 3);
+  }
+}

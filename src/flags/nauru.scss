@@ -1,0 +1,22 @@
+// Nauru
+&-nr {
+  position: relative;
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 45%,
+      #ffc61e 45%,
+      #ffc61e 55%,
+      transparent 55%
+    )
+    #002b7f;
+
+  &::before {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    font-size: $flag-size / 5;
+    color: #fff;
+    content: "✹";
+  }
+}

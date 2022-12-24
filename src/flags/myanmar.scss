@@ -1,0 +1,17 @@
+// Myanmar
+&-mm {
+  @include threePart(#fecb00, #34b233, #ea2839);
+  
+  &::before {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: calc($flag-size / 3);
+    color: #fff;
+    text-align: center;
+    content: "★";
+  }
+}

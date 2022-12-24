@@ -1,0 +1,8 @@
+// North Macedonia
+&-mk {
+  background: #d20000;
+
+  &::before {
+    @include flagSymbol("\e92d", #ffe600, -1%, -8%, $flag-size / 1.3);
+  }
+}

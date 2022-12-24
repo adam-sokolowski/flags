@@ -1,0 +1,8 @@
+// Paraguay
+&-py {
+  @include threePart(#ef3340, #fff, #0033a0);
+
+  &::after {
+    @include flagBase64Symbol($emblem-py, 37%, 33%, $flag-size / 4.5, $flag-size / 4.5);
+  }
+}

@@ -1,0 +1,29 @@
+// Pakistan
+&-pk {
+  @include threePart(#fff, #115740, #115740, to right);
+
+  &::before {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 40%;
+    width: $flag-size / 3;
+    height: $flag-size / 3;
+    margin-right: auto;
+    margin-left: auto;
+    content: "";
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -$flag-size / 20 $flag-size / 30 0 $flag-size / 60 #fff;
+  }
+
+  &::after {
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    font-size: $flag-size / 8;
+    color: #fff;
+    content: "★";
+    transform: rotate(15deg);
+  }
+}

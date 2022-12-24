@@ -1,0 +1,12 @@
+// Kazakhstan
+&-kz {
+  background: #00aec7;
+
+  &::before {
+    @include flagSymbol("\e927", #fec50c, 0, 0, $flag-height);
+  }
+
+  &::after {
+    @include flagSymbol("\e926", #fec50c, 30%, 15%, $flag-height / 1.5);
+  }
+}

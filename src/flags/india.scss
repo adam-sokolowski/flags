@@ -1,0 +1,8 @@
+// India
+&-in {
+  @include threePart(#f93, #fff, #138808);
+  
+  &::before {
+    @include flagSymbol("\e91d", #0038b8, 40%, 36%, $flag-height / 3.25);
+  }
+}

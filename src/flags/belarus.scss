@@ -1,0 +1,11 @@
+// Belarus
+&-by {
+  @include threePart(#00966e, #00966e, #d62612);
+
+  &::before {
+    width: $flag-height / 4.5;
+    background: #fff;
+
+    @include flagSymbol("\e90b", #d62612, 0, 0, $flag-height);
+  }
+}

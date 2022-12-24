@@ -1,0 +1,39 @@
+// Libyan Arab Jamahiriya
+&-ly {
+  position: relative;
+  background:
+    linear-gradient(
+      180deg,
+      #e70013,
+      #e70013 25%,
+      #000 25%,
+      #000 75%,
+      #239e46 75%,
+      #239e46 100%
+    );
+
+  &::before {
+    position: absolute;
+    top: 35%;
+    right: 0;
+    left: 5%;
+    width: $flag-size / 6;
+    height: $flag-size / 6;
+    margin-right: auto;
+    margin-left: auto;
+    content: "";
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -2px 0 0 1px #fff;
+  }
+
+  &::after {
+    position: absolute;
+    top: 39.5%;
+    left: 55%;
+    font-size: $flag-size / 10;
+    color: #fff;
+    content: "★";
+    transform: rotate(15deg);
+  }
+}

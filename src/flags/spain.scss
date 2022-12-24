@@ -1,0 +1,17 @@
+// Spain
+&-es {
+  background:
+    linear-gradient(
+      180deg,
+      #ef3340,
+      #ef3340 25%,
+      #ffd100 25%,
+      #ffd100 75%,
+      #ef3340 75%,
+      #ef3340 100%
+    );
+
+  &::after {
+    @include flagBase64Symbol($emblem-es, 10%, 27%, $flag-size / 3.5, $flag-size / 3.4);
+  }
+}

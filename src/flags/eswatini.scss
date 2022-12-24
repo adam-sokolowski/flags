@@ -1,0 +1,8 @@
+// Eswatini
+&-sz {
+  background: linear-gradient(to bottom, #3e5eb9 20%, #ffd900 20%, #ffd900 25%, #b10c0c 25%, #b10c0c 75%, #ffd900 75%, #ffd900 80%, #3e5eb9 80%);
+
+  &::before {
+    @include flagBase64Symbol($emblem-sz, 10%, 29%, $flag-width / 1.25, $flag-width / 3.5);
+  }   
+}

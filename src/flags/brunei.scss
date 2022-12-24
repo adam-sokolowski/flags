@@ -1,0 +1,17 @@
+// Brunei
+&-bn {
+  background:
+    linear-gradient(
+      20deg,
+      transparent 40%,
+      #000 40%,
+      #000 50%,
+      #fff 50%,
+      #fff 60%,
+      transparent 0
+    ) #f7e017;
+
+  &::before {
+    @include flagSymbol("\e909", #d62612, 27%, 18%, $flag-size / 2.5);
+  }
+}

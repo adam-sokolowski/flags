@@ -1,0 +1,41 @@
+// Brazil
+&-br {
+  overflow: hidden;
+  background:
+    linear-gradient(
+      149deg,
+      #009b3a 30%,
+      transparent 25%
+    ),
+    linear-gradient(
+      -149deg,
+      #009b3a 30%,
+      transparent 25%
+    ),
+    linear-gradient(
+      -30deg,
+      #009b3a 30%,
+      transparent 25%
+    ),
+    linear-gradient(
+      30deg,
+      #009b3a 30%,
+      transparent 25%
+    ),
+    radial-gradient(
+      $flag-size * 0.5 at 50% 50%,
+      transparent 0,
+      transparent 35%,
+      #fedf00 35%,
+      #fedf00 100%
+    ),
+    radial-gradient(
+      $flag-size at 40% 96%,
+      transparent 0,
+      transparent 35%,
+      #fff 35%,
+      #fff 39%,
+      transparent 39%,
+      transparent 100%
+    ), #002776;
+}

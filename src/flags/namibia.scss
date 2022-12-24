@@ -1,0 +1,20 @@
+// Namibia
+&-na {
+  background:
+    linear-gradient(
+      145deg,
+      #003580 40%,
+      #fff 40%,
+      #fff 43%,
+      #d21034 43%,
+      #d21034 57%,
+      #fff 57%,
+      #fff 60%,
+      #009543
+      60%
+    );
+
+  &::before {
+    @include flagSymbol("\e933", #ffc61e, 5%, 10%, $flag-height / 3);
+  }
+}

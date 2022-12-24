@@ -1,0 +1,35 @@
+// South Sudan
+&-ss {
+  position: relative;
+  background:
+    linear-gradient(
+      146deg,
+      #0f47af 25%,
+      transparent 15%
+    ) 0 $flag-width / 3,
+    linear-gradient(
+      34deg,
+      #0f47af 25%,
+      transparent 15%
+    ) 0 $flag-width / 3,
+    linear-gradient(
+      to bottom,
+      #000 30%,
+      #fff 30%,
+      #fff 35%,
+      #da121a 35%,
+      #da121a 65%,
+      #fff 65%,
+      #fff 70%,
+      #078930 70%
+    );
+
+  &::before {
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    font-size: $flag-size / 6;
+    color: #fcdd09;
+    content: "★";
+  }
+}

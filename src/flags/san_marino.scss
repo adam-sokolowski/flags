@@ -1,0 +1,8 @@
+// San Marino
+&-sm {
+  @include twoPart(#fff, #19b6ef);
+
+  &::after {
+    @include flagBase64Symbol($emblem-sm, 30%, 20%, $flag-size / 3, $flag-size / 3);
+  }
+}

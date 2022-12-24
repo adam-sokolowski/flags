@@ -1,0 +1,29 @@
+// Saint Kitts and Nevis
+&-kn {
+  position: relative;
+  background: linear-gradient(145deg, #1eb53a 39%, #fcd116 39%, #fcd116 41%, #000 41%, #000 59%,  #fcd116 59%, #fcd116 61%, #c70000 61%);
+
+  &::before {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    display: block;
+    width: $flag-height / 5;
+    font-size: $flag-width / 6;
+    color: #fff;
+    content: "★";
+    transform: rotate(49deg);
+  }
+  
+  &::after {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    display: block;
+    width: $flag-height / 5;
+    font-size: $flag-width / 6;
+    color: #fff;
+    content: "★";
+    transform: rotate(49deg);
+  }
+}

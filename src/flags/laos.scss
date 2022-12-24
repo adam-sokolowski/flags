@@ -1,0 +1,18 @@
+// Laos
+&-la {
+  background:
+    radial-gradient(
+      $flag-size / 2.5 at 50% 50%,
+      #fff 0,
+      #fff 35%,
+      transparent 35%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to bottom,
+      #ce1126 20%,
+      #002868 20%,
+      #002868 80%,
+      #ce1126 80%
+    );
+}

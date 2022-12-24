@@ -1,0 +1,65 @@
+// South Africa
+&-za {
+  background:
+  linear-gradient(
+    to bottom,
+    #de3831,
+    #de3831 33%,
+    #fff 33%,
+    #fff 39%,
+    #007a4d 39%,
+    #007a4d 61%,
+    #fff 61%,
+    #fff 67%,
+    #002395 67%,
+    #002395 100%
+  );
+
+&::before {
+  display: block;
+  width: $flag-width / 2.15;
+  height: $flag-height;
+  content: "";
+  background:
+    linear-gradient(
+      145deg,
+      #000 20%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      35deg,
+      #000 20%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      145deg,
+      #FFB612 24%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      35deg,
+      #FFB612 24%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      145deg,
+      #007a4d 40%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      35deg,
+      #007a4d 40%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      145deg,
+      #fff 44%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      35deg,
+      #fff 44%,
+      transparent 15%
+    ) 0 $flag-size;
+}
+}

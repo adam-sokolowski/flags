@@ -1,0 +1,24 @@
+// State of Palestine
+&-ps {
+  position: relative;
+  background:
+    linear-gradient(
+      135deg,
+      #f30007 20%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      45deg,
+      #f30007 20%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      to bottom,
+      #000,
+      #000 calc(100% / 3),
+      #fff calc(100% / 3),
+      #fff calc(100% / 3 * 2),
+      #0e692f	calc(100% / 3 * 2),
+      #0e692f	 100%,
+    );
+}

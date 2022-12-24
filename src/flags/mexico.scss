@@ -1,0 +1,8 @@
+// Mexico
+&-mx {
+  @include threePart(#006847, #fff, #ce1126, to right);
+
+  &::after {
+    @include flagBase64Symbol($emblem-mx, 37%, 30%, $flag-width / 4, $flag-height / 3);
+  }  
+}

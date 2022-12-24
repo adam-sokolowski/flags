@@ -1,0 +1,8 @@
+// Slovakia
+&-sk {
+  @include threePart(#fff, #0b4ea2, #ee1c25);
+  
+  &::before {
+    @include flagBase64Symbol($emblem-sk, 10%, 25%, $flag-size / 4, $flag-size / 3.2);
+  }
+}

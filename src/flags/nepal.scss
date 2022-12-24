@@ -1,0 +1,16 @@
+// Nepal
+&-np {
+  background:
+    linear-gradient(40deg,#dc143c 30%,transparent 0) $flag-size / 30 $flag-size * -0.03,
+    linear-gradient(33deg,#dc143c 25%,transparent 0) $flag-size / 30 $flag-size / 0.97,
+    linear-gradient(40deg,#003893 36%,transparent 0),
+    linear-gradient(33deg,#003893 30%,transparent 0) 0 $flag-size / 0.96;
+
+  &::before {
+    @include flagSymbol("\e937", #fff, 5%, 20%, $flag-height / 3);
+  }
+  
+  &::after {
+    @include flagSymbol("\e936", #fff, 5%, 60%, $flag-height / 3);
+  }  
+}

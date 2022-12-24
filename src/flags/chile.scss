@@ -1,0 +1,27 @@
+// Chile
+&-cl {
+  position: relative;
+  background:
+    linear-gradient(
+      to bottom,
+      #fff,
+      #fff 50%,
+      #d52b1e 50%,
+      #d52b1e 100%
+    );
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: $flag-size / 3;
+    height: $flag-size / 3;
+    padding-top: $flag-size / 12;
+    font-size: $flag-size / 6;
+    color: #fff;
+    text-align: center;
+    content: "★";
+    background: #0039a6;
+  }
+}

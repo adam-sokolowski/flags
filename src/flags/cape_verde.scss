@@ -1,0 +1,19 @@
+// Cape Verde
+&-cv {
+  background:
+    linear-gradient(
+      #002b7f 60%,
+      #fff 60%,
+      #fff 65%,
+      #ce1126 65%,
+      #ce1126 70%,
+      #fff 70%,
+      #fff 75%,
+      #002b7f 75%,
+      #002b7f 100%
+    );
+
+  &::before {
+    @include flagSymbol("\e910", #f7d116, 10%, 40%);
+  }
+}

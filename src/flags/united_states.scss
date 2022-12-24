@@ -1,0 +1,17 @@
+// United States
+&-us {
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      #b22234,
+      #b22234 $flag-height / 15,
+      #fff $flag-height / 15,
+      #fff $flag-height / 7.525
+    );
+
+  &::before {
+    background-color: #002868;
+
+    @include flagSymbol("\e946", #fff, 0, 0, $flag-size / 3.2);
+  }
+}

@@ -1,0 +1,31 @@
+// Tonga
+&-to {
+  position: relative;
+  background: #c10000;
+  
+  &::before {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    content: "";
+    background:
+      linear-gradient(
+        to bottom,
+        transparent calc(100% / 3),
+        #c10000 calc(100% / 3),
+        #c10000 calc(100% / 3 * 2),
+        transparent 0
+      ),
+      linear-gradient(
+        to right,
+        transparent calc(100% / 3),
+        #c10000 calc(100% / 3),
+        #c10000 calc(100% / 3 * 2),
+        transparent 0
+      ),
+      #fff;
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-size: $flag-width / 4 $flag-width / 4;
+  }
+}

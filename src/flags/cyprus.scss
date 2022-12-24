@@ -1,0 +1,12 @@
+// Cyprus
+&-cy {
+  background: #fff;
+
+  &::before {
+    @include flagSymbol("\e912", #d57800, 10%, 0, $flag-height);
+  }
+
+  &::after {
+    @include flagSymbol("\e911", #4e5b31, 15%, 35%, $flag-size / 2);
+  }
+}

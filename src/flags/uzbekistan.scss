@@ -1,0 +1,19 @@
+// Uzbekistan
+&-uz {
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      #0099b5,
+      #0099b5 30%,
+      #ce1126 33%,
+      #fff 33%,
+      #fff 67%,
+      #ce1126 67%,
+      #1eb53a 70%,
+      #1eb53a 100%
+    );
+
+    &::before {  
+      @include flagSymbol("\e947", #fff, 5%, 0, $flag-size / 3.8);
+    }
+}

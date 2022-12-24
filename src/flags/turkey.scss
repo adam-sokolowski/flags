@@ -1,0 +1,29 @@
+// Turkey
+&-tr {
+  background: #e30a17;
+
+  &::before {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    left: 0;
+    width: $flag-size / 3;
+    height: $flag-size / 3;
+    margin-right: auto;
+    margin-left: auto;
+    content: "";
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -$flag-size / 20 0 0 $flag-size / 30 #fff;
+  }
+
+  &::after {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    font-size: $flag-size / 6;
+    color: #fff;
+    content: "★";
+    transform: rotate(15deg);
+  }
+}

@@ -1,0 +1,12 @@
+// Turkmenistan
+&-tm {
+  background: #00843d;
+
+  &::before {
+    @include flagBase64Symbol($emblem-tm, 5%, 0, $flag-width / 6, $flag-height );
+  }
+
+  &::after {
+    @include flagSymbol("\e943", #fff, 25%, 10%, $flag-width / 5);
+  }
+}

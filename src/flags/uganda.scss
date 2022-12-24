@@ -1,0 +1,23 @@
+// Uganda
+&-ug {
+  background:
+    linear-gradient(
+      to bottom,
+      #000,
+      #000 calc(100% / 6),
+      #ffe700 calc(100% / 6),
+      #ffe700 calc(100% / 3),
+      #de3908 calc(100% / 3),
+      #de3908 calc(100% / 6 * 3),
+      #000 calc(100% / 6 * 3),
+      #000 calc(100% / 3 * 2),
+      #ffe700 calc(100% / 3 * 2),
+      #ffe700 calc(100% / 6 * 5),
+      #de3908 calc(100% / 6 * 5),
+      #de3908 100%
+    );
+
+  &::before {
+    @include flagBase64Symbol($emblem-ug, 35%, 30%, $flag-width / 4, $flag-width / 4);
+  }
+}

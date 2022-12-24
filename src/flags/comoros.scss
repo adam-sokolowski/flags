@@ -1,0 +1,29 @@
+// Comoros
+&-km {
+  background:
+    linear-gradient(
+      146deg,
+      #3d8e33 25%,
+      transparent 15%
+    ) 0 $flag-width / 3,
+    linear-gradient(
+      34deg,
+      #3d8e33 25%,
+      transparent 15%
+    ) 0 $flag-width / 3,
+    linear-gradient(
+      to bottom,
+      #ffc61e 0%,
+      #ffc61e 25%,
+      #fff 25%,
+      #fff 50%,
+      #ce1025 50%,
+      #ce1126 75%,
+      #3a75c4 75%,
+      #3a75c4 100%
+    );
+
+    &::before {
+      @include flagSymbol("\e923", #fff, -5%, 25%, $flag-height / 2);
+    }
+}

@@ -1,0 +1,26 @@
+// The Democratic Republic of Congo
+&-cd {
+  position: relative;
+  background:
+    linear-gradient(
+      152deg,
+      #00a3dd 40%,
+      #fcd116 40%,
+      #fcd116 43%,
+      #d21034 43%,
+      #d21034 57%,
+      #fcd116 57%,
+      #fcd116 60%,
+      #00a3dd 60%
+    );
+  
+  &::before {
+    position: absolute;
+    top: $flag-size * 0.05;
+    margin-top: 0;
+    margin-left: 5%;
+    font-size: $flag-size / 4;
+    color: #ffce00;
+    content: "★";
+  }
+}

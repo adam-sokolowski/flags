@@ -1,0 +1,16 @@
+// Cambodia
+&-kh {
+  background:
+    linear-gradient(
+      to bottom,
+      #ce1126 25%,
+      #052d74 25%,
+      #052d74 75%,
+      #ce1126 75%,
+      #ce1126 100%
+    );
+
+  &::before {
+    @include flagSymbol("\e922", #fff, 30%, 30%, $flag-size / 4);
+  }
+}

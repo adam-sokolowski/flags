@@ -1,0 +1,24 @@
+// Togo
+&-tg {
+  position: relative;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      #006a4e,
+      #006a4e 20%,
+      #ffce00 20%,
+      #ffce00 40%
+    );
+  
+  &::before {
+    position: absolute;
+    width: 35%;
+    height: 40%;
+    padding-top: 8%;
+    font-size: $flag-size / 8;
+    color: #fff;
+    text-align: center;
+    content: "★";
+    background: #d21034;
+  }
+}

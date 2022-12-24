@@ -1,0 +1,15 @@
+// Canada
+&-ca {
+  background:
+    linear-gradient(
+      to right,
+      #ef3340 28%,
+      #fff 28%,
+      #fff 72%,
+      #ef3340 72%
+    );
+
+  &::before {
+    @include flagSymbol("\e90c", #ef3340, 34%, 20%, $flag-size / 3);
+  }
+}

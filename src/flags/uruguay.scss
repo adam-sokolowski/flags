@@ -1,0 +1,17 @@
+// Uruguay
+&-uy {
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      #fff,
+      #fff $flag-height / 9,
+      #0038a8 $flag-height / 9,
+      #0038a8 $flag-height / 4.4
+    );
+
+  &::before {
+    background-color: #fff;
+
+    @include flagBase64Symbol($emblem-uy, 0, 0, $flag-width / 3, $flag-width / 3);
+  }
+}

@@ -1,0 +1,17 @@
+// Cameroon
+&-cm {
+  position: relative;
+
+  @include threePart(#007a5e, #ce1126, #fcd116, to right);
+
+  &::before {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    left: 0;
+    font-size: $flag-size / 4;
+    color: #fcd116;
+    text-align: center;
+    content: "★";
+  }
+}

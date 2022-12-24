@@ -1,0 +1,36 @@
+// Central African Republic
+&-cf {
+  position: relative;
+  background:
+    linear-gradient(
+      to right,
+      transparent 0%,
+      transparent 42%,
+      #d21034 42%,
+      #d21034 58%,
+      transparent 58%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to bottom,
+      #003082,
+      #003082 25%,
+      #fff 25%,
+      #fff 50%,
+      #289728 50%,
+      #289728 75%,
+      #ffce00 75%,
+      #ffce00 100%
+    );
+
+  &::before {
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: $flag-width / 10;
+    color: #ffce00;
+    content: "★";
+  }
+}

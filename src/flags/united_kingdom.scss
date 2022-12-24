@@ -1,0 +1,24 @@
+// United Kingdom
+&-en,
+&-gb {
+  background: #00247d;
+
+  &::before {
+    position: absolute;
+    width: $flag-width;
+    height: $flag-height;
+    content: "";
+    background:
+      linear-gradient(180deg,transparent 40%,#cc142b 0,#cc142b 60%,transparent 0),
+      linear-gradient(90deg,transparent 45%,#cc142b 0,#cc142b 55%,transparent 0),
+      linear-gradient(180deg,transparent 35%,#fff 0,#fff 65%,transparent 0),
+      linear-gradient(90deg,transparent 40%,#fff 0,#fff 60%,transparent 0),
+      linear-gradient(146deg,transparent 50%,#cc142b 0,#cc142b 53%,transparent 0) $flag-width / -2.7 $flag-width / 4,
+      linear-gradient(146deg,transparent 50%,#cc142b 0,#cc142b 53%,transparent 0) $flag-width / 3.2 $flag-width / -4,
+      linear-gradient(34deg,transparent 50%,#cc142b 0,#cc142b 53%,transparent 0) $flag-width * -0.5 $flag-width / -3.4,
+      linear-gradient(34deg,transparent 50%,#cc142b 0,#cc142b 53%,transparent 0) $flag-width * 0.5 $flag-width / 3,
+      linear-gradient(146deg,transparent 45%,#fff 0,#fff 55%,transparent 0),
+      linear-gradient(34deg,transparent 45%,#fff 0,#fff 55%,transparent 0);
+    background-repeat: no-repeat;
+  }
+}

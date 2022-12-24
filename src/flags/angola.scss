@@ -1,0 +1,8 @@
+// Angola
+&-ao {
+  @include twoPart(#c8102e,#000);
+
+  &::before {
+    @include flagSymbol("\e903", #ffcd00, 30%, 10%, $flag-size * 0.5);
+  }
+}

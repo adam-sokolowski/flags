@@ -82,11 +82,11 @@
 }
 // Samoa
 &-ws {
-  background: #ef3340;
+  background: #ce1126;
 
   &::before {
-    padding: $flag-size / 20 $flag-size / 12;
-    background-color: #002868;
+    padding: $flag-size / 24 $flag-size / 12;
+    background-color: #002b7f;
 
     @include flagSymbol("\e93c", #fff, 0, 0, $flag-size / 4);
   }
@@ -125,11 +125,20 @@
 
   &::before {
     position: absolute;
-    top: 38%;
+    top: 37%;
     left: 45%;
     font-size: $flag-size / 6;
     color: #000;
-    content: "★ ★";
+    content: "★";
+  }
+
+  &::after {
+    position: absolute;
+    top: 37%;
+    left: 70%;
+    font-size: $flag-size / 6;
+    color: #000;
+    content: "★";
   }
 }
 // Saudi Arabia
@@ -209,7 +218,7 @@
   background: linear-gradient(147deg, #0639ac 48%, #f8c911 48%, #f8c911 52%, #164823 52%);
 
   &::after {
-    @include flagSymbol("\e946", #fed100, -95%, -94%, $flag-width);
+    @include flagSymbol("\e946", #fff, -94%, -94%, $flag-width);
   }
 }
 // Somalia
@@ -219,7 +228,7 @@
 
   &::before {
     position: absolute;
-    top: 25%;
+    top: 30%;
     right: 0;
     left: 0;
     margin-right: auto;
@@ -379,7 +388,7 @@
   border: $flag-size / 20 solid #ffbe29;
 
   &::before {
-    @include flagSymbol("\e929", #ffbe29, 32%, 3%, $flag-height / 1.5);
+    @include flagSymbol("\e929", #ffbe29, 32%, 2%, $flag-height / 1.5);
   }
 }
 // State of Palestie

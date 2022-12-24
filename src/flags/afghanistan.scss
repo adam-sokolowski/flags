@@ -1,0 +1,8 @@
+// Afghanistan
+&-af {
+  @include threePart(#000, #d32011, #007a36, to right);
+
+  &::before {
+    @include flagSymbol("\e900", #fff, 33%, 23%);
+  }
+}

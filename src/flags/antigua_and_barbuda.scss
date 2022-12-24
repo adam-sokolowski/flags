@@ -1,0 +1,26 @@
+// Antigua and Barbuda
+&-ag {
+  background:
+    linear-gradient(
+    to bottom,
+    #000 45%,
+    #005eb8 45%,
+    #005eb8 60%,
+    #fff 60%,
+    #fff 100%
+    );
+
+  &::before {
+    display: block;
+    width: $flag-width;
+    height: $flag-height;
+    content: "";
+    background:
+    linear-gradient(-47deg, #ce1126 32%, transparent 0%) $flag-width -$flag-width,
+    linear-gradient(47deg, #ce1126 32%, transparent 0%) $flag-width -$flag-width
+  }
+
+  &::after {
+      @include flagSymbol("\e901", #ffd100, 33%, 21%, $flag-size / 3.1);
+  }
+}

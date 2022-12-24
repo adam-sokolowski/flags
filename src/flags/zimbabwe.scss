@@ -1,0 +1,21 @@
+// Zimbabwe
+&-zw {
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      #006400,
+      #006400 calc(100% / 7),
+      #ffd200 calc(100% / 7),
+      #ffd200 calc(100% / 7 * 2),
+      #d40000 calc(100% / 7 * 2),
+      #d40000 calc(100% / 7 * 3),
+      #000 calc(100% / 7 * 3),
+      #000 calc(100% / 7 * 4),
+      #d40000 calc(100% / 7 * 4),
+      #d40000 calc(100% / 7 * 5),
+      #ffd200 calc(100% / 7 * 5),
+      #ffd200 calc(100% / 7 * 6),
+      #006400 calc(100% / 7 * 6),
+      #006400 100%
+    );
+}

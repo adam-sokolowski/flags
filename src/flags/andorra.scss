@@ -1,0 +1,8 @@
+// Andorra
+&-ad {
+  @include threePart(#0018a8, #fedf00, #d50032, to right);
+
+  &::after {
+    @include flagBase64Symbol($emblem-ad, 36%, 25%, $flag-size / 3.5, $flag-size / 3.5);
+  }
+}

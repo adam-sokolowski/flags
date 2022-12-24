@@ -48,6 +48,6 @@
     );
 
   &::before {
-    @include flagSymbol("\e940", #fff, 10%, 40%, $flag-height / 4.25);
+    @include flagSymbol("\e940", #fff, 10%, 39%, $flag-height / 4.25);
   }
 }

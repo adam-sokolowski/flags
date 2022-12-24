@@ -1,17 +1,1 @@
-// Oman
-&-om {
-  background:
-    linear-gradient(
-      to right,
-      #c8102e 30%,
-      transparent 30%
-    ),
-    linear-gradient(
-      #fff,
-      #fff calc(100% / 3),
-      #c8102e calc(100% / 3),
-      #c8102e calc(100% / 3 * 2),
-      #009a44 calc(100% / 3 * 2),
-      #009a44 100%,
-    );
-}
+@import 'oman';

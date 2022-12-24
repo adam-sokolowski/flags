@@ -1,0 +1,8 @@
+// Argentina
+&-ar {
+    @include threePart(#6cace4, #fff, #6cace4);
+  
+    &::after {
+      @include flagBase64Symbol($emblem-ar, 33%, 27%, $flag-size / 3.2, $flag-size / 3.2);
+    }
+  }

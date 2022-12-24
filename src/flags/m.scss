@@ -120,36 +120,39 @@
 // Mauritania
 &-mr {
   position: relative;
+  border-top: $flag-width * 0.125 solid #d01c1f;
+  border-bottom: $flag-width * 0.125 solid #d01c1f;
   background:
     radial-gradient(
-      $flag-width / 3 * 2 at 50% 30%,
-      #006233 0,
-      #006233 35%,
-      transparent 35%,
+      $flag-width / 3 * 2.1 at 50% 0,
+      #00A95C 0,
+      #00A95C 37%,
+      transparent 37%,
       transparent 100%
     ),
     radial-gradient(
-      $flag-width / 3 * 2 at 50% 40%,
+      $flag-width / 3 * 2 at 50% 24%,
       #ffc400 0,
       #ffc400 35%,
       transparent 35%,
       transparent 100%
     )
-    #006233;
+    #00A95C;
     
   &::before {
     position: absolute;
-    top: 15%;
+    top: 25%;
     right: 0;
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    font-size: $flag-width / 5;
+    font-size: $flag-width / 8;
     color: #ffc400;
     text-align: center;
     content: "★";
   }
 }
+
 // Mauritius
 &-mu {
   background:
@@ -197,8 +200,8 @@
 }
 // Montenegro
 &-me {
-  background: #ef3340;
-  border: $flag-size / 20 solid #daaa00;
+  background: #c40308;
+  border: $flag-size / 20 solid #d3ae3b;
 
   &::after {
     @include flagBase64Symbol($emblem-me, 32%, 11%, $flag-width / 3, $flag-height / 1.7);
@@ -229,19 +232,19 @@
       to bottom,
       #007168 30%,
       #fff 30%,
-      #fff 35%,
-      #000 35%,
-      #000 65%,
-      #fff 65%,
+      #fff 32%,
+      #000 32%,
+      #000 68%,
+      #fff 68%,
       #fff 70%,
       #fce100 70%
     );
 
   &::before {
     position: absolute;
-    top: 33%;
-    left: 10%;
-    font-size: $flag-size / 6;
+    top: 34%;
+    left: 8%;
+    font-size: calc($flag-size / 5);
     color: #fce100;
     content: "★";
   }
@@ -252,12 +255,12 @@
   
   &::before {
     position: absolute;
-    top: 15%;
+    top: 25%;
     right: 0;
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    font-size: $flag-size / 3;
+    font-size: calc($flag-size / 3);
     color: #fff;
     text-align: center;
     content: "★";

@@ -1,0 +1,20 @@
+// Zambia
+&-zm {
+  background: #198a00;
+  
+  &::before {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    display: block;
+    width: 20px;
+    height: 25px;
+    content: "";
+
+    @include threePart(#de2010, #000, #ef7d00, to right);
+  }
+
+  &::after {
+    @include flagBase64Symbol($emblem-zw, 65%, 10%, 20px, 8px);
+  }
+}

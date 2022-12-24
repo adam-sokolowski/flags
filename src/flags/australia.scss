@@ -1,6 +1,6 @@
 // Australia
 &-au {
-    background: #0018a8;
+    background: #00008b;
       &::before {
         @include flagBase64Symbol($emblem-union-jack, 0, 0, $flag-width / 1.75, $flag-width / 3.5);
         font-family: "FlagSymbols", Arial;

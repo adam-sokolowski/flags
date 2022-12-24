@@ -1,0 +1,59 @@
+// Vanuatu
+&-vu {
+  background:
+    linear-gradient(
+      to bottom,
+      #d21034,
+      #d21034 43%,
+      #000 43%,
+      #000 47%,
+      #ffc726 47%,
+      #ffc726 53%,
+      #000 53%,
+      #000 57.5%,
+      #009543 57.5%,
+      #009543 100%
+    );
+
+  &::before {
+    display: block;
+    width: $flag-width / 2.23;
+    height: $flag-height;
+    content: "";
+    background:
+      linear-gradient(
+        145deg,
+        #000 30%,
+        transparent 15%
+      ) 0 $flag-size,
+      linear-gradient(
+        35deg,
+        #000 30%,
+        transparent 15%
+      ) 0 $flag-size,
+      linear-gradient(
+        145deg,
+        #ffc726 34%,
+        transparent 15%
+      ) 0 $flag-size,
+      linear-gradient(
+        35deg,
+        #ffc726 34%,
+        transparent 15%
+      ) 0 $flag-size,
+      linear-gradient(
+        145deg,
+        #000 37%,
+        transparent 15%
+      ) 0 $flag-size,
+      linear-gradient(
+        35deg,
+        #000 37%,
+        transparent 15%
+      ) 0 $flag-size;
+  }
+  
+  &::after {
+    @include flagSymbol("\e94a", #ffc726, 5%, 35%, $flag-size / 4.5);
+  }   
+}

@@ -1,24 +1,4 @@
-// Haiti
-&-ht {
-  @include twoPart(#00209f, #dc143c);
-}
-// Holy See (Vatican City State)
-&-va {
-  @include twoPart(#ffe000, #fff, to right);
-
-  &::before {
-    @include flagBase64Symbol($emblem-va, 60%, 20%, $flag-width / 3.5, $flag-height / 1.75);
-  }
-}
-// Honduras
-&-hn {
-  @include threePart(#0073cf, #fff, #0073cf);
-
-  &::before {
-    @include flagSymbol("\e91a", #0073cf, 27%, 25%, $flag-height / 2);
-  }
-}
-// Hungary
-&-hu {
-  @include threePart(#cd2a3e, #fff, #436f4d);
-}
+@import 'haiti';
+@import 'holy_see';
+@import 'honduras';
+@import 'hungary';

@@ -1,0 +1,29 @@
+// Djibouti
+&-dj {
+  position: relative;
+  background:
+    linear-gradient(
+      146deg,
+      #fff 25%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      34deg,
+      #fff 25%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      to bottom,
+      #6ab2e7 50%,
+      #12ad2b 50%
+    );
+
+  &::before {
+    position: absolute;
+    top: 36%;
+    left: 8%;
+    font-size: $flag-size / 6;
+    color: #d7141a;
+    content: "★";
+  }
+}

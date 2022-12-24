@@ -1,0 +1,28 @@
+// Jordan
+&-jo {
+  position: relative;
+  background:
+    linear-gradient(
+      146deg,
+      #da291c 25%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      34deg,
+      #da291c 25%,
+      transparent 15%
+    ) 0 $flag-size,
+    linear-gradient(
+      to bottom,
+      #000,
+      #000 calc(100% / 3),
+      #fff calc(100% / 3),
+      #fff calc(100% / 3 * 2),
+      #009639 calc(100% / 3 * 2),
+      #009639 100%
+    );
+
+  &::before {
+    @include flagSymbol("\e940", #fff, 10%, 39%, $flag-height / 4.25);
+  }
+}

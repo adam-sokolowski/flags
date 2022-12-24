@@ -5,14 +5,14 @@
   &::before {
     position: absolute;
     top: 0;
-    left: 24%;
+    left: 25%;
     width: $flag-height / 5;
     height: 100%;
     content: "";
     background:
-      linear-gradient(154deg, #fff 35%, transparent 31% ) 0 $flag-height / 10,
-      linear-gradient(24deg, #fff 35%, transparent 31% ) 0 $flag-width / 5;
-    background-size: $flag-height / 5 $flag-height / 5;
+      linear-gradient(155deg, #fff 35%, transparent 31% ) 0 $flag-height / 10,
+      linear-gradient(25deg, #fff 35%, transparent 31% ) 0 $flag-width / 5;
+    background-size: $flag-height / 4.8 $flag-height / 5.15;
   }
 }
 // Bangladesh

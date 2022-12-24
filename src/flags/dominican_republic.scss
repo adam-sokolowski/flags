@@ -1,0 +1,33 @@
+// Dominican Republic
+&-do {
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 40%,
+      #fff 40%,
+      #fff 60%,
+      transparent 60%
+    ),
+    linear-gradient(
+      to right,
+      transparent 44%,
+      #fff 44%,
+      #fff 56%,
+      transparent 56%
+    )
+    #ff0000;
+
+  &::before,
+  &::after {
+    display: block;
+    width: $flag-size / 2.225;
+    height: $flag-size / 3.75;
+    content: "";
+    background: #002d62;
+  }
+  &::after {
+    position: absolute;
+    top: 60%;
+    left: 56%;
+  }
+}

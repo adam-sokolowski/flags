@@ -71,22 +71,22 @@
   &::before {
     display: block;
     width: $flag-width / 2.5;
-    height: $flag-height / 1.85;
+    height: $flag-height / 1.805;
     content: "";
     background:
       linear-gradient(
         to bottom,
-        transparent 40%,
-        #fff 40%,
-        #fff 60%,
-        transparent 60%
+        transparent 42%,
+        #fff 42%,
+        #fff 61%,
+        transparent 61%
       ),
       linear-gradient(
         to right,
         transparent 42%,
         #fff 42%,
         #fff 58%,
-        transparent 58%
+        transparent 5%
       )
       #0d5eaf;
   }

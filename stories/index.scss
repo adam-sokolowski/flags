@@ -13,8 +13,6 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
   background: #838383;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 
 .code {
@@ -29,7 +27,7 @@ body {
 .wrapper {
   float: left;
   width: 50%;
-  min-height: 120px;
+  min-height: 160px;
 
   @media screen and (min-width: 640px) {
     width: 33.33333%;
@@ -38,10 +36,6 @@ body {
   @media screen and (min-width: 768px) {
     width: 25%;
   }
-
-  @media screen and (min-width: 1024px) {
-    width: 12.5%;
-  }
 }
 
 .padding {
@@ -49,5 +43,5 @@ body {
 }
 
 .container {
-  margin: 25px 0;
+  margin: 25px 15px;
 }

@@ -27,7 +27,6 @@
     "src/**/*"
   ],
   "sass": "src/flags/index.scss",
-  "style": "dist/flags/index.css",
   "scripts": {
     "sass:lint": "stylelint './**/*.scss' --syntax scss",
     "sass:compile": "sass src/flags/_index.scss dist/index.css",

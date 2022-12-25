@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/adam-sokolowski/flags/compare/v1.5.0...v1.6.0) (2022-12-25)
+
+
+### Bug fixes
+
+* **all:** updates flags base64's ([d22eff8](https://github.com/adam-sokolowski/flags/commit/d22eff84992e658e031aae4f5d2e4736e296a20a))
+* **all:** updates georgia flag ([190fac1](https://github.com/adam-sokolowski/flags/commit/190fac19ed880cdf8112a87af139424da3a3219c))
+
 ## [1.5.0](https://github.com/adam-sokolowski/flags/compare/v1.4.0...v1.5.0) (2022-12-23)
 
 

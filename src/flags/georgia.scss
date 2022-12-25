@@ -1,6 +1,6 @@
 // Georgia
 &-ge {
-  font-size: $flag-height / 5;
+  font-size: $flag-height / 3;
   color: #ff0000;
   letter-spacing: $flag-width / 2;
   background:
@@ -22,15 +22,17 @@
 
   &::before {
     position: absolute;
-    left: $flag-width / 8;
-    line-height: $flag-height / 2.5;
-    content: "\e917 \e917";
+    top: - $flag-height / 30;
+    left: $flag-width / 6;
+    line-height: $flag-height / 1.9;
+    content: "᛭  ᛭";
   }
 
   &::after {
     position: absolute;
-    top: $flag-width / 2.1;
-    left: $flag-width / 8;
-    content: "\e917 \e917";
+    top: - $flag-height / 30;
+    left: $flag-width / 1.5;
+    line-height: $flag-height / 1.9;
+    content: "᛭  ᛭";
   }
 }

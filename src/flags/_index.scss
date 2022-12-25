@@ -3,7 +3,6 @@ $flag-size: 60px !default;
 $flag-width: $flag-size;
 $flag-height: calc($flag-size / 3) * 2;
 
-@import "./../helpers/flag-base64-symbols.scss";
 @import "./../helpers/flag-symbols.scss";
 @import "./../helpers/mixins";
 

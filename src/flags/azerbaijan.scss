@@ -1,4 +1,28 @@
 // Azerbaijan
 &-az {
   @include threePart(#00b5e2, #ef3340, #509e2f);
+
+  &::before {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    width: $flag-size / 8;
+    height: $flag-size / 8;
+    margin-right: auto;
+    margin-left: auto;
+    content: "";
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -$flag-size / 40 0 0 $flag-size / 60 #fff;
+  }
+
+  &::after {
+    position: absolute;
+    top: 42%;
+    left: 53%;
+    font-size: $flag-size / 10;
+    color: #fff;
+    content: "✵";
+  }
 }

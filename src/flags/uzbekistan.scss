@@ -14,6 +14,6 @@
     );
 
     &::before {  
-      @include flagSymbol("\e947", #fff, 5%, 0, $flag-size / 3.8);
+      @include flagSymbol("\e947", #fff, 5%, -2%, $flag-size / 3.8);
     }
 }

@@ -1,4 +1,22 @@
 // Syria
 &-sy {
   @include threePart(#ce1126, #fff, #000);
+
+  &::before {
+    position: absolute;
+    top: 36%;
+    left: 25%;
+    font-size: $flag-size / 6;
+    color: #007a3d;
+    content: "★";
+  }
+
+  &::after {
+    position: absolute;
+    top: 36%;
+    left: 60%;
+    font-size: $flag-size / 6;
+    color: #007a3d;
+    content: "★";
+  }
 }

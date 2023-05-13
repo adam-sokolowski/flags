@@ -5,6 +5,6 @@ $mexico: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABICAYAAABhlHJbAAAA
   @include threePart(#006847, #fff, #ce1126, to right);
 
   &::after {
-    @include flagBase64Symbol($mexico, 37%, 30%, $flag-width / 4, $flag-height / 3);
+    @include flagBase64Symbol($mexico, 37%, 30%, calc($flag-width / 4), calc($flag-height / 3));
   }  
 }

@@ -8,10 +8,10 @@
     );
 
     &::before {
-      @include flagSymbol("\e939", #ffd100, 50%, 10%, $flag-size / 3);
+      @include flagSymbol("\e939", #ffd100, 50%, 10%, calc($flag-size / 3));
     }
     
     &::after {  
-      @include flagSymbol("\e93c", #fff, 5%, 40%, $flag-size / 3);
+      @include flagSymbol("\e93c", #fff, 5%, 40%, calc($flag-size / 3));
     }
 }

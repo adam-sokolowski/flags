@@ -15,10 +15,10 @@
     top: 0;
     left: 0;
     box-sizing: border-box;
-    width: $flag-size / 3;
-    height: $flag-size / 3;
-    padding-top: $flag-size / 12;
-    font-size: $flag-size / 6;
+    width: calc($flag-size / 3);
+    height: calc($flag-size / 3);
+    padding-top: calc($flag-size / 12);
+    font-size: calc($flag-size / 6);
     color: #fff;
     text-align: center;
     content: "★";

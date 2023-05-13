@@ -3,6 +3,6 @@
   @include threePart(#c4272f, #015197, #c4272f, to right);
   
   &::before {
-    @include flagSymbol("\e92e", #f9cf02, 8%, 25%, $flag-size / 3);
+    @include flagSymbol("\e92e", #f9cf02, 8%, 25%, calc($flag-size / 3));
   }
 }

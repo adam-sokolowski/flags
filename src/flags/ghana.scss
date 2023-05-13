@@ -6,7 +6,7 @@
     position: absolute;
     top: 30%;
     left: 35%;
-    font-size: $flag-size / 4;
+    font-size: calc($flag-size / 4);
     color: #000;
     content: "★";
   }

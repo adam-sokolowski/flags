@@ -3,6 +3,6 @@
   background: linear-gradient(146.5deg, #ffd520 50%, #ff4e12 50%);
 
   &::before {
-    @include flagSymbol("\e90a", #fff, 10%, 10%, $flag-height / 1.25);
+    @include flagSymbol("\e90a", #fff, 10%, 10%, calc($flag-height / 1.25));
   }
 }

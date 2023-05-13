@@ -17,7 +17,7 @@
 
   &::before {
     display: block;
-    width: $flag-width / 2.23;
+    width: calc($flag-width / 2.23);
     height: $flag-height;
     content: "";
     background:
@@ -54,6 +54,6 @@
   }
   
   &::after {
-    @include flagSymbol("\e94a", #ffc726, 5%, 35%, $flag-size / 4.5);
+    @include flagSymbol("\e94a", #ffc726, 5%, 35%, calc($flag-size / 4.5));
   }   
 }

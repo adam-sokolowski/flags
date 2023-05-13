@@ -17,7 +17,7 @@
 
 &::before {
   display: block;
-  width: $flag-width / 2.15;
+  width: calc($flag-width / 2.15);
   height: $flag-height;
   content: "";
   background:

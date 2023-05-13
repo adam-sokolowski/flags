@@ -16,11 +16,11 @@
   &::before,
   &::after {
     position: absolute;
-    width: $flag-size / 2;
-    height: $flag-size / 3;
+    width: calc($flag-size / 2);
+    height: calc($flag-size / 3);
     padding-top: 8%;
     padding-left: 17%;
-    font-size: $flag-size / 6;
+    font-size: calc($flag-size / 6);
     content: "★";
     background: #fff;
   }

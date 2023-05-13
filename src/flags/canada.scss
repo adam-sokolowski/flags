@@ -10,6 +10,6 @@
     );
 
   &::before {
-    @include flagSymbol("\e90c", #ef3340, 34%, 20%, $flag-size / 3);
+    @include flagSymbol("\e90c", #ef3340, 34%, 20%, calc($flag-size / 3));
   }
 }

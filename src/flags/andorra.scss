@@ -5,6 +5,6 @@ $andorra: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA2CAYAAACFrsqnAAA
   @include threePart(#0018a8, #fedf00, #d50032, to right);
 
   &::after {
-    @include flagBase64Symbol($andorra, 36%, 25%, $flag-size / 3.5, $flag-size / 3.5);
+    @include flagBase64Symbol($andorra, 36%, 25%, calc($flag-size / 3.5), calc($flag-size / 3.5));
   }
 }

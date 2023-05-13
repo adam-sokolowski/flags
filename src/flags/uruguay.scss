@@ -6,14 +6,14 @@ $uruguay: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAA
     repeating-linear-gradient(
       to bottom,
       #fff,
-      #fff $flag-height / 9,
-      #0038a8 $flag-height / 9,
-      #0038a8 $flag-height / 4.4
+      #fff calc($flag-height / 9),
+      #0038a8 calc($flag-height / 9),
+      #0038a8 calc($flag-height / 4.4)
     );
 
   &::before {
     background-color: #fff;
 
-    @include flagBase64Symbol($uruguay, 0, 0, $flag-width / 3, $flag-width / 3);
+    @include flagBase64Symbol($uruguay, 0, 0, calc($flag-width / 3), calc($flag-width / 3));
   }
 }

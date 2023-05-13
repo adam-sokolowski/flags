@@ -3,6 +3,6 @@
   @include threePart(#ce1126, #fff, #000);
 
   &::before {
-    @include flagSymbol("\e913", #c09300, 38%, 35%, $flag-size / 5);
+    @include flagSymbol("\e913", #c09300, 38%, 35%, calc($flag-size / 5));
   }
 }

@@ -3,7 +3,7 @@ $nicaragua: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaA
 
 &-ni {
   &::before {
-    @include flagBase64Symbol($nicaragua, 40%, 35%, $flag-size / 5, $flag-size / 5);
+    @include flagBase64Symbol($nicaragua, 40%, 35%, calc($flag-size / 5), calc($flag-size / 5));
   }
 
   @include threePart(#0067c6, #fff, #0067c6);

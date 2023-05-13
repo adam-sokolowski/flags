@@ -2,7 +2,7 @@
 &-tn {
   background:
     radial-gradient(
-      $flag-size / 1.25 at 50% 50%,
+      calc($flag-size / 1.25) at 50% 50%,
       #fff 0,
       #fff 30%,
       transparent 30%,
@@ -15,20 +15,20 @@
     top: 25%;
     right: 0;
     left: 15%;
-    width: $flag-size / 3;
-    height: $flag-size / 3;
+    width: calc($flag-size / 3);
+    height: calc($flag-size / 3);
     margin-right: auto;
     margin-left: auto;
     content: "";
     border-radius: 50%;
-    box-shadow: -$flag-size / 15 0 0 $flag-size / 60 #e70013;
+    box-shadow: - calc($flag-size / 15) 0 0 calc($flag-size / 60) #e70013;
   }
 
   &::after {
     position: absolute;
     top: 38%;
     left: 47%;
-    font-size: $flag-size / 6;
+    font-size: calc($flag-size / 6);
     color: #e70013;
     content: "★";
   }

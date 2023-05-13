@@ -5,6 +5,6 @@ $paraguay: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAA
   @include threePart(#ef3340, #fff, #0033a0);
 
   &::after {
-    @include flagBase64Symbol($paraguay, 37%, 33%, $flag-size / 4.5, $flag-size / 4.5);
+    @include flagBase64Symbol($paraguay, 37%, 33%, calc($flag-size / 4.5), calc($flag-size / 4.5));
   }
 }

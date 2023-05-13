@@ -16,11 +16,11 @@
     height: $flag-height;
     content: "";
     background:
-    linear-gradient(-47deg, #ce1126 32%, transparent 0%) $flag-width -$flag-width,
-    linear-gradient(47deg, #ce1126 32%, transparent 0%) $flag-width -$flag-width
+    linear-gradient(-47deg, #ce1126 32%, transparent 0%) $flag-width - $flag-width,
+    linear-gradient(47deg, #ce1126 32%, transparent 0%) $flag-width - $flag-width
   }
 
   &::after {
-      @include flagSymbol("\e901", #ffd100, 33%, 21%, $flag-size / 3.1);
+      @include flagSymbol("\e901", #ffd100, 33%, 21%, calc($flag-size / 3.1));
   }
 }

@@ -5,6 +5,6 @@ $malta: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAB
   @include twoPart(#fff, #ce0000, to right);
 
   &::after {
-    @include flagBase64Symbol($malta, 10%, 10%, $flag-width / 6, $flag-height / 4);
+    @include flagBase64Symbol($malta, 10%, 10%, calc($flag-width / 6), calc($flag-height / 4));
   }
 }

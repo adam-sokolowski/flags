@@ -35,9 +35,7 @@ Also available:
 ```
 
 ### Preview
-![Collection previev](./assets/css_flags.jpg)
+![Collection previev](./assets/css_flags.png)
 
 TODO: 
 - Implement territories and dependencies flags
-- optimize `base64` collection
-- split into modules

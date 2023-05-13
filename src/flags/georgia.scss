@@ -1,8 +1,8 @@
 // Georgia
 &-ge {
-  font-size: $flag-height / 3;
+  font-size: calc($flag-height / 3);
   color: #ff0000;
-  letter-spacing: $flag-width / 2;
+  letter-spacing: calc($flag-width / 2);
   background:
     linear-gradient(
       to bottom,
@@ -22,17 +22,17 @@
 
   &::before {
     position: absolute;
-    top: - $flag-height / 30;
-    left: $flag-width / 6;
-    line-height: $flag-height / 1.9;
+    top: - calc($flag-height / 30);
+    left: calc($flag-width / 6);
+    line-height: calc($flag-height / 1.9);
     content: "᛭  ᛭";
   }
 
   &::after {
     position: absolute;
-    top: - $flag-height / 30;
-    left: $flag-width / 1.5;
-    line-height: $flag-height / 1.9;
+    top: - calc($flag-height / 30);
+    left: calc($flag-width / 1.5);
+    line-height: calc($flag-height / 1.9);
     content: "᛭  ᛭";
   }
 }

@@ -6,12 +6,12 @@
       146deg,
       #cf142b 25%,
       transparent 15%
-    ) 0 $flag-width / 3,
+    ) 0 calc($flag-width / 3),
     linear-gradient(
       34deg,
       #cf142b 25%,
       transparent 15%
-    ) 0 $flag-width / 3,
+    ) 0 calc($flag-width / 3),
     linear-gradient(
       to bottom,
       #002a8f 20%,
@@ -29,7 +29,7 @@
     position: absolute;
     top: 35%;
     left: 8%;
-    font-size: $flag-size / 6;
+    font-size: calc($flag-size / 6);
     color: #fff;
     content: "★";
   }

@@ -15,7 +15,7 @@
     position: absolute;
     top: 60%;
     left: 15%;
-    font-size: $flag-size / 5;
+    font-size: calc($flag-size / 5);
     color: #fff;
     content: "✹";
   }

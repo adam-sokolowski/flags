@@ -5,6 +5,6 @@ $san_marino: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABfCAYAAAAeX2I6
   @include twoPart(#fff, #19b6ef);
 
   &::after {
-    @include flagBase64Symbol($san_marino, 30%, 20%, $flag-size / 3, $flag-size / 3);
+    @include flagBase64Symbol($san_marino, 30%, 20%, calc($flag-size / 3), calc($flag-size / 3));
   }
 }

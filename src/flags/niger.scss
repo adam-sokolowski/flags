@@ -2,7 +2,7 @@
 &-ne {
   background:
     radial-gradient(
-      $flag-size / 4 at 50% 50%,
+      calc($flag-size / 4) at 50% 50%,
       #e05206 0,
       #e05206 35%,
       transparent 35%,

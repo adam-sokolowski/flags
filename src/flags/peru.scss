@@ -5,7 +5,7 @@ $peru: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA8CAYAAAA+CQlPAAAABH
   @include threePart(#d91023, #fff, #d91023, to right);
 
     &::after {
-      @include flagBase64Symbol($peru, 36%, 25%, $flag-size / 3.5, $flag-size / 3.5);
+      @include flagBase64Symbol($peru, 36%, 25%, calc($flag-size / 3.5), calc($flag-size / 3.5));
     }
   
 }

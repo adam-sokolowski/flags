@@ -5,6 +5,6 @@ $eswatini: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKoAAAA8CAYAAAD2SSHcAA
   background: linear-gradient(to bottom, #3e5eb9 20%, #ffd900 20%, #ffd900 25%, #b10c0c 25%, #b10c0c 75%, #ffd900 75%, #ffd900 80%, #3e5eb9 80%);
 
   &::before {
-    @include flagBase64Symbol($eswatini, 13%, 33%, $flag-width / 1.42, $flag-width / 4);
+    @include flagBase64Symbol($eswatini, 13%, 33%, calc($flag-width / 1.42), calc($flag-width / 4));
   }   
 }

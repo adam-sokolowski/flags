@@ -1,13 +1,13 @@
 // Guyana
 &-gy {
   background:
-    linear-gradient(149deg, #ce1126 24%, transparent 15%) 0 $flag-size / 3,
-    linear-gradient(31deg, #ce1126 24%, transparent 15%) 0  $flag-size / 3,
-    linear-gradient(149deg, #000 26%, transparent 15%) 0  $flag-size / 3,
-    linear-gradient(31deg, #000 26%, transparent 15%) 0  $flag-size / 3,
-    linear-gradient(160deg, #fcd116 32%, transparent 15%) 0  $flag-size / 3,
-    linear-gradient(20deg, #fcd116 32%, transparent 15%) 0  $flag-size / 3,
-    linear-gradient(161deg, #fff 34%, transparent 15%) 0  $flag-size / 3,
-    linear-gradient(19deg, #fff 34%, transparent 15%) 0  $flag-size / 3,
+    linear-gradient(149deg, #ce1126 24%, transparent 15%) 0 calc($flag-size / 3),
+    linear-gradient(31deg, #ce1126 24%, transparent 15%) 0 calc($flag-size / 3),
+    linear-gradient(149deg, #000 26%, transparent 15%) 0 calc($flag-size / 3),
+    linear-gradient(31deg, #000 26%, transparent 15%) 0 calc($flag-size / 3),
+    linear-gradient(160deg, #fcd116 32%, transparent 15%) 0 calc($flag-size / 3),
+    linear-gradient(20deg, #fcd116 32%, transparent 15%) 0 calc($flag-size / 3),
+    linear-gradient(161deg, #fff 34%, transparent 15%) 0 calc($flag-size / 3),
+    linear-gradient(19deg, #fff 34%, transparent 15%) 0 calc($flag-size / 3),
     #009e49;
 }

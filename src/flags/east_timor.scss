@@ -28,7 +28,7 @@
     position: absolute;
     top: 33%;
     left: 5%;
-    font-size: $flag-size / 5;
+    font-size: calc($flag-size / 5);
     color: #fff;
     content: "★";
     transform: rotate(115deg);

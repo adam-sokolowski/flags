@@ -22,7 +22,7 @@
     position: absolute;
     top: 36%;
     left: 8%;
-    font-size: $flag-size / 6;
+    font-size: calc($flag-size / 6);
     color: #d7141a;
     content: "★";
   }

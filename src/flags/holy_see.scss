@@ -5,6 +5,6 @@ $vatican: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAB1CAYAAAC4aERqAAA
   @include twoPart(#ffe000, #fff, to right);
 
   &::before {
-    @include flagBase64Symbol($vatican, 60%, 20%, $flag-width / 3.5, $flag-height / 1.75);
+    @include flagBase64Symbol($vatican, 60%, 20%, calc($flag-width / 3.5), calc($flag-height / 1.75));
   }
 }

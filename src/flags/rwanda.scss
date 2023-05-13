@@ -3,6 +3,6 @@
   background: linear-gradient(to bottom, #00a1de 50%, #fad201 50%, #fad201 75%, #20603d 75%);
 
   &::before {
-    @include flagSymbol("\e93b", #fad201, 70%, 5%, $flag-size / 4);
+    @include flagSymbol("\e93b", #fad201, 70%, 5%, calc($flag-size / 4));
   }
 }

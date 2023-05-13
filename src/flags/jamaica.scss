@@ -1,13 +1,13 @@
 // Jamaica
 &-jm {
   background:
-    linear-gradient(146deg, #009b3a 20%, transparent 15%) $flag-width * 0.5 -$flag-width,
-    linear-gradient(-146deg, #009b3a 20%, transparent 15%) $flag-width * 0.5 -$flag-width,
-    linear-gradient(-34deg, #009b3a 20%, transparent 15%) $flag-width * 0.5 -$flag-width,
-    linear-gradient(34deg, #009b3a 20%, transparent 15%) $flag-width * 0.5 -$flag-width,
-    linear-gradient(146deg, #000 20%, transparent 15%) 0 $flag-width / 3,
-    linear-gradient(34deg, #000 20%, transparent 15%) 0 $flag-width / 3,
-    linear-gradient(-146deg, #000 20%, transparent 15%) -$flag-width $flag-width / 3,
-    linear-gradient(-34deg, #000 20%, transparent 15%) -$flag-width $flag-width / 3,
+    linear-gradient(146deg, #009b3a 20%, transparent 15%) $flag-width * 0.5 - $flag-width,
+    linear-gradient(-146deg, #009b3a 20%, transparent 15%) $flag-width * 0.5 - $flag-width,
+    linear-gradient(-34deg, #009b3a 20%, transparent 15%) $flag-width * 0.5 - $flag-width,
+    linear-gradient(34deg, #009b3a 20%, transparent 15%) $flag-width * 0.5 - $flag-width,
+    linear-gradient(146deg, #000 20%, transparent 15%) 0 calc($flag-width / 3),
+    linear-gradient(34deg, #000 20%, transparent 15%) 0 calc($flag-width / 3),
+    linear-gradient(-146deg, #000 20%, transparent 15%) - $flag-width calc($flag-width / 3),
+    linear-gradient(-34deg, #000 20%, transparent 15%) - $flag-width calc($flag-width / 3),
     #fed100;
 }

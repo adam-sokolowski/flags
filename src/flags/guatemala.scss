@@ -5,6 +5,6 @@ $guatemala: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAA4CAYAAACi2pVMA
   @include threePart(#4997d0, #fff, #4997d0, to right);
 
   &::before {
-    @include flagBase64Symbol($guatemala, 37%, 30%, $flag-width / 4, $flag-width / 4);
+    @include flagBase64Symbol($guatemala, 37%, 30%, calc($flag-width / 4), calc($flag-width / 4));
   }
 }

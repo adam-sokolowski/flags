@@ -22,6 +22,6 @@
     );
 
   &::before {
-    @include flagSymbol("\e92c", #fff, 10%, 10%, $flag-height / 3);
+    @include flagSymbol("\e92c", #fff, 10%, 10%, calc($flag-height / 3));
   }
 }

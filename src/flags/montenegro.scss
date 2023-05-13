@@ -3,9 +3,9 @@ $montenegro: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAAB/CAYAAAAO0ffF
 
 &-me {
   background: #c40308;
-  border: $flag-size / 20 solid #d3ae3b;
+  border: calc($flag-size / 20) solid #d3ae3b;
 
   &::after {
-    @include flagBase64Symbol($montenegro, 32%, 11%, $flag-width / 3, $flag-height / 1.7);
+    @include flagBase64Symbol($montenegro, 32%, 11%, calc($flag-width / 3), calc($flag-height / 1.7));
   }
 }

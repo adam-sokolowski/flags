@@ -7,9 +7,9 @@
     width: $flag-width;
     height: $flag-height;
     content: "";
-    border-top: $flag-width / 5 solid #007a3d;
+    border-top: calc($flag-width / 5) solid #007a3d;
     border-right: 0;
-    border-bottom: $flag-width / 5 solid #ce1126;
-    border-left: $flag-width / 4 solid #000;
+    border-bottom: calc($flag-width / 5) solid #ce1126;
+    border-left: calc($flag-width / 4) solid #000;
   }
 }

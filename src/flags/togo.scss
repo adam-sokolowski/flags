@@ -15,7 +15,7 @@
     width: 35%;
     height: 40%;
     padding-top: 8%;
-    font-size: $flag-size / 8;
+    font-size: calc($flag-size / 8);
     color: #fff;
     text-align: center;
     content: "★";

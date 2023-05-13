@@ -4,12 +4,12 @@ $union-jack: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAADICAYAAADGFbfi
 &-au {
     background: #00008b;
       &::before {
-        @include flagBase64Symbol($union-jack, 0, 0, $flag-width / 1.75, $flag-width / 3.5);
+        @include flagBase64Symbol($union-jack, 0, 0, calc($flag-width / 1.75), calc($flag-width / 3.5));
         font-family: "FlagSymbols", Arial;
-        font-size: $flag-height / 4;
+        font-size: calc($flag-height / 4);
         line-height: $flag-height * 1.5;
         color: #fff;
-        text-indent: $flag-height / 3.5;
+        text-indent: calc($flag-height / 3.5);
         content: "\e940";
       }
   

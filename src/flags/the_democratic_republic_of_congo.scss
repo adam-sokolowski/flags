@@ -19,7 +19,7 @@
     top: $flag-size * 0.05;
     margin-top: 0;
     margin-left: 5%;
-    font-size: $flag-size / 4;
+    font-size: calc($flag-size / 4);
     color: #ffce00;
     content: "★";
   }

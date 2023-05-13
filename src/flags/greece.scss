@@ -12,8 +12,8 @@
   
   &::before {
     display: block;
-    width: $flag-width / 2.5;
-    height: $flag-height / 1.805;
+    width: calc($flag-width / 2.5);
+    height: calc($flag-height / 1.805);
     content: "";
     background:
       linear-gradient(

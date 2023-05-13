@@ -7,6 +7,6 @@
   }
 
   &::after {
-    @include flagSymbol("\e926", #fec50c, 30%, 15%, $flag-height / 1.5);
+    @include flagSymbol("\e926", #fec50c, 30%, 15%, calc($flag-height / 1.5));
   }
 }

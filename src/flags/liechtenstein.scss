@@ -5,6 +5,6 @@ $liechtenstein: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA0CAYAAADWr
   @include twoPart(#002b7f, #ce1126);
 
   &::before {
-    @include flagBase64Symbol($liechtenstein, 10%, 10%, $flag-width / 5, $flag-height / 4);
+    @include flagBase64Symbol($liechtenstein, 10%, 10%, calc($flag-width / 5), calc($flag-height / 4));
   }  
 }

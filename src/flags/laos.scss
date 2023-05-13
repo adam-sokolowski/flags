@@ -2,7 +2,7 @@
 &-la {
   background:
     radial-gradient(
-      $flag-size / 2.5 at 50% 50%,
+      calc($flag-size / 2.5) at 50% 50%,
       #fff 0,
       #fff 35%,
       transparent 35%,

@@ -3,6 +3,6 @@
   background: #ef3340;
 
   &::before {
-    @include flagSymbol("\e921", #feff00, 33%, 20%, $flag-size / 3);
+    @include flagSymbol("\e921", #feff00, 33%, 20%, calc($flag-size / 3));
   }
 }

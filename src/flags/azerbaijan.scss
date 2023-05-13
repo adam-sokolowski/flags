@@ -7,21 +7,21 @@
     top: 40%;
     right: 0;
     left: 0;
-    width: $flag-size / 8;
-    height: $flag-size / 8;
+    width: calc($flag-size / 8);
+    height: calc($flag-size / 8);
     margin-right: auto;
     margin-left: auto;
     content: "";
     background: transparent;
     border-radius: 50%;
-    box-shadow: -$flag-size / 40 0 0 $flag-size / 60 #fff;
+    box-shadow: - calc($flag-size / 40) 0 0 calc($flag-size / 60) #fff;
   }
 
   &::after {
     position: absolute;
     top: 42%;
     left: 53%;
-    font-size: $flag-size / 10;
+    font-size: calc($flag-size / 10);
     color: #fff;
     content: "✵";
   }

@@ -3,6 +3,6 @@
   background: #d20000;
 
   &::before {
-    @include flagSymbol("\e92d", #ffe600, -1%, -8%, $flag-size / 1.3);
+    @include flagSymbol("\e92d", #ffe600, -1%, -8%, calc($flag-size / 1.3));
   }
 }

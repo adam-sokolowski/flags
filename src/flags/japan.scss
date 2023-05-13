@@ -2,7 +2,7 @@
 &-jp {
   background:
     radial-gradient(
-      $flag-size / 1.5 at 50% 50%,
+      calc($flag-size / 1.5) at 50% 50%,
       #bc002d 0,
       #bc002d 30%,
       transparent 30%,

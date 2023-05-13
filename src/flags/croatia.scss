@@ -5,6 +5,6 @@ $croatia: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAAB3CAYAAACDmlfqAAA
   @include threePart(#c8102e, #fff, #012169);
 
   &::after {
-    @include flagBase64Symbol($croatia, 35%, 20%, $flag-width / 3.5, $flag-height / 1.75);
+    @include flagBase64Symbol($croatia, 35%, 20%, calc($flag-width / 3.5), calc($flag-height / 1.75));
   }
 }

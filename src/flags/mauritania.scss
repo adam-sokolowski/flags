@@ -3,14 +3,14 @@
   position: relative;
   background:
     radial-gradient(
-      $flag-width / 3 * 2.1 at 50% 0,
+      calc($flag-width / 3) * 2.1 at 50% 0,
       #00A95C 0,
       #00A95C 37%,
       transparent 37%,
       transparent 100%
     ),
     radial-gradient(
-      $flag-width / 3 * 2 at 50% 24%,
+      calc($flag-width / 3) * 2 at 50% 24%,
       #ffc400 0,
       #ffc400 35%,
       transparent 35%,
@@ -27,7 +27,7 @@
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    font-size: $flag-width / 8;
+    font-size: calc($flag-width / 8);
     color: #ffc400;
     text-align: center;
     content: "★";

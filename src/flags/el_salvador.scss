@@ -5,6 +5,6 @@ $salvador: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAA
   @include threePart(#0f47af, #fff, #0f47af);
 
   &::after {
-    @include flagBase64Symbol($salvador, 40%, 32%, $flag-size / 4.5, $flag-size / 4.5);
+    @include flagBase64Symbol($salvador, 40%, 32%, calc($flag-size / 4.5), calc($flag-size / 4.5));
   }
 }

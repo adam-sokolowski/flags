@@ -11,7 +11,7 @@
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    font-size: $flag-size / 4;
+    font-size: calc($flag-size / 4);
     color: #00853f;
     text-align: center;
     content: "★";

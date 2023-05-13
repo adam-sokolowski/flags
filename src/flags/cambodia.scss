@@ -11,6 +11,6 @@
     );
 
   &::before {
-    @include flagSymbol("\e922", #fff, 30%, 30%, $flag-size / 4);
+    @include flagSymbol("\e922", #fff, 30%, 30%, calc($flag-size / 4));
   }
 }

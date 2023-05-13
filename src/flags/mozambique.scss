@@ -5,12 +5,12 @@
       146deg,
       #d21034 25%,
       transparent 15%
-    ) 0 $flag-width / 3,
+    ) 0 calc($flag-width / 3),
     linear-gradient(
       34deg,
       #d21034 25%,
       transparent 15%
-    ) 0 $flag-width / 3,
+    ) 0 calc($flag-width / 3),
     linear-gradient(
       to bottom,
       #007168 30%,

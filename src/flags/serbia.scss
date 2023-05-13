@@ -5,6 +5,6 @@ $serbia: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAACgCAYAAACbg+u0AAAA
   @include threePart(#c6363c, #0c4076, #fff);
 
   &::after {
-    @include flagBase64Symbol($serbia, 20%, 5%, $flag-width / 4, $flag-height / 1.3);
+    @include flagBase64Symbol($serbia, 20%, 5%, calc($flag-width / 4), calc($flag-height / 1.3));
   }
 }

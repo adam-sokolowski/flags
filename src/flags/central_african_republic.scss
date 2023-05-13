@@ -29,7 +29,7 @@
     left: 8%;
     margin-right: auto;
     margin-left: auto;
-    font-size: $flag-width / 10;
+    font-size: calc($flag-width / 10);
     color: #ffce00;
     content: "★";
   }

@@ -5,6 +5,6 @@ $slovenia: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABwCAYAAADopdXZAA
   @include threePart(#fff, #0b4ea2, #ee1c25);
 
   &::before {
-    @include flagBase64Symbol($slovenia, 10%, 25%, $flag-size / 6, $flag-size / 5.3);
+    @include flagBase64Symbol($slovenia, 10%, 25%, calc($flag-size / 6), calc($flag-size / 5.3));
   }
 }

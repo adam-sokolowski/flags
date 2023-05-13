@@ -5,12 +5,12 @@ $union-jack: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAADICAYAAADGFbfi
   background: #00247d;
 
   &::before {
-    @include flagBase64Symbol($union-jack, 0, 0, $flag-width / 1.75, $flag-width / 3.5);
+    @include flagBase64Symbol($union-jack, 0, 0, calc($flag-width / 1.75), calc($flag-width / 3.5));
   }
 
   &::after {
-    @include flagSymbol("\e93d", #ed1c27, 50%, 10%, $flag-width / 2);
-    text-shadow: 0 0 $flag-width / 80 #fff;
+    @include flagSymbol("\e93d", #ed1c27, 50%, 10%, calc($flag-width / 2));
+    text-shadow: 0 0 calc($flag-width / 80) #fff;
   }
   
 }

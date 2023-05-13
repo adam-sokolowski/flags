@@ -6,7 +6,7 @@
     position: absolute;
     top: 36%;
     left: 25%;
-    font-size: $flag-size / 6;
+    font-size: calc($flag-size / 6);
     color: #007a3d;
     content: "★";
   }
@@ -15,7 +15,7 @@
     position: absolute;
     top: 36%;
     left: 60%;
-    font-size: $flag-size / 6;
+    font-size: calc($flag-size / 6);
     color: #007a3d;
     content: "★";
   }

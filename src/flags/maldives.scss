@@ -2,22 +2,22 @@
 &-mv {
   background:
     radial-gradient(
-      $flag-width / 3.8 at 55% 50%,
+      calc($flag-width / 3.8) at 55% 50%,
       #007e3a 0,
       #007e3a 35%,
       transparent 35%,
       transparent 100%
     ),
     radial-gradient(
-      $flag-width / 3 at 50% 50%,
+      calc($flag-width / 3) at 50% 50%,
       #fff 0,
       #fff 35%,
       transparent 35%,
       transparent 100%
     )
     #007e3a;
-  border-top: $flag-size / 10 solid #d21034;
-  border-right: $flag-size / 10 solid #d21034;
-  border-bottom: $flag-size / 10 solid #d21034;
-  border-left: $flag-size / 10 solid #d21034;
+  border-top: calc($flag-size / 10) solid #d21034;
+  border-right: calc($flag-size / 10) solid #d21034;
+  border-bottom:calc($flag-size / 10) solid #d21034;
+  border-left: calc($flag-size / 10) solid #d21034;
 }

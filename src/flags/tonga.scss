@@ -26,6 +26,6 @@
       #fff;
     background-repeat: no-repeat;
     background-position: 50% 40%;
-    background-size: $flag-width / 4 $flag-width / 4;
+    background-size: calc($flag-width / 4) calc($flag-width / 4);
   }
 }

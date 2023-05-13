@@ -5,6 +5,6 @@ $portugal: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAA
   @include threePart(#006600, #ff0000, #ff0000, to right);
 
   &::after {
-    @include flagBase64Symbol($portugal, 15%, 25%, $flag-size / 3, $flag-size / 3);
+    @include flagBase64Symbol($portugal, 15%, 25%, calc($flag-size / 3), calc($flag-size / 3));
   }
 }

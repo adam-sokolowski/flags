@@ -10,7 +10,7 @@
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    font-size: $flag-size / 3;
+    font-size: calc($flag-size / 3);
     color: #ffcd00;
     text-align: center;
     content: "★";

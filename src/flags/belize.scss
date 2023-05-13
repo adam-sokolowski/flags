@@ -5,7 +5,7 @@ $belize: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAA
   background: linear-gradient( to bottom, #ce1126 15%, #052d74 15%, #052d74 85%, #ce1126 85%, #ce1126 100%);
 
     &::after {
-      @include flagBase64Symbol($belize, 33%, 27%, $flag-size / 3.2, $flag-size / 3.2);
+      @include flagBase64Symbol($belize, 33%, 27%, calc($flag-size / 3.2), calc($flag-size / 3.2));
     }
 
 }

@@ -79,7 +79,7 @@ export const COUNTRY_CODES = [
   { name: 'Ireland', code: 'IE' },
   { name: 'Israel', code: 'IL' },
   { name: 'Italy', code: 'IT' },
-  { name: 'Ivory Coast', code: 'CI' },
+  { name: 'Côte d\'Ivoire', code: 'CI' },
   { name: 'Jamaica', code: 'JM' },
   { name: 'Japan', code: 'JP' },
   { name: 'Jordan', code: 'JO' },

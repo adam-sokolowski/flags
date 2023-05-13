@@ -20,8 +20,8 @@
   &::before,
   &::after {
     display: block;
-    width: $flag-size / 2.225;
-    height: $flag-size / 3.75;
+    width: calc($flag-size / 2.225);
+    height: calc($flag-size / 3.75);
     content: "";
     background: #002d62;
   }

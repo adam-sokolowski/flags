@@ -14,7 +14,7 @@
     position: absolute;
     top: 0;
     left: 26%;
-    width: $flag-height / 9;
+    width: calc($flag-height / 9);
     height: 100%;
     content: "";
     background:
@@ -22,12 +22,12 @@
         155deg,
         #fff 32%,
         transparent 32%
-      ) 0 $flag-height / 18.1,
+      ) 0 calc($flag-height / 18.1),
       linear-gradient(
         25deg,
         #fff 32%,
         transparent 32%
-      ) 0 $flag-width / 8.9;
-    background-size: $flag-height / 9 $flag-height / 9;
+      ) 0 calc($flag-width / 8.9);
+    background-size: calc($flag-height / 9) calc($flag-height / 9);
   }
 }

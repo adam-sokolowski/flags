@@ -25,6 +25,6 @@ $equatorial_guinea: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAA
     );
 
   &::after {
-    @include flagBase64Symbol($equatorial_guinea, 47%, 33%, calc($flag-size / 4.5), calc($flag-size / 4.5));
+    @include flag-base64-symbol($equatorial_guinea, 47%, 33%, calc($flag-size / 4.5), calc($flag-size / 4.5));
   }
 }

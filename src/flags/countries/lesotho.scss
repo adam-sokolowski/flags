@@ -1,8 +1,8 @@
 // Lesotho
 &-ls {
-  @include threePart(#00209f, #fff, #009543);
+  @include three-part(#00209f, #fff, #009543);
 
   &::before {
-    @include flagSymbol("\e92a", #000, 40%, 35%, calc($flag-height / 3.25));
+    @include flag-symbol("\e92a", #000, 40%, 35%, calc($flag-height / 3.25));
   }
 }

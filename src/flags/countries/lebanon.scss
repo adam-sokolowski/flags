@@ -12,6 +12,6 @@
     );
 
   &::before {
-    @include flagSymbol("\e928", #009543, 40%, 33%, calc($flag-height / 3));
+    @include flag-symbol("\e928", #009543, 40%, 33%, calc($flag-height / 3));
   }
 }

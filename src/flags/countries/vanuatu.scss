@@ -54,6 +54,6 @@
   }
   
   &::after {
-    @include flagSymbol("\e94a", #ffc726, 5%, 35%, calc($flag-size / 4.5));
+    @include flag-symbol("\e94a", #ffc726, 5%, 35%, calc($flag-size / 4.5));
   }   
 }

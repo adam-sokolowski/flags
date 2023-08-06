@@ -1,8 +1,8 @@
 // Egypt
 &-eg {
-  @include threePart(#ce1126, #fff, #000);
+  @include three-part(#ce1126, #fff, #000);
 
   &::before {
-    @include flagSymbol("\e913", #c09300, 38%, 35%, calc($flag-size / 5));
+    @include flag-symbol("\e913", #c09300, 38%, 35%, calc($flag-size / 5));
   }
 }

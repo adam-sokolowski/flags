@@ -3,6 +3,6 @@
   background: #e41e20;
 
   &::before {
-    @include flagSymbol("\e902", #000, 33%, 25%);
+    @include flag-symbol("\e902", #000, 33%, 25%);
   }
 }

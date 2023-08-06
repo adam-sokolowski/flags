@@ -13,10 +13,10 @@ $zambia: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAARCAYAAACvi+4IAAAA
     height: 25px;
     content: "";
 
-    @include threePart(#de2010, #000, #ef7d00, to right);
+    @include three-part(#de2010, #000, #ef7d00, to right);
   }
 
   &::after {
-    @include flagBase64Symbol($zambia, 65%, 10%, 20px, 8px);
+    @include flag-base64-symbol($zambia, 65%, 10%, 20px, 8px);
   }
 }

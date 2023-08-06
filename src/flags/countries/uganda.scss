@@ -20,6 +20,6 @@ $uganda: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAA
     );
 
   &::before {
-    @include flagBase64Symbol($uganda, 35%, 30%, calc($flag-width / 4), calc($flag-width / 4));
+    @include flag-base64-symbol($uganda, 35%, 30%, calc($flag-width / 4), calc($flag-width / 4));
   }
 }

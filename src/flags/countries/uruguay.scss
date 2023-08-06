@@ -14,6 +14,6 @@ $uruguay: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAA
   &::before {
     background-color: #fff;
 
-    @include flagBase64Symbol($uruguay, 0, 0, calc($flag-width / 3), calc($flag-width / 3));
+    @include flag-base64-symbol($uruguay, 0, 0, calc($flag-width / 3), calc($flag-width / 3));
   }
 }

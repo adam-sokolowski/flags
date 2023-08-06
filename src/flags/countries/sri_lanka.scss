@@ -1,6 +1,5 @@
 // Sri Lanka
 &-lk {
-  //
   width: $flag-width - calc($flag-size / 10);
   height: $flag-height - calc($flag-size / 10);
   background:
@@ -15,10 +14,9 @@
       #8d153a 36%,      
       #8d153a 100%
     );
-
   border: calc($flag-size / 20) solid #ffbe29;
 
   &::before {
-    @include flagSymbol("\e929", #ffbe29, 32%, 2%, calc($flag-height / 1.5));
+    @include flag-symbol("\e929", #ffbe29, 32%, 2%, calc($flag-height / 1.5));
   }
 }

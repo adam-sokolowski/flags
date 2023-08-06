@@ -38,6 +38,6 @@
         transparent 100%
       );
 
-    @include flagSymbol("\e924", #bc002d, 27%, 20%, calc($flag-size / 3.5));
+    @include flag-symbol("\e924", #bc002d, 27%, 20%, calc($flag-size / 3.5));
   }  
 }

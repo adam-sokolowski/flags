@@ -14,6 +14,6 @@ $spain: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAB
     );
 
   &::after {
-    @include flagBase64Symbol($spain, 10%, 27%, calc($flag-size / 3.5), calc($flag-size / 3.4));
+    @include flag-base64-symbol($spain, 10%, 27%, calc($flag-size / 3.5), calc($flag-size / 3.4));
   }
 }

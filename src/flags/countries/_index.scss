@@ -4,16 +4,16 @@ $flag-border-radius: 0 !default;
 $flag-width: $flag-size;
 $flag-height: calc($flag-size / 3) * 2;
 
-@import "./../../helpers/flag-symbols.scss";
+@import "./../../helpers/flag-symbols";
 @import "./../../helpers/mixins";
 
 .flag {
   position: relative;
   box-sizing: border-box;
   display: block;
-  border-radius: $flag-border-radius;
   width: $flag-size;
   height: $flag-height;
+  border-radius: $flag-border-radius;
   overflow: hidden;
 
   &::after,
@@ -34,11 +34,11 @@ $flag-height: calc($flag-size / 3) * 2;
   }
 
   &-s {
-    transform: scale(calc(1/2));
+    transform: scale(calc(1 / 2));
   }
 
   &-xs {
-    transform: scale(calc(1/3));
+    transform: scale(calc(1 / 3));
   }
 
   // Flags by country name

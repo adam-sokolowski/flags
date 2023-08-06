@@ -32,6 +32,6 @@ $dominica: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAA
     #006b3f;
 
   &::before {
-    @include flagBase64Symbol($dominica, 30%, 20%, calc($flag-width / 2.5), calc($flag-width / 2.5));
+    @include flag-base64-symbol($dominica, 30%, 20%, calc($flag-width / 2.5), calc($flag-width / 2.5));
   }
 }

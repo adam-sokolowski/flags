@@ -18,6 +18,6 @@
     );
 
   &::before {
-    @include flagSymbol("\e914", #ffc726, 5%, 22%, calc($flag-size / 3));
+    @include flag-symbol("\e914", #ffc726, 5%, 22%, calc($flag-size / 3));
   }
 }

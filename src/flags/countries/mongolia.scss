@@ -1,8 +1,8 @@
 // Mongolia
 &-mn {
-  @include threePart(#c4272f, #015197, #c4272f, to right);
+  @include three-part(#c4272f, #015197, #c4272f, to right);
   
   &::before {
-    @include flagSymbol("\e92e", #f9cf02, 8%, 25%, calc($flag-size / 3));
+    @include flag-symbol("\e92e", #f9cf02, 8%, 25%, calc($flag-size / 3));
   }
 }

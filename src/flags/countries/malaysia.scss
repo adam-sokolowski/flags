@@ -10,7 +10,7 @@
     );
 
   &::before {
-    @include flagSymbol("\e932", #fedf00, 27%, 20%, calc($flag-size / 8));
+    @include flag-symbol("\e932", #fedf00, 27%, 20%, calc($flag-size / 8));
   }
 
   &::after {

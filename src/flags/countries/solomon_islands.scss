@@ -3,6 +3,6 @@
   background: linear-gradient(147deg, #0639ac 48%, #f8c911 48%, #f8c911 52%, #164823 52%);
 
   &::after {
-    @include flagSymbol("\e946", #fff, -94%, -94%, $flag-width);
+    @include flag-symbol("\e946", #fff, -94%, -94%, $flag-width);
   }
 }

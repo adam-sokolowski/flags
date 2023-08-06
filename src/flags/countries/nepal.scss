@@ -7,10 +7,10 @@
     linear-gradient(33deg,#003893 30%,transparent 0) 0 calc($flag-size / 0.96);
 
   &::before {
-    @include flagSymbol("\e937", #fff, 5%, 20%, calc($flag-height / 3));
+    @include flag-symbol("\e937", #fff, 5%, 20%, calc($flag-height / 3));
   }
   
   &::after {
-    @include flagSymbol("\e936", #fff, 5%, 60%, calc($flag-height / 3));
+    @include flag-symbol("\e936", #fff, 5%, 60%, calc($flag-height / 3));
   }  
 }

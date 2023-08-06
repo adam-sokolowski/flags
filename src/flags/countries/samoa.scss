@@ -6,6 +6,6 @@
     padding: calc($flag-size / 24) calc($flag-size / 12);
     background-color: #002b7f;
 
-    @include flagSymbol("\e93c", #fff, 0, 0, calc($flag-size / 4));
+    @include flag-symbol("\e93c", #fff, 0, 0, calc($flag-size / 4));
   }
 }

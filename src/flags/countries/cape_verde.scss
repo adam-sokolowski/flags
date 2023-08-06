@@ -14,6 +14,6 @@
     );
 
   &::before {
-    @include flagSymbol("\e910", #f7d116, 10%, 40%);
+    @include flag-symbol("\e910", #f7d116, 10%, 40%);
   }
 }

@@ -1,8 +1,8 @@
 // Tajikistan
 &-tj {
-  @include threePart(#e40046, #fff, #009639);
+  @include three-part(#e40046, #fff, #009639);
 
   &::after {
-    @include flagSymbol("\e941", #f8c300, 35%, 30%, calc($flag-width / 4));
+    @include flag-symbol("\e941", #f8c300, 35%, 30%, calc($flag-width / 4));
   }
 }

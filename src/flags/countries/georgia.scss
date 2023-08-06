@@ -1,21 +1,21 @@
 // Georgia
 &-ge {
   font-size: calc($flag-height / 3);
-  color: #ff0000;
+  color: #f00;
   letter-spacing: calc($flag-width / 2);
   background:
     linear-gradient(
       to bottom,
       transparent 40%,
-      #ff0000 40%,
-      #ff0000 60%,
+      #f00 40%,
+      #f00 60%,
       transparent 60%
     ),
     linear-gradient(
       to right,
       transparent 44%,
-      #ff0000 44%,
-      #ff0000 56%,
+      #f00 44%,
+      #f00 56%,
       transparent 56%
     )
     #fff;

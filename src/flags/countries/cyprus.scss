@@ -3,10 +3,10 @@
   background: #fff;
 
   &::before {
-    @include flagSymbol("\e912", #d57800, 10%, 0, calc($flag-height));
+    @include flag-symbol("\e912", #d57800, 10%, 0, calc($flag-height));
   }
 
   &::after {
-    @include flagSymbol("\e911", #4e5b31, 15%, 35%, calc($flag-size / 2));
+    @include flag-symbol("\e911", #4e5b31, 15%, 35%, calc($flag-size / 2));
   }
 }

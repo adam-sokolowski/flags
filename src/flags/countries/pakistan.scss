@@ -1,6 +1,6 @@
 // Pakistan
 &-pk {
-  @include threePart(#fff, #115740, #115740, to right);
+  @include three-part(#fff, #115740, #115740, to right);
 
   &::before {
     position: absolute;

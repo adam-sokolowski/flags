@@ -3,9 +3,10 @@ $union-jack: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAADICAYAAADGFbfi
 
 &-au {
     background: #00008b;
+
       &::before {
-        @include flagBase64Symbol($union-jack, 0, 0, calc($flag-width / 1.75), calc($flag-width / 3.5));
-        font-family: "FlagSymbols", Arial;
+        @include flag-base64-symbol($union-jack, 0, 0, calc($flag-width / 1.75), calc($flag-width / 3.5));
+        font-family: flag-symbols, Arial;
         font-size: calc($flag-height / 4);
         line-height: $flag-height * 1.5;
         color: #fff;
@@ -14,6 +15,6 @@ $union-jack: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAADICAYAAADGFbfi
       }
   
       &::after {
-        @include flagSymbol("\e93c", #fff, 45%, 20%, $flag-width * 0.5);
+        @include flag-symbol("\e93c", #fff, 45%, 20%, $flag-width * 0.5);
       }
   }

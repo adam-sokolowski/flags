@@ -6,10 +6,10 @@ $fiji: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABACAYAAABY1SR7AAAABH
   background: #68bfe5;
 
   &::before {
-    @include flagBase64Symbol($union-jack, 0, 0, calc($flag-width / 1.75), calc($flag-width / 3.5));
+    @include flag-base64-symbol($union-jack, 0, 0, calc($flag-width / 1.75), calc($flag-width / 3.5));
   }
 
   &::after {
-    @include flagBase64Symbol($fiji, 65%, 50%, calc($flag-width / 4.5), calc($flag-width / 3.6));
+    @include flag-base64-symbol($fiji, 65%, 50%, calc($flag-width / 4.5), calc($flag-width / 3.6));
   }
 }

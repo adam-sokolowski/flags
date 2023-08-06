@@ -5,10 +5,10 @@ $turkmenistan: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAC6CAYAAADyFS
   background: #00843d;
 
   &::before {
-    @include flagBase64Symbol($turkmenistan, 5%, 0, calc($flag-width / 6), $flag-height );
+    @include flag-base64-symbol($turkmenistan, 5%, 0, calc($flag-width / 6), $flag-height );
   }
 
   &::after {
-    @include flagSymbol("\e943", #fff, 25%, 10%, calc($flag-width / 5));
+    @include flag-symbol("\e943", #fff, 25%, 10%, calc($flag-width / 5));
   }
 }

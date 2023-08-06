@@ -1,6 +1,6 @@
 // Algeria
 &-dz {
-  @include twoPart(#006633, #fff, to right);
+  @include two-part(#006633, #fff, to right);
 
   &::before {
     position: absolute;

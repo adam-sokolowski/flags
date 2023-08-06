@@ -16,6 +16,6 @@
     #fff;
 
   &::before {
-    @include flagSymbol("\e91b", #0038b8, 37%, 33%, calc($flag-height / 3));
+    @include flag-symbol("\e91b", #0038b8, 37%, 33%, calc($flag-height / 3));
   }
 }

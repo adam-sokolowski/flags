@@ -18,6 +18,6 @@
     );
 
   &::before {
-    @include flagSymbol("\e93a", #e0b700, 0, 20%, calc($flag-size / 2.5));
+    @include flag-symbol("\e93a", #e0b700, 0, 20%, calc($flag-size / 2.5));
   }
 }

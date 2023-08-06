@@ -24,6 +24,6 @@
     );
 
     &::before {
-      @include flagSymbol("\e923", #fff, -5%, 25%, calc($flag-height / 2));
+      @include flag-symbol("\e923", #fff, -5%, 25%, calc($flag-height / 2));
     }
 }

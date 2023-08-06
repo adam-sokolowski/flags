@@ -2,7 +2,7 @@
 &-cm {
   position: relative;
 
-  @include threePart(#007a5e, #ce1126, #fcd116, to right);
+  @include three-part(#007a5e, #ce1126, #fcd116, to right);
 
   &::before {
     position: absolute;

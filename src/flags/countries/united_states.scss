@@ -12,6 +12,6 @@
   &::before {
     background-color: #002868;
 
-    @include flagSymbol("\e946", #fff, 0, 0, calc($flag-size / 3.2));
+    @include flag-symbol("\e946", #fff, 0, 0, calc($flag-size / 3.2));
   }
 }

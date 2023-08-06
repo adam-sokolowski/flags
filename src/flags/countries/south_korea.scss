@@ -3,11 +3,12 @@ $korea: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAB
 
 &-kr {
   background: #fff;
+
   &::before {
-    @include flagSymbol("\e925", #000, 26%, 15%, calc($flag-size / 2));
+    @include flag-symbol("\e925", #000, 26%, 15%, calc($flag-size / 2));
   }
   
   &::after {
-    @include flagBase64Symbol($korea, 38%, 32%, calc($flag-size / 4), calc($flag-size / 4));
+    @include flag-base64-symbol($korea, 38%, 32%, calc($flag-size / 4), calc($flag-size / 4));
   }
 }

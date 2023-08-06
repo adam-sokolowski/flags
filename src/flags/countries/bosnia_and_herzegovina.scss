@@ -3,7 +3,7 @@
   background: #002395;
 
   &::before {
-    @include flagSymbol("\e906", #ffe000, 0, 0, $flag-height);
+    @include flag-symbol("\e906", #ffe000, 0, 0, $flag-height);
   }
 
   &::after {

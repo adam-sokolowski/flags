@@ -2,7 +2,7 @@
 &-sn {
   position: relative;
 
-  @include threePart(#00853f, #fdef42, #e31b23, to right);
+  @include three-part(#00853f, #fdef42, #e31b23, to right);
 
   &::before {
     position: absolute;

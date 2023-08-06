@@ -1,6 +1,6 @@
 // Myanmar
 &-mm {
-  @include threePart(#fecb00, #34b233, #ea2839);
+  @include three-part(#fecb00, #34b233, #ea2839);
   
   &::before {
     position: absolute;

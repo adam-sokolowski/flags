@@ -6,10 +6,10 @@ $kiribati-bottom: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKoAAAAyCAYAAAD
   background: #ce1126;
 
   &::before {
-    @include flagBase64Symbol($kiribati-top, 35%, 20%, calc($flag-width / 3.5), calc($flag-height / 1.75));
+    @include flag-base64-symbol($kiribati-top, 35%, 20%, calc($flag-width / 3.5), calc($flag-height / 1.75));
   }
 
   &::after {
-    @include flagBase64Symbol($kiribati-bottom, -15%, 50%, $flag-width * 1.30, calc($flag-height / 2));
+    @include flag-base64-symbol($kiribati-bottom, -15%, 50%, $flag-width * 1.30, calc($flag-height / 2));
   }
 }

@@ -1,6 +1,6 @@
 // Syria
 &-sy {
-  @include threePart(#ce1126, #fff, #000);
+  @include three-part(#ce1126, #fff, #000);
 
   &::before {
     position: absolute;

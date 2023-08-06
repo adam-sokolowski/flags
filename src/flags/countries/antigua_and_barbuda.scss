@@ -21,6 +21,6 @@
   }
 
   &::after {
-      @include flagSymbol("\e901", #ffd100, 33%, 21%, calc($flag-size / 3.1));
+      @include flag-symbol("\e901", #ffd100, 33%, 21%, calc($flag-size / 3.1));
   }
 }

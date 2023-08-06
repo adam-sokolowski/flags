@@ -12,6 +12,6 @@
     ) #f7e017;
 
   &::before {
-    @include flagSymbol("\e909", #d62612, 27%, 18%, calc($flag-size / 2.5));
+    @include flag-symbol("\e909", #d62612, 27%, 18%, calc($flag-size / 2.5));
   }
 }

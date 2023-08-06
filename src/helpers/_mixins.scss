@@ -1,4 +1,4 @@
-@mixin twoPart ($top, $bottom, $direction: to bottom) {
+@mixin two-part ($top, $bottom, $direction: to bottom) {
   background:
     linear-gradient(
       $direction,
@@ -7,7 +7,7 @@
     );
 }
 
-@mixin threePart ($top, $middle, $bottom, $direction: to bottom) {
+@mixin three-part ($top, $middle, $bottom, $direction: to bottom) {
   background:
     linear-gradient(
       $direction,
@@ -20,11 +20,11 @@
     );
 }
 
-@mixin flagSymbol ($content, $color, $left, $top, $size : 20px) {
+@mixin flag-symbol ($content, $color, $left, $top, $size : 20px) {
   position: absolute;
   top: $top;
   left: $left;
-  font-family: "FlagSymbols";
+  font-family: FlagSymbols;
   font-size: $size;
   speak: none;
   font-style: normal;
@@ -41,7 +41,7 @@
   content: $content;
 }
 
-@mixin flagBase64Symbol ($content, $left: 20%, $top: 20%, $width : 20px, $height : 20px) {
+@mixin flag-base64-symbol ($content, $left: 20%, $top: 20%, $width : 20px, $height : 20px) {
   position: absolute;
   top: $top;
   left: $left;

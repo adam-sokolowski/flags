@@ -6,6 +6,7 @@ $union-jack: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAADICAYAAADGFbfi
 
       &::before {
         @include flag-base64-symbol($union-jack, 0, 0, calc($flag-width / 1.75), calc($flag-width / 3.5));
+
         font-family: flag-symbols, Arial;
         font-size: calc($flag-height / 4);
         line-height: $flag-height * 1.5;

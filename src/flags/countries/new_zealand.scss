@@ -10,6 +10,7 @@ $union-jack: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAADICAYAAADGFbfi
 
   &::after {
     @include flag-symbol("\e93d", #ed1c27, 50%, 10%, calc($flag-width / 2));
+
     text-shadow: 0 0 calc($flag-width / 80) #fff;
   }
 }

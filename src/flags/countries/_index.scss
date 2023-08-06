@@ -1,4 +1,5 @@
 $flag-size: 60px !default;
+$flag-border-radius: 0 !default;
 
 $flag-width: $flag-size;
 $flag-height: calc($flag-size / 3) * 2;
@@ -10,6 +11,7 @@ $flag-height: calc($flag-size / 3) * 2;
   position: relative;
   box-sizing: border-box;
   display: block;
+  border-radius: $flag-border-radius;
   width: $flag-size;
   height: $flag-height;
   overflow: hidden;

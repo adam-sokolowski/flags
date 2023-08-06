@@ -28,7 +28,7 @@
   ],
   "sass": "src/flags/index.scss",
   "scripts": {
-    "sass:lint": "stylelint './**/*.scss' --syntax scss",
+    "sass:lint": "stylelint './**/*.scss'",
     "sass:compile": "sass src/flags/_index.scss dist/index.css",
     "package:release:patch": "standard-version --release-as patch",
     "package:release:minor": "standard-version --release-as minor",

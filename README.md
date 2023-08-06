@@ -12,7 +12,7 @@ A combination of `CSS`, `font` and `base64` symbols covering all recognised coun
 ```scss
   $flag-size: 60px;
 
-  @import "~@adso-sass/flags/src/flags";
+  @import "~@adso-sass/flags/src/flags/countries";
 ```
 
 #### Sizes:

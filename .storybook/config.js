@@ -9,7 +9,7 @@ addParameters({
   panelPosition: 'top',
 });
 
-import "./../src/flags/_index.scss";
+import "./../src/flags/countries/_index.scss";
 import "./../stories/index.scss";
 
 function loadStories() {

@@ -36,6 +36,3 @@ Also available:
 
 ### Preview
 ![Collection previev](./assets/css_flags.png)
-
-TODO: 
-- Implement territories and dependencies flags

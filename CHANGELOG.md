@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/adam-sokolowski/flags/compare/v1.7.0...v1.8.0) (2023-12-25)
+
+
+### New features
+
+* **all:** adds border radius variable ([3b0066a](https://github.com/adam-sokolowski/flags/commit/3b0066ab7658bf9de0fda2f0d1330b9dab61abb2))
+* **all:** adds Kosovo ([abfb074](https://github.com/adam-sokolowski/flags/commit/abfb074f3f0ecc806566c0095d3d3d87cd22eeab))
+
 ### [1.7.1](https://github.com/adam-sokolowski/flags/compare/v1.7.0...v1.7.1) (2023-12-25)
 
 

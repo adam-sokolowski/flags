@@ -86,6 +86,7 @@ export const COUNTRY_CODES = [
   { name: 'Kazakhstan', code: 'KZ' },
   { name: 'Kenya', code: 'KE' },
   { name: 'Kiribati', code: 'KI' },
+  { name: 'Kosovo', code: 'KV' },
   { name: 'Kuwait', code: 'KW' },
   { name: 'Kyrgyzstan', code: 'KG' },
   { name: 'Laos', code: 'LA' },

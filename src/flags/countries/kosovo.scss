@@ -1,0 +1,12 @@
+// Kosovo
+&-kv {
+  background: #244aa5;
+
+  &::before {
+    @include flag-symbol("\e94b", #d0a650, 30%, 36%, calc($flag-height / 2.5));
+  }
+
+  &::after {
+    @include flag-symbol("\e94c", #fff, 25%, 6%, calc($flag-height / 2));
+  }
+}

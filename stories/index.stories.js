@@ -1,5 +1,5 @@
 import { storiesOf } from '@storybook/html';
-import { COUNTRY_CODES, DEPENDENT_TERRITORIES } from './countries.const';
+import { COUNTRY_CODES } from './countries.const';
 import { select, withKnobs } from '@storybook/addon-knobs';
 
 const sizes = {
@@ -10,7 +10,7 @@ const sizes = {
   ExtraLarge: 'xl',
 };
 
-const size = select('Size', sizes, 'l');
+const size = select('Size', sizes, 'm');
 
 const getTemplate = (list) => `
   <div class="padding">
@@ -34,7 +34,6 @@ const getTemplate = (list) => `
 </div>`;
 
 storiesOf('Countries', module).add('List', () => getTemplate(COUNTRY_CODES));
-storiesOf('Territories', module).add('List', () => getTemplate(DEPENDENT_TERRITORIES));
 
 export default {
   title: 'Adjust flag size',

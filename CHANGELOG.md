@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.2](https://github.com/adam-sokolowski/flags/compare/v2.0.1...v2.0.2) (2024-08-17)
+
+
+### New features
+
+* **all:** adds Catalan flag ([2c5e882](https://github.com/adam-sokolowski/flags/commit/2c5e882f6f7ad7aec9e2f4e6b703cfa329c6df9c))
+
 ### [2.0.1](https://github.com/adam-sokolowski/flags/compare/v2.0.0...v2.0.1) (2023-12-26)
 
 

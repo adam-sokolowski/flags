@@ -1,0 +1,12 @@
+// Catalonia
+&-cat {
+  position: relative;
+  background-image:
+    repeating-linear-gradient(
+      to bottom,
+      #fcdd09,
+      #fcdd09 calc(40px / 9),
+      #da121a calc(40px / 9),
+      #da121a calc(40px / 9 * 2)
+    );
+}

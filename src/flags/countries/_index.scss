@@ -69,4 +69,7 @@ $flag-height: calc($flag-size / 3) * 2;
   @import "v";
   @import "y";
   @import "z";
+
+  // Flags by region name
+  @import "regions/c";
 }

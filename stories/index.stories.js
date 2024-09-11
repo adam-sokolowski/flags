@@ -10,30 +10,33 @@ const sizes = {
   ExtraLarge: 'xl',
 };
 
-const size = select('Size', sizes, 'm');
-
-const getTemplate = (list) => `
-  <div class="padding">
-    ${list
-    .map(country => `
-        <div class="wrapper">
-          <div class="container">
-            <span class="flag flag-${country.code.toLowerCase()} flag-${size}"/>
-          </div>
-          <div class="label">
-            <div class="code">
-              ${country.code}
-            </div>
-            ${country.name}
-          </div>
-        </div>`
-    )
-    .toString()
-    .replace(/,/g, '')
-  }
-</div>`;
-
-storiesOf('Countries', module).add('List', () => getTemplate(COUNTRY_CODES));
+storiesOf('Countries', module)
+  .addDecorator(withKnobs)
+  .add('List', () => {
+    const size = select('Size', sizes, 'm');
+    
+    const getTemplate = (list) => `
+      <div class="padding">
+        ${list
+          .map(country => `
+            <div class="wrapper">
+              <div class="container">
+                <span class="flag flag-${country.code.toLowerCase()} flag-${size}"/>
+              </div>
+              <div class="label">
+                <div class="code">
+                  ${country.code}
+                </div>
+                ${country.name}
+              </div>
+            </div>`)
+          .toString()
+          .replace(/,/g, '')
+        }
+      </div>`;
+    
+    return getTemplate(COUNTRY_CODES);
+  });
 
 export default {
   title: 'Adjust flag size',

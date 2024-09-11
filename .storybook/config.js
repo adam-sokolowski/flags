@@ -1,19 +1,21 @@
-import { addParameters, configure } from '@storybook/html';
+import { addDecorator, addParameters, configure } from '@storybook/html';
 import { withKnobs } from '@storybook/addon-knobs';
 
-const req = require.context('./../stories', true, /.stories\.js$/);
-
-addParameters({
-  decorators: [ withKnobs ],
-  showPanel: true,
-  panelPosition: 'top',
-});
-
+// Import styles
 import "./../src/flags/countries/_index.scss";
 import "./../stories/index.scss";
 
+addDecorator(withKnobs);
+
+addParameters({
+  showPanel: false,
+  panelPosition: 'top',
+});
+
+const req = require.context('./../stories', true, /.stories\.js$/);
+
 function loadStories() {
-  req.keys().forEach(req)
+  req.keys().forEach(req);
 }
 
 configure(loadStories, module);

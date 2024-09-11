@@ -15,10 +15,6 @@ $flag-height: calc($flag-size / 3) * 2;
   overflow: hidden;
   border-radius: $flag-border-radius;
 
-  &-bw {
-    mix-blend-mode: luminosity;
-  }
-
   &::after,
   &::before {
     box-sizing: border-box;

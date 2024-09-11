@@ -8,16 +8,18 @@
 }
 
 @mixin three-part ($top, $middle, $bottom, $direction: to bottom) {
-  background:
-    linear-gradient(
-      $direction,
-      $top,
-      $top calc(100% / 3),
-      $middle calc(100% / 3),
-      $middle calc(100% / 3 * 2),
-      $bottom calc(100% / 3 * 2),
-      $bottom 100%,
-    );
+  & {
+    background:
+      linear-gradient(
+        $direction,
+        $top,
+        $top calc(100% / 3),
+        $middle calc(100% / 3),
+        $middle calc(100% / 3 * 2),
+        $bottom calc(100% / 3 * 2),
+        $bottom 100%,
+      );
+  }
 }
 
 @mixin flag-symbol ($content, $color, $left, $top, $size : 20px) {

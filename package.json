@@ -52,7 +52,7 @@
     "babel-loader": "~8.2.0",
     "husky": "~6.0.0",
     "path": "~0.12.7",
-    "postcss": "8.4.45",
+    "postcss": "8.5.10",
     "postcss-scss": "^4.0.9",
     "sass": "~1.78.0",
     "sass-loader": "~10.0.0",
